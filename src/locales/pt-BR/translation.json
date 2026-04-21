@@ -1,0 +1,91 @@
+{
+  "common": {
+    "learnMore": "Saiba mais",
+    "viewProject": "Ver projeto",
+    "readMore": "Ler mais",
+    "contactUs": "Fale conosco",
+    "backToHome": "Voltar para home"
+  },
+  "hero": {
+    "label": "Hero",
+    "title": "Building & Validating Products with Scientific Rigor",
+    "description": "Transformando ideias em produtos digitais escaláveis com metodologia Lean Startup e validação científica.",
+    "stats": {
+      "projects": "Projetos",
+      "clients": "Clientes",
+      "years": "Anos de experiência"
+    }
+  },
+  "method": {
+    "label": "Method",
+    "title": "Nossa Metodologia",
+    "description": "Utilizamos a metodologia Lean Startup para criar, aprender e validar produtos digitais de forma ágil e eficiente.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Validação",
+        "description": "Validamos ideias com clientes reais antes de escrever qualquer linha de código."
+      },
+      {
+        "number": "02",
+        "title": "Construção",
+        "description": "Construímos MVPs focados nas funcionalidades essenciais para teste rápido."
+      },
+      {
+        "number": "03",
+        "title": "Aprendizado",
+        "description": "Aprendemos com os dados reais e iteramos com base em feedback do mercado."
+      },
+      {
+        "number": "04",
+        "title": "Escala",
+        "description": "Escalamos apenas após validar que a solução resolve um problema real."
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "Philosophy",
+    "title": "Nossos Princípios",
+    "description": "Nossa abordagem é fundamentada em valores que guiam cada decisão que tomamos.",
+    "items": [
+      {
+        "title": "Validação Primeiro",
+        "description": "Nada de construir sem validar. Sempre começamos com conversas com clientes."
+      },
+      {
+        "title": "Iteração Rápida",
+        "description": "MVPs pequenos, testes rápidos, aprendizados contínuos."
+      },
+      {
+        "title": "Transparência Total",
+        "description": "Compartilhamos nossos processos, erros e aprendizados abertamente."
+      },
+      {
+        "title": "Foco no Cliente",
+        "description": "Cada decisão é tomada pensando no valor real para o usuário final."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Projetos em Andamento",
+    "description": "Explore nossos projetos atuais e veja como estamos ajudando empresas a transformar suas ideias em produtos reais.",
+    "noProjects": "Nenhum projeto disponível no momento."
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "Somos um estúdio de desenvolvimento focado em criar produtos digitais com rigor científico e metodologia Lean Startup."
+  },
+  "footer": {
+    "copyright": "© 2026 Anti-Byte Lean Startup Studio. Todos os direitos reservados.",
+    "social": "Siga-nos nas redes sociais",
+    "newsletter": {
+      "label": "Newsletter",
+      "title": "Receba novidades em seu e-mail",
+      "placeholder": "Seu melhor e-mail",
+      "button": "Inscrever-se",
+      "success": "Obrigado por se inscrever!",
+      "error": "Ops! Houve um erro ao se inscrever."
+    }
+  }
+}

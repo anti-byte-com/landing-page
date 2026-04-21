@@ -1,0 +1,91 @@
+{
+  "common": {
+    "learnMore": "Learn more",
+    "viewProject": "View project",
+    "readMore": "Read more",
+    "contactUs": "Contact us",
+    "backToHome": "Back to home"
+  },
+  "hero": {
+    "label": "Hero",
+    "title": "Building & Validating Products with Scientific Rigor",
+    "description": "Transforming ideas into scalable digital products with Lean Startup methodology and scientific validation.",
+    "stats": {
+      "projects": "Projects",
+      "clients": "Clients",
+      "years": "Years of experience"
+    }
+  },
+  "method": {
+    "label": "Method",
+    "title": "Our Methodology",
+    "description": "We use the Lean Startup methodology to build, learn, and validate digital products in an agile and efficient way.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Validation",
+        "description": "We validate ideas with real customers before writing any line of code."
+      },
+      {
+        "number": "02",
+        "title": "Building",
+        "description": "We build MVPs focused on essential features for quick testing."
+      },
+      {
+        "number": "03",
+        "title": "Learning",
+        "description": "We learn from real data and iterate based on market feedback."
+      },
+      {
+        "number": "04",
+        "title": "Scale",
+        "description": "We scale only after validating that the solution solves a real problem."
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "Philosophy",
+    "title": "Our Principles",
+    "description": "Our approach is based on values that guide every decision we make.",
+    "items": [
+      {
+        "title": "Validation First",
+        "description": "No building without validating. We always start with customer conversations."
+      },
+      {
+        "title": "Rapid Iteration",
+        "description": "Small MVPs, quick tests, continuous learning."
+      },
+      {
+        "title": "Full Transparency",
+        "description": "We openly share our processes, mistakes, and learnings."
+      },
+      {
+        "title": "Customer Focus",
+        "description": "Every decision is made thinking about real value for the end user."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Current Projects",
+    "description": "Explore our current projects and see how we help companies transform their ideas into real products.",
+    "noProjects": "No projects available at the moment."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a development studio focused on creating digital products with scientific rigor and Lean Startup methodology."
+  },
+  "footer": {
+    "copyright": "© 2026 Anti-Byte Lean Startup Studio. All rights reserved.",
+    "social": "Follow us on social media",
+    "newsletter": {
+      "label": "Newsletter",
+      "title": "Get updates in your email",
+      "placeholder": "Your best email",
+      "button": "Subscribe",
+      "success": "Thanks for subscribing!",
+      "error": "Oops! There was an error subscribing."
+    }
+  }
+}
