@@ -1,21 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const PhilosophyContainer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-surface-container-low hover:bg-surface-container-low/50 rounded-2xl p-8 md:p-12">
       {/* Main Description */}
       <div className="space-y-6 max-w-3xl">
         <p className="text-lg text-on-surface-variant leading-relaxed">
-          We are not a product studio that bets big and prays for the best. We
-          run experiments, learn quickly from data, and double down on what
-          works.
+          {t('philosophy.description')}
         </p>
 
         <p className="text-base text-on-surface-variant/80 leading-relaxed">
-          Every project is an experiment with a clear hypothesis, measurable
-          outcomes, and predetermined success criteria. We kill ideas before
-          they drain resources, and scale the ones that prove their worth in the
-          market.
+          {t('philosophy.descriptionFull')}
         </p>
       </div>
     </div>

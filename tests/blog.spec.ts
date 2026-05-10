@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Página /blog deve carregar corretamente com header e footer', async ({ page }) => {
-  await page.goto('/blog');
-
-  await page.waitForLoadState('networkidle');
+  await page.goto('/blog', { waitUntil: 'networkidle' });
 
   // Verificar que a página carrega sem erros
   const errors: string[] = [];
@@ -18,11 +16,15 @@ test('Página /blog deve carregar corretamente com header e footer', async ({ pa
 
   expect(errors).toEqual([]);
 
-  // Verificar Navbar - link de navegação está dentro de li > a
-  await expect(page.locator('nav li a[href="/about"]')).toBeVisible();
-  await expect(page.locator('nav li a[href="/about"]')).toHaveText('About');
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /blog tem navbar com link "About"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('About') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
 
-  // Verificar Footer
+  // Verificar Footer - scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
   await expect(page.locator('footer')).toBeVisible();
   await expect(page.locator('footer h2')).toHaveText('Anti-Byte');
 

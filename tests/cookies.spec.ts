@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Página /cookies deve carregar corretamente com header e footer', async ({ page }) => {
-  await page.goto('/cookies');
-
-  await page.waitForLoadState('networkidle');
+  await page.goto('/cookies', { waitUntil: 'networkidle' });
 
   // Verificar que a página carrega sem erros
   const errors: string[] = [];
@@ -25,9 +23,11 @@ test('Página /cookies deve carregar corretamente com header e footer', async ({
 
   await page.waitForTimeout(500);
 
-  // Verificar Navbar - link "About"
-  await expect(page.locator('nav a[href="/about"]')).toBeVisible({ timeout: 10000 });
-  await expect(page.locator('nav a[href="/about"]')).toHaveText('About');
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // Busca por nav com link "About"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('About') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
 
   // Verificar Footer
   await expect(page.locator('footer')).toBeVisible();

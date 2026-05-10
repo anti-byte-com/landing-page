@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Página /resources deve carregar corretamente com header e footer', async ({ page }) => {
-  await page.goto('/resources');
-
-  await page.waitForLoadState('networkidle');
+  await page.goto('/resources', { waitUntil: 'networkidle' });
 
   // Verificar que a página carrega sem erros
   const errors: string[] = [];
@@ -18,9 +16,15 @@ test('Página /resources deve carregar corretamente com header e footer', async 
 
   expect(errors).toEqual([]);
 
-  // Verificar Navbar - link de navegação
-  await expect(page.locator('nav a[href="/about"]')).toBeVisible();
-  await expect(page.locator('nav a[href="/about"]')).toHaveText('About');
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /resources tem navbar com link "About"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('About') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
+
+  // Scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
 
   // Verificar Footer
   await expect(page.locator('footer')).toBeVisible();

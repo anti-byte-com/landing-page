@@ -4,21 +4,45 @@
     "viewProject": "View project",
     "readMore": "Read more",
     "contactUs": "Contact us",
-    "backToHome": "Back to home"
+    "backToHome": "Back to home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "projects": {
+    "badge": {
+      "active": "Active",
+      "validation": "Validation",
+      "growth": "Growth",
+      "archived": "Archived"
+    }
+  },
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "projectsRedirect": "Projects",
+    "currentProjects": "Current Projects",
+    "archivedCaseStudies": "Archived Case Studies",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact",
+    "ourApproach": "Our Approach"
   },
   "hero": {
     "label": "Hero",
-    "title": "Building & Validating Products with Scientific Rigor",
-    "description": "Transforming ideas into scalable digital products with Lean Startup methodology and scientific validation.",
+    "title": "Building & Validating Multiple Products",
+    "description": "Lean Startup Studio — We rapidly validate ideas, scale what works, and iterate continuously.",
+    "descriptionFull": "We don't build single products. We experiment with multiple digital products simultaneously to find market fit through speed, validation, and data-driven decisions.",
     "stats": {
-      "projects": "Projects",
-      "clients": "Clients",
-      "years": "Years of experience"
+      "projects": "Active Projects",
+      "mvps": "MVPs Tested",
+      "data": "Data-Driven Decisions",
+      "cycle": "Validation Cycle"
     }
   },
   "method": {
     "label": "Method",
-    "title": "Our Methodology",
+    "title": "Lean Startup Studio Model",
     "description": "We use the Lean Startup methodology to build, learn, and validate digital products in an agile and efficient way.",
     "steps": [
       {
@@ -28,53 +52,135 @@
       },
       {
         "number": "02",
-        "title": "Building",
-        "description": "We build MVPs focused on essential features for quick testing."
+        "title": "Prototyping",
+        "description": "We create rapid prototypes to test features with immediate feedback."
       },
       {
         "number": "03",
-        "title": "Learning",
-        "description": "We learn from real data and iterate based on market feedback."
+        "title": "Iteration",
+        "description": "We continuously improve based on real data and market feedback."
       },
       {
         "number": "04",
-        "title": "Scale",
-        "description": "We scale only after validating that the solution solves a real problem."
+        "title": "Scaling",
+        "description": "We scale what works responsibly only after validating."
       }
     ]
   },
   "philosophy": {
     "label": "Philosophy",
-    "title": "Our Principles",
-    "description": "Our approach is based on values that guide every decision we make.",
+    "title": "How We Think",
+    "description": "We are not a product studio that bets big and prays for the best. We run experiments, learn quickly from data, and double down on what works.",
+    "descriptionFull": "Every project is an experiment with a clear hypothesis, measurable outcomes, and predetermined success criteria. We kill ideas before they drain resources, and scale the ones that prove their worth in the market.",
     "items": [
       {
-        "title": "Validation First",
-        "description": "No building without validating. We always start with customer conversations."
+        "title": "Rapid Validation",
+        "description": "We test hypotheses in weeks, not months. Landing pages, surveys, and prototypes before writing production code."
       },
       {
-        "title": "Rapid Iteration",
-        "description": "Small MVPs, quick tests, continuous learning."
+        "title": "Low-Cost Experimentation",
+        "description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations."
       },
       {
-        "title": "Full Transparency",
-        "description": "We openly share our processes, mistakes, and learnings."
+        "title": "Continuous Iteration",
+        "description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard."
       },
       {
-        "title": "Customer Focus",
-        "description": "Every decision is made thinking about real value for the end user."
+        "title": "Data-Driven Decisions",
+        "description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior."
       }
     ]
   },
-  "projects": {
+  "newsletter": {
+    "label": "Newsletter",
+    "title": "Get updates in your email",
+    "placeholder": "Your best email",
+    "button": "Subscribe →",
+    "success": "Thanks for subscribing!",
+    "error": "Oops! There was an error subscribing."
+  },
+  "projectsSection": {
     "label": "Projects",
-    "title": "Current Projects",
+    "title": "What We're Building",
     "description": "Explore our current projects and see how we help companies transform their ideas into real products.",
-    "noProjects": "No projects available at the moment."
+    "noProjects": "No projects available at the moment.",
+    "viewDetails": "View Details →",
+    "projectNumber": "Project #"
   },
   "about": {
-    "title": "About Us",
-    "description": "We are a development studio focused on creating digital products with scientific rigor and Lean Startup methodology."
+    "title": "About Anti-Byte",
+    "description": "We are a development studio focused on creating digital products with scientific rigor and Lean Startup methodology.",
+    "tabs": {
+      "mission": "Mission",
+      "teams": "Team",
+      "history": "History",
+      "values": "Values",
+      "contact": "Contact"
+    }
+  },
+  "aboutMission": {
+    "label": "// OUR MISSION",
+    "title": "Transform Ideas Into Scalable Products",
+    "description": "We're not just a development agency or a traditional startup. We're an Applied Innovation Laboratory where we apply scientific rigor to the creative process of building digital products.",
+    "beliefs": [
+      {
+        "title": "The market rewards consistent execution, not brilliant ideas",
+        "description": "We believe ideas alone don't create value - it's consistent execution that transforms concepts into tangible results."
+      },
+      {
+        "title": "Early validation prevents waste and accelerates learning",
+        "description": "We rapidly test our hypotheses with real users, avoiding months of development toward the wrong problem."
+      },
+      {
+        "title": "Technical quality is not a luxury - it enables sustainable scalability",
+        "description": "Solid architecture and clean code are not extravagances, they're fundamental requirements for growing without breaking."
+      },
+      {
+        "title": "Human-centered design and technical excellence are complementary forces",
+        "description": "User-centered experiences and technical excellence reinforce each other to create exceptional products."
+      }
+    ]
+  },
+  "aboutTeams": {
+    "label": "// TEAM",
+    "title": "Meet Our Team",
+    "expertise": ["Software Architecture", "Design Patterns", "Performance Engineering", "Product Strategy", "User Research", "Go-to-Market", "Backend Systems", "Microservices", "Cloud Architecture", "Design Systems", "Interaction Design", "Accessibility"]
+  },
+  "aboutHistory": {
+    "label": "// HISTORY",
+    "title": "Our Journey"
+  },
+  "aboutValues": {
+    "label": "// VALUES",
+    "title": "Our Values",
+    "values": [
+      {
+        "title": "Validation Over Opinion",
+        "description": "We never build what we think people want. We test with real users, validate early, and iterate fast. Our confidence comes from data, not opinions."
+      },
+      {
+        "title": "Fail Elegantly",
+        "description": "Mistakes are part of the process when done informally. We learn more from a failed test than from months of development toward the wrong problem."
+      },
+      {
+        "title": "Radical Transparency",
+        "description": "We share what we build, why we decide, and what we learn. Our public portfolio includes archived projects with honest explanations of why they didn't work."
+      },
+      {
+        "title": "Deep Work",
+        "description": "We eliminate distractions to maintain high technical quality. Our workshop is our temple. We invest heavily in tools that let us build fast without compromising excellence."
+      }
+    ]
+  },
+  "aboutContact": {
+    "label": "// CONTACT",
+    "title": "Let's Talk?",
+    "email": "hello@anti-byte.com",
+    "location": "São Paulo, Brazil (Remote-first)",
+    "timezone": "UTC-3 / UTC+1 (Lisbon/London)",
+    "readyToStart": "Ready to get started?",
+    "buildTogether": "Let's build something amazing together.",
+    "contactUs": "Get in Touch →"
   },
   "footer": {
     "copyright": "© 2026 Anti-Byte Lean Startup Studio. All rights reserved.",
@@ -83,9 +189,253 @@
       "label": "Newsletter",
       "title": "Get updates in your email",
       "placeholder": "Your best email",
-      "button": "Subscribe",
+      "button": "Subscribe →",
       "success": "Thanks for subscribing!",
       "error": "Oops! There was an error subscribing."
+    },
+    "brandDescription": "We build and test multiple digital products to find what works in the market.",
+    "name": "Anti-Byte",
+    "company": "Anti-Byte Lean Startup Studio",
+    "experimenting": "Experimenting with digital products.",
+    "nav": {
+      "projects": "Projects",
+      "company": "Company",
+      "legal": "Legal"
     }
-  }
+  },
+  "stats": {
+    "heroStats": {
+      "projects": "Active Projects",
+      "mvps": "MVPs Tested",
+      "data": "Data-Driven Decisions",
+      "cycle": "Validation Cycle"
+    },
+    "metrics": {
+      "projectsActive": "Projects Active",
+      "mvpsTested": "MVPs Tested",
+      "customerLed": "Customer-led",
+      "validationCycle": "Validation Cycle"
+    }
+  },
+  "heroStatusBadges": {
+    "active": "ACTIVE",
+    "validation": "IN VALIDATION",
+    "archived": "ARCHIVED"
+  },
+  "philosophyPrinciples": [
+    {
+      "title": "Rapid Validation",
+      "description": "We test hypotheses in weeks, not months. Landing pages, surveys, and prototypes before writing production code."
+    },
+    {
+      "title": "Low-Cost Experimentation",
+      "description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations."
+    },
+    {
+      "title": "Continuous Iteration",
+      "description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard."
+    },
+    {
+      "title": "Data-Driven Decisions",
+      "description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior."
+    }
+  ],
+  "contactInfo": {
+    "email": "hello@anti-byte.com",
+    "location": "São Paulo, Brazil (Remote-first)",
+    "timezone": "UTC-3 / UTC+1 (Lisbon/London)"
+  },
+  "companyHistory": [
+    {
+      "year": "2018-2021",
+      "title": "The Seed - Early Experiments",
+      "description": "We started as three independent developers, validating small ideas with simple landing pages. We learned that the market doesn't want 'pretty' products - it wants solutions that solve real problems."
+    },
+    {
+      "year": "2021-2023",
+      "title": "Validation in Action",
+      "description": "We tested over 20 MVPs. We failed elegantly, learned from data, and doubled down on what worked. Our team grew to 8 people focused on fast execution."
+    },
+    {
+      "year": "2023-Present",
+      "title": "Lean Startup Studio",
+      "description": "Today we operate as a hybrid studio: we validate external ideas while scaling our own products. Every project is an experiment with a clear hypothesis and measurable success criteria."
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Everton Antunes de Oliveira",
+      "role": "Founder & Lead Architect",
+      "bio": "Software architect with over 15 years building systems that balance technical performance with human-centered design. Expert at transforming complexity into clarity.",
+      "expertise": ["Software Architecture", "Design Patterns", "Performance Engineering"]
+    },
+    {
+      "name": "Ana Silva",
+      "role": "Head of Product",
+      "bio": "Product Manager passionate about Lean Startup and continuous validation. Previously led product scaling for Series A fintech startups.",
+      "expertise": ["Product Strategy", "User Research", "Go-to-Market"]
+    },
+    {
+      "name": "Carlos Mendes",
+      "role": "Technical Lead",
+      "bio": "Backend engineer specialized in distributed systems and scalability. Turns vague requirements into robust architectures.",
+      "expertise": ["Backend Systems", "Microservices", "Cloud Architecture"]
+    },
+    {
+      "name": "Juliana Costa",
+      "role": "UX Design Lead",
+      "bio": "Designer with an obsessive vision for micro-interactions and accessibility. Creates experiences that are both functional and emotionally resonant.",
+      "expertise": ["Design Systems", "Interaction Design", "Accessibility"]
+    }
+  ],
+  "missionBeliefs": [
+    {
+      "title": "The market rewards consistent execution, not brilliant ideas",
+      "description": "We believe ideas alone don't create value - it's consistent execution that transforms concepts into tangible results."
+    },
+    {
+      "title": "Early validation prevents waste and accelerates learning",
+      "description": "We rapidly test our hypotheses with real users, avoiding months of development toward the wrong problem."
+    },
+    {
+      "title": "Technical quality is not a luxury - it enables sustainable scalability",
+      "description": "Solid architecture and clean code are not extravagances, they're fundamental requirements for growing without breaking."
+    },
+    {
+      "title": "Human-centered design and technical excellence are complementary forces",
+      "description": "User-centered experiences and technical excellence reinforce each other to create exceptional products."
+    }
+  ],
+  "projects": [
+    {
+      "name": "FlowState",
+      "description": "Async workflow orchestrator for distributed teams.",
+      "status": "validation"
+    },
+    {
+      "name": "DataLens",
+      "description": "Real-time analytics dashboard with anomaly detection.",
+      "status": "growth"
+    },
+    {
+      "name": "EchoLink",
+      "description": "Async-first collaboration tool.",
+      "status": "archived"
+    },
+    {
+      "name": "Project Alpha",
+      "description": "Test project for development.",
+      "status": "active"
+    }
+  ],
+  "companyMission": {
+    "label": "// OUR MISSION",
+    "title": "Transform Ideas Into Scalable Products",
+    "description": "We're not just a development agency or a traditional startup. We're an Applied Innovation Laboratory where we apply scientific rigor to the creative process of building digital products.",
+    "coreBeliefs": [
+      {
+        "id": "belief-001",
+        "title": "The market rewards consistent execution, not brilliant ideas",
+        "description": "We believe ideas alone don't create value - it's consistent execution that transforms concepts into tangible results."
+      },
+      {
+        "id": "belief-002",
+        "title": "Early validation prevents waste and accelerates learning",
+        "description": "We rapidly test our hypotheses with real users, avoiding months of development toward the wrong problem."
+      },
+      {
+        "id": "belief-003",
+        "title": "Technical quality is not a luxury - it enables sustainable scalability",
+        "description": "Solid architecture and clean code are not extravagances, they're fundamental requirements for growing without breaking."
+      },
+      {
+        "id": "belief-004",
+        "title": "Human-centered design and technical excellence are complementary forces",
+        "description": "User-centered experiences and technical excellence reinforce each other to create exceptional products."
+      }
+    ]
+  },
+  "companyHistory": [
+    {
+      "year": "2018-2021",
+      "title": "The Seed - Early Experiments",
+      "description": "We started as three independent developers, validating small ideas with simple landing pages. We learned that the market doesn't want 'pretty' products - it wants solutions that solve real problems."
+    },
+    {
+      "year": "2021-2023",
+      "title": "Validation in Action",
+      "description": "We tested over 20 MVPs. We failed elegantly, learned from data, and doubled down on what worked. Our team grew to 8 people focused on fast execution."
+    },
+    {
+      "year": "2023-Present",
+      "title": "Lean Startup Studio",
+      "description": "Today we operate as a hybrid studio: we validate external ideas while scaling our own products. Every project is an experiment with a clear hypothesis and measurable success criteria."
+    }
+  ],
+  "companyValues": [
+    {
+      "title": "Validation Over Opinion",
+      "description": "We never build what we think people want. We test with real users, validate early, and iterate fast. Our confidence comes from data, not opinions."
+    },
+    {
+      "title": "Fail Elegantly",
+      "description": "Mistakes are part of the process when done informally. We learn more from a failed test than from months of development toward the wrong problem."
+    },
+    {
+      "title": "Radical Transparency",
+      "description": "We share what we build, why we decide, and what we learn. Our public portfolio includes archived projects with honest explanations of why they didn't work."
+    },
+    {
+      "title": "Deep Work",
+      "description": "We eliminate distractions to maintain high technical quality. Our workshop is our temple. We invest heavily in tools that let us build fast without compromising excellence."
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Everton Antunes de Oliveira",
+      "role": "Founder & Lead Architect",
+      "bio": "Software architect with over 15 years building systems that balance technical performance with human-centered design. Expert at transforming complexity into clarity.",
+      "expertise": ["Software Architecture", "Design Patterns", "Performance Engineering"]
+    },
+    {
+      "name": "Ana Silva",
+      "role": "Head of Product",
+      "bio": "Product Manager passionate about Lean Startup and continuous validation. Previously led product scaling for Series A fintech startups.",
+      "expertise": ["Product Strategy", "User Research", "Go-to-Market"]
+    },
+    {
+      "name": "Carlos Mendes",
+      "role": "Technical Lead",
+      "bio": "Backend engineer specialized in distributed systems and scalability. Turns vague requirements into robust architectures.",
+      "expertise": ["Backend Systems", "Microservices", "Cloud Architecture"]
+    },
+    {
+      "name": "Juliana Costa",
+      "role": "UX Design Lead",
+      "bio": "Designer with an obsessive vision for micro-interactions and accessibility. Creates experiences that are both functional and emotionally resonant.",
+      "expertise": ["Design Systems", "Interaction Design", "Accessibility"]
+    }
+  ],
+  "methodSteps": [
+    {
+      "number": "01",
+      "title": "Validation",
+      "description": "We validate ideas with real customers before writing any line of code."
+    },
+    {
+      "number": "02",
+      "title": "Prototyping",
+      "description": "We create rapid prototypes to test features with immediate feedback."
+    },
+    {
+      "number": "03",
+      "title": "Iteration",
+      "description": "We continuously improve based on real data and market feedback."
+    },
+    {
+      "number": "04",
+      "title": "Scaling",
+      "description": "We scale what works responsibly only after validating."
+    }
+  ]
 }

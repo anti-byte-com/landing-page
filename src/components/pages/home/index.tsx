@@ -7,12 +7,10 @@ import MethodSection from '@/components/sections/MethodSection';
 import PhilosophySection from '@/components/sections/PhilosophySection';
 import ProjectsSection from '@/components/sections/ProjectsSection';
 import SharedFooter from '@/components/shared/Footer';
-import { useTranslation } from 'react-i18next';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
 
 const Home: React.FC = () => {
-  useTranslation();
   useScrollToTop();
 
   React.useEffect(() => {

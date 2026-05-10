@@ -1,41 +1,38 @@
 /**
  * Passo a passo do método Lean Startup
  */
-export const methodSteps: MethodStep[] = [
+
+export const methodSteps = [
   {
     id: 'step-001',
     number: 1,
-    label: 'Validação',
-    title: 'Validação',
-    description:
-      'Validamos ideias com clientes reais antes de escrever uma linha de código.',
+    labelKey: 'method.steps.0.label',
+    titleKey: 'method.steps.0.title',
+    descriptionKey: 'method.steps.0.description',
     icon: 'check-circle',
   },
   {
     id: 'step-002',
     number: 2,
-    label: 'Prototipagem',
-    title: 'Prototipagem',
-    description:
-      'Criamos protótipos rápidos para testar funcionalidades com feedback imediato.',
+    labelKey: 'method.steps.1.label',
+    titleKey: 'method.steps.1.title',
+    descriptionKey: 'method.steps.1.description',
     icon: 'lightbulb',
   },
   {
     id: 'step-003',
     number: 3,
-    label: 'Iteração',
-    title: 'Iteração',
-    description:
-      'Melhoramos continuamente com base em dados reais e feedback do mercado.',
+    labelKey: 'method.steps.2.label',
+    titleKey: 'method.steps.2.title',
+    descriptionKey: 'method.steps.2.description',
     icon: 'refresh-cw',
   },
   {
     id: 'step-004',
     number: 4,
-    label: 'Escalonamento',
-    title: 'Escalonamento',
-    description:
-      'Apenas depois de validar, escalamos o que funciona com responsabilidade.',
+    labelKey: 'method.steps.3.label',
+    titleKey: 'method.steps.3.title',
+    descriptionKey: 'method.steps.3.description',
     icon: 'trending-up',
   },
 ];

@@ -6,11 +6,12 @@ import SocialLink from './Newsletter.SocialLink';
 import { LanguageSelector } from './LanguageSelector/index';
 
 const BrandDescription: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-4">
       <p className="text-sm text-on-surface-variant/80 leading-relaxed max-w-sm">
-        We build and test multiple digital products to find what works in the
-        market.
+        {t('footer.brandDescription')}
       </p>
 
       {/* Social Links */}
@@ -24,15 +25,19 @@ const BrandDescription: React.FC = () => {
 };
 
 const FooterHeader: React.FC = () => (
-  <h2 className="text-2xl font-display font-bold leading-tight">Anti-Byte</h2>
+  <h2 className="text-2xl font-display font-bold leading-tight">
+    {t('company.name')}
+  </h2>
 );
 
 const NavigationLinks: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-6">
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-on-surface mb-4">
-          Projects
+          {t('footer.nav.projects')}
         </h3>
         <ul className="space-y-2">
           <li>
@@ -40,7 +45,7 @@ const NavigationLinks: React.FC = () => {
               to="/projects/current"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Current Projects
+              {t('nav.currentProjects')}
             </Link>
           </li>
           <li>
@@ -48,7 +53,7 @@ const NavigationLinks: React.FC = () => {
               to="/cases/archived"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Archived Case Studies
+              {t('nav.archivedCaseStudies')}
             </Link>
           </li>
           <li>
@@ -56,7 +61,7 @@ const NavigationLinks: React.FC = () => {
               to="/blog"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Blog
+              {t('nav.blog')}
             </Link>
           </li>
           <li>
@@ -64,7 +69,7 @@ const NavigationLinks: React.FC = () => {
               to="/resources"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Resources
+              {t('nav.resources')}
             </Link>
           </li>
         </ul>
@@ -72,7 +77,7 @@ const NavigationLinks: React.FC = () => {
 
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-on-surface mb-4">
-          Company
+          {t('footer.nav.company')}
         </h3>
         <ul className="space-y-2">
           <li>
@@ -80,7 +85,7 @@ const NavigationLinks: React.FC = () => {
               to="/about"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              About Us
+              {t('nav.about')}
             </Link>
           </li>
           <li>
@@ -88,7 +93,7 @@ const NavigationLinks: React.FC = () => {
               to="/our-approach"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Our Approach
+              {t('nav.ourApproach')}
             </Link>
           </li>
           <li>
@@ -96,7 +101,7 @@ const NavigationLinks: React.FC = () => {
               to="/contact"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Contact
+              {t('nav.contact')}
             </Link>
           </li>
         </ul>
@@ -104,7 +109,7 @@ const NavigationLinks: React.FC = () => {
 
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-on-surface mb-4">
-          Legal
+          {t('footer.nav.legal')}
         </h3>
         <ul className="space-y-2">
           <li>
@@ -112,7 +117,7 @@ const NavigationLinks: React.FC = () => {
               to="/privacy"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Privacy Policy
+              {t('common.privacy')}
             </Link>
           </li>
           <li>
@@ -120,7 +125,7 @@ const NavigationLinks: React.FC = () => {
               to="/terms"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Terms of Service
+              {t('common.terms')}
             </Link>
           </li>
           <li>
@@ -128,7 +133,7 @@ const NavigationLinks: React.FC = () => {
               to="/cookies"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
-              Cookie Policy
+              {t('common.cookies')}
             </Link>
           </li>
         </ul>
@@ -138,12 +143,13 @@ const NavigationLinks: React.FC = () => {
 };
 
 const BottomSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 pt-12">
       {/* Copyright */}
       <p className="text-xs text-on-surface-variant/60 text-center md:text-left">
-        © {new Date().getFullYear()} Lean Startup Studio. Experimenting with
-        digital products.
+        © {new Date().getFullYear()} {t('footer.company')}. {t('footer.experimenting')}
       </p>
 
       {/* Footer Links */}
@@ -152,19 +158,19 @@ const BottomSection: React.FC = () => {
           to="/privacy"
           className="text-xs font-semibold text-secondary hover:text-primary transition-colors"
         >
-          Privacy
+          {t('common.privacy')}
         </Link>
         <Link
           to="/terms"
           className="text-xs font-semibold text-secondary hover:text-primary transition-colors"
         >
-          Terms
+          {t('common.terms')}
         </Link>
         <Link
           to="/cookies"
           className="text-xs font-semibold text-secondary hover:text-primary transition-colors"
         >
-          Cookies
+          {t('common.cookies')}
         </Link>
       </div>
     </div>

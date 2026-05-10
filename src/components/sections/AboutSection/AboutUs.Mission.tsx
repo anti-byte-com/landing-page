@@ -2,33 +2,34 @@ import React from 'react';
 import SharedContainer from '@/components/shared/Container';
 import SectionHeader from '@/components/shared/SectionHeader';
 import Card from '@/components/shared/Card';
-import missionBeliefs from '@/data/mission-beliefs';
+import { companyMission, teamMembersTranslation } from '@/data/about-us';
+import { missionBeliefs } from '@/data/mission-beliefs';
+import { useTranslation } from 'react-i18next';
 
 const AboutUsMission: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <SharedContainer>
       <div className="space-y-12">
         {/* Mission Header */}
         <SectionHeader
-          label="// NOSSA MISSÃO"
-          title="Transformar Ideias em Produtos Que Escalam"
+          label={t(companyMission.label)}
+          title={t(companyMission.title)}
         />
 
         {/* Mission Description */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <p className="text-lg text-on-surface-variant leading-relaxed">
-            Não somos apenas uma agência de desenvolvimento ou uma startup
-            tradicional. Somos um Laboratório de Inovação Aplicada, onde
-            aplicamos rigor científico ao processo criativo de construir
-            produtos digitais.
+            {t(companyMission.description)}
           </p>
         </div>
 
         {/* Core Beliefs */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {missionBeliefsData.map((belief, index) => (
+          {missionBeliefs.map((belief, index) => (
             <Card
-              key={index}
+              key={belief.id}
               className={`relative overflow-hidden bg-surface-container-low ${index % 2 === 1 ? 'hover:bg-surface-container-high' : ''}`}
             >
               <div className="space-y-3 p-4">
@@ -49,11 +50,11 @@ const AboutUsMission: React.FC = () => {
                     </svg>
                   </span>
                   <span className="text-xs font-bold uppercase tracking-wider text-secondary">
-                    {belief.title}
+                    {t(belief.titleKey)}
                   </span>
                 </div>
                 <p className="text-sm text-on-surface-variant/80 leading-relaxed">
-                  {belief.description}
+                  {t(belief.descriptionKey)}
                 </p>
               </div>
             </Card>

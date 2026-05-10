@@ -2,12 +2,18 @@ import React from 'react';
 import SectionHeader from '@/components/shared/SectionHeader';
 import Card from '@/components/shared/Card';
 import { contactInfo } from '@/data/about-us';
+import { useTranslation } from 'react-i18next';
 
 const AboutUsContact: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-12">
       {/* Contact Header */}
-      <SectionHeader label="// CONTATO" title="Vamos Conversar?" />
+      <SectionHeader
+        label={t(contactInfo.label)}
+        title={t(contactInfo.title)}
+      />
 
       {/* Contact Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -30,7 +36,7 @@ const AboutUsContact: React.FC = () => {
               </svg>
             </div>
             <h3 className="font-display font-semibold text-on-surface">
-              Email
+              {t(contactInfo.email)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
               {contactInfo.email}
@@ -57,7 +63,7 @@ const AboutUsContact: React.FC = () => {
               </svg>
             </div>
             <h3 className="font-display font-semibold text-on-surface">
-              Localização
+              {t(contactInfo.location)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
               {contactInfo.location}
@@ -84,7 +90,7 @@ const AboutUsContact: React.FC = () => {
               </svg>
             </div>
             <h3 className="font-display font-semibold text-on-surface">
-              Timezone
+              {t(contactInfo.timezone)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
               {contactInfo.timezone}
@@ -96,16 +102,16 @@ const AboutUsContact: React.FC = () => {
       {/* CTA */}
       <div className="text-center p-8 bg-surface-container-lowest rounded-xl">
         <h3 className="font-display font-bold text-xl text-on-surface mb-2">
-          Pronto para começar?
+          {t(contactInfo.readyToStart)}
         </h3>
         <p className="text-sm text-on-surface-variant/80 mb-4">
-          Vamos construir algo incrível juntos.
+          {t(contactInfo.buildTogether)}
         </p>
         <a
           href={`mailto:${contactInfo.email}`}
           className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/80 rounded-lg font-semibold text-on-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50"
         >
-          Entre em Contato →
+          {t(contactInfo.contactUs)}
         </a>
       </div>
     </div>

@@ -18,10 +18,14 @@ test('Página /archived-case-studies deve carregar corretamente com header e foo
 
   expect(errors).toEqual([]);
 
-  // Verificar Navbar - link de navegação "About"
-  await expect(page.locator('nav a[href="/about"]').first()).toHaveText('About');
+  // Verificar Navbar - A página /cases/archived tem navbar com link "Projects"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('Projects') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
 
-  // Verificar Footer
+  // Verificar Footer - scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
   await expect(page.locator('footer')).toBeVisible();
   await expect(page.locator('footer h2')).toHaveText('Anti-Byte');
 

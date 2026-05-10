@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import SharedContainer from '@/components/shared/Container';
 import AboutUsMission from './AboutUs.Mission';
 import AboutUsTeams from './AboutUs.Teams';
@@ -13,6 +14,7 @@ interface AboutLayoutProps {
 }
 
 const AboutLayout: React.FC<AboutLayoutProps> = ({ isSpa }) => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = React.useState<Tab>('mission');
 
   if (isSpa) {
@@ -22,31 +24,31 @@ const AboutLayout: React.FC<AboutLayoutProps> = ({ isSpa }) => {
           {/* Navigation Tabs */}
           <nav className="flex flex-wrap gap-2 mb-12 justify-center p-2 bg-surface-container rounded-xl">
             <TabButton
-              label="Missão"
+              label={t('about.tabs.mission')}
               value="mission"
               active={activeTab === 'mission'}
               onClick={() => setActiveTab('mission')}
             />
             <TabButton
-              label="Equipe"
+              label={t('about.tabs.teams')}
               value="teams"
               active={activeTab === 'teams'}
               onClick={() => setActiveTab('teams')}
             />
             <TabButton
-              label="História"
+              label={t('about.tabs.history')}
               value="history"
               active={activeTab === 'history'}
               onClick={() => setActiveTab('history')}
             />
             <TabButton
-              label="Valores"
+              label={t('about.tabs.values')}
               value="values"
               active={activeTab === 'values'}
               onClick={() => setActiveTab('values')}
             />
             <TabButton
-              label="Contato"
+              label={t('about.tabs.contact')}
               value="contact"
               active={activeTab === 'contact'}
               onClick={() => setActiveTab('contact')}
@@ -70,16 +72,18 @@ const AboutLayout: React.FC<AboutLayoutProps> = ({ isSpa }) => {
   }
 
   // Subpágina do footer (layout atual da landing page)
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 px-6 md:px-8 bg-surface">
       <SharedContainer>
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="p-1 px-4 block text-xs font-bold uppercase tracking-wider text-secondary mb-2 w-fit bg-surface-container-lowest/10 rounded-full">
-            // SOBRE A EMPRESA
+            {t('about.title')}
           </span>
           <h2 className="text-4xl md:text-5xl font-display font-bold leading-tight">
-            Sobre o Anti-Byte
+            {t('about.title')}
           </h2>
         </div>
 

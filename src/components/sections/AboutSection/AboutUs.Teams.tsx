@@ -2,14 +2,20 @@ import React from 'react';
 import SharedContainer from '@/components/shared/Container';
 import SectionHeader from '@/components/shared/SectionHeader';
 import Card from '@/components/shared/Card';
-import { teamMembers: teamMembersData } from '@/data/about-us';
+import { teamMembersTranslation, teamMembers } from '@/data/about-us';
+import { useTranslation } from 'react-i18next';
 
 const AboutUsTeams: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <SharedContainer>
       <div className="space-y-12">
         {/* Teams Header */}
-        <SectionHeader label="// EQUIPE" title="Conheça Nossa Equipe" />
+        <SectionHeader
+          label={t(teamMembersTranslation.label)}
+          title={t(teamMembersTranslation.title)}
+        />
 
         {/* Team Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -22,14 +28,14 @@ const AboutUsTeams: React.FC = () => {
                 {/* Header with Name and Role */}
                 <div>
                   <h3 className="text-xl font-display font-bold text-on-surface">
-                    {member.name}
+                    {t(member.name)}
                   </h3>
-                  <p className="text-sm text-secondary">{member.role}</p>
+                  <p className="text-sm text-secondary">{t(member.role)}</p>
                 </div>
 
                 {/* Bio */}
                 <p className="text-sm text-on-surface-variant/80 leading-relaxed">
-                  {member.bio}
+                  {t(member.bio)}
                 </p>
 
                 {/* Expertise Tags */}
@@ -39,7 +45,7 @@ const AboutUsTeams: React.FC = () => {
                       key={idx}
                       className="px-3 py-1 bg-surface-container-highest rounded-full text-xs font-semibold uppercase tracking-wider text-on-surface-variant/70"
                     >
-                      {expertise}
+                      {t(expertise)}
                     </span>
                   ))}
                 </div>

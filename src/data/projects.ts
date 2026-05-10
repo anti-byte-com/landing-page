@@ -1,26 +1,26 @@
-export const projects: Project[] = [
+export const projects = [
   {
     id: 'proj-001',
     name: 'FlowState',
-    description: 'Async workflow orchestrator for distributed teams.',
+    descriptionKey: 'projects.0.description',
     status: 'validation',
   },
   {
     id: 'proj-002',
     name: 'DataLens',
-    description: 'Real-time analytics dashboard with anomaly detection.',
+    descriptionKey: 'projects.1.description',
     status: 'growth',
   },
   {
     id: 'proj-003',
     name: 'EchoLink',
-    description: 'Async-first collaboration tool.',
+    descriptionKey: 'projects.2.description',
     status: 'archived',
   },
   {
     id: 'proj-004',
     name: 'Project Alpha',
-    description: 'Test project for development.',
+    descriptionKey: 'projects.3.description',
     status: 'active',
   },
 ];

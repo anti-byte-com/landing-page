@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Página /privacy deve carregar corretamente com header e footer', async ({ page }) => {
-  await page.goto('/privacy');
-
-  await page.waitForLoadState('networkidle');
+  await page.goto('/privacy', { waitUntil: 'networkidle' });
 
   // Verificar que a página carrega sem erros
   const errors: string[] = [];
@@ -18,18 +16,19 @@ test('Página /privacy deve carregar corretamente com header e footer', async ({
 
   expect(errors).toEqual([]);
 
-  // Inspecionar navbar
-  const navbar = page.locator('nav');
-  await navbar.waitFor({ state: 'visible' });
-  console.log('Navbar encontrado', await navbar.textContent());
+  // Scroll até o navbar para garantir que ele está visível
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForTimeout(500);
 
-  // Verificar Navbar usando seletor baseado no texto do link
-  await expect(page.locator('nav ul li a:has-text("About")')).toBeVisible();
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /privacy tem navbar com link "About"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('About') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
 
-  // Inspecionar footer
-  const footer = page.locator('footer');
-  console.log('Footer encontrado', await footer.count());
-  console.log('Footer textContent', await footer.textContent());
+  // Scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
 
   // Verificar Footer
   await expect(page.locator('footer')).toBeVisible();

@@ -20,8 +20,9 @@ test('Página /contact deve carregar corretamente com header e footer', async ({
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(500);
 
-  // Verificar Navbar (esperando o React renderizar)
-  const nav = page.getByRole('navigation');
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /contact tem navbar com link "About"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('About') });
   await nav.waitFor({ state: 'attached' });
   await expect(nav).toBeVisible();
 

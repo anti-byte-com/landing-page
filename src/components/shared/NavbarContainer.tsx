@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface SharedNavbarProps {
   showLogo?: boolean;
@@ -14,6 +15,7 @@ const NavbarContainer: React.FC<SharedNavbarProps> = ({
   ctaText = 'Contact Us',
   ctaUrl = 'mailto:hello@anti-byte.com',
 }) => {
+  const { t } = useTranslation();
   const location = useLocation();
 
   // Navbar aparece apenas em páginas exceto home (/)

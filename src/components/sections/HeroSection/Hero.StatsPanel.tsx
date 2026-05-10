@@ -1,5 +1,5 @@
 import React from 'react';
-import { heroStats } from '@/data/hero-stats';
+import { useHeroStats } from '@/data/hero-stats';
 
 interface StatsCardProps {
   value: string | number;
@@ -36,9 +36,11 @@ const StatsCard: React.FC<StatsCardProps> = ({
 };
 
 const HeroStatsPanel: React.FC = () => {
+  const stats = useHeroStats();
+
   return (
     <div className="hidden lg:grid lg:grid-cols-2 lg:gap-6 bg-surface-container-low p-6 rounded-xl">
-      {heroStats.map((stat) => (
+      {stats.map((stat) => (
         <StatsCard key={stat.label} {...stat} />
       ))}
     </div>

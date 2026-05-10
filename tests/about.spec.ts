@@ -16,10 +16,15 @@ test('Página /about deve carregar corretamente com header e footer', async ({ p
 
   expect(errors).toEqual([]);
 
-  // Verificar Navbar (header com logo "Anti-Byte")
-  await expect(page.getByRole('navigation').filter({ has: page.getByText('Anti-Byte') })).toBeVisible();
-  
-  // Verificar Footer
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /about tem navbar com link "Contact"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('Contact') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
+
+  // Verificar Footer - scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
   await expect(page.locator('footer')).toBeVisible();
   await expect(page.locator('footer h2')).toHaveText('Anti-Byte');
 });

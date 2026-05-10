@@ -16,8 +16,7 @@ test('Página home (/) deve carregar corretamente com header e footer', async ({
 
   expect(errors).toEqual([]);
 
-  // Na página home, o NavbarContainer retorna null (comportamento intencional)
-  // O header é representado pelo footer
+  // Verificar Footer
   await expect(page.locator('footer')).toBeVisible();
   await expect(page.locator('footer h2')).toHaveText('Anti-Byte');
 });

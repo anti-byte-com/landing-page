@@ -4,77 +4,183 @@
     "viewProject": "Ver projeto",
     "readMore": "Ler mais",
     "contactUs": "Fale conosco",
-    "backToHome": "Voltar para home"
+    "backToHome": "Voltar para home",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Política de Cookies"
+  },
+  "projects": {
+    "badge": {
+      "active": "Ativo",
+      "validation": "Validação",
+      "growth": "Crescimento",
+      "archived": "Arquivado"
+    }
+  },
+  "nav": {
+    "projects": "Projetos",
+    "about": "Sobre",
+    "projectsRedirect": "Projetos",
+    "currentProjects": "Projetos Atuais",
+    "archivedCaseStudies": "Estudos de Caso Arquivados",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contato",
+    "ourApproach": "Nossa Abordagem"
   },
   "hero": {
     "label": "Hero",
-    "title": "Building & Validating Products with Scientific Rigor",
-    "description": "Transformando ideias em produtos digitais escaláveis com metodologia Lean Startup e validação científica.",
+    "title": "Construindo & Validando Múltiplos Produtos",
+    "description": "Lean Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
+    "descriptionFull": "Não construímos produtos únicos. Experimentamos com múltiplos produtos digitais simultaneamente para encontrar o ajuste de mercado através de velocidade, validação e decisões baseadas em dados.",
     "stats": {
-      "projects": "Projetos",
-      "clients": "Clientes",
-      "years": "Anos de experiência"
+      "projects": "Projetos Ativos",
+      "mvps": "MVPs Testados",
+      "data": "Decisões Baseadas em Dados",
+      "cycle": "Ciclo de Validação"
     }
   },
   "method": {
     "label": "Method",
-    "title": "Nossa Metodologia",
+    "title": "Modelo Lean Startup Studio",
     "description": "Utilizamos a metodologia Lean Startup para criar, aprender e validar produtos digitais de forma ágil e eficiente.",
     "steps": [
       {
         "number": "01",
         "title": "Validação",
-        "description": "Validamos ideias com clientes reais antes de escrever qualquer linha de código."
+        "description": "Validamos ideias com clientes reais antes de escrever uma linha de código."
       },
       {
         "number": "02",
-        "title": "Construção",
-        "description": "Construímos MVPs focados nas funcionalidades essenciais para teste rápido."
+        "title": "Prototipagem",
+        "description": "Criamos protótipos rápidos para testar funcionalidades com feedback imediato."
       },
       {
         "number": "03",
-        "title": "Aprendizado",
-        "description": "Aprendemos com os dados reais e iteramos com base em feedback do mercado."
+        "title": "Iteração",
+        "description": "Melhoramos continuamente com base em dados reais e feedback do mercado."
       },
       {
         "number": "04",
-        "title": "Escala",
-        "description": "Escalamos apenas após validar que a solução resolve um problema real."
+        "title": "Escalonamento",
+        "description": "Apenas depois de validar, escalamos o que funciona com responsabilidade."
       }
     ]
   },
   "philosophy": {
     "label": "Philosophy",
-    "title": "Nossos Princípios",
-    "description": "Nossa abordagem é fundamentada em valores que guiam cada decisão que tomamos.",
+    "title": "Como Pensamos",
+    "description": "Não somos um estúdio que aposta alto e ora para o melhor. Rodamos experimentos, aprendemos rapidamente com dados e investimos no que funciona.",
+    "descriptionFull": "Cada projeto é um experimento com hipótese clara, resultados mensuráveis e critérios predeterminados de sucesso. Matamos ideias antes que drenem recursos, e escalamos aquelas que provam seu valor no mercado.",
     "items": [
       {
-        "title": "Validação Primeiro",
-        "description": "Nada de construir sem validar. Sempre começamos com conversas com clientes."
+        "title": "Validação Rápida",
+        "description": "Testamos hipóteses em semanas, não meses. Landing pages, pesquisas e protótipos antes de escrever código de produção."
       },
       {
-        "title": "Iteração Rápida",
-        "description": "MVPs pequenos, testes rápidos, aprendizados contínuos."
+        "title": "Experimentação de Baixo Custo",
+        "description": "Preservamos caixa falhando rápido e barato. Sem métricas vanitas, sem escalamento prematuro, apenas operações lean."
       },
       {
-        "title": "Transparência Total",
-        "description": "Compartilhamos nossos processos, erros e aprendizados abertamente."
+        "title": "Iteração Contínua",
+        "description": "Produtos que funcionam são melhorados com base no feedback real dos usuários. O que não é lançado fica no cemitério."
       },
       {
-        "title": "Foco no Cliente",
-        "description": "Cada decisão é tomada pensando no valor real para o usuário final."
+        "title": "Decisões Baseadas em Dados",
+        "description": "Confiamos em métricas, não em intuição. Cada decisão de pivotar ou perseverar vem do comportamento real dos usuários."
       }
     ]
   },
-  "projects": {
-    "label": "Projects",
-    "title": "Projetos em Andamento",
+  "newsletter": {
+    "label": "Newsletter",
+    "title": "Receba novidades em seu e-mail",
+    "placeholder": "Seu melhor e-mail",
+    "button": "Inscrever-se",
+    "success": "Obrigado por se inscrever!",
+    "error": "Ops! Houve um erro ao se inscrever."
+  },
+  "projectsSection": {
+    "label": "Projetos",
+    "title": "O Que Estamos Construindo",
     "description": "Explore nossos projetos atuais e veja como estamos ajudando empresas a transformar suas ideias em produtos reais.",
-    "noProjects": "Nenhum projeto disponível no momento."
+    "noProjects": "Nenhum projeto disponível no momento.",
+    "viewDetails": "Ver Detalhes →",
+    "projectNumber": "Projeto #"
   },
   "about": {
-    "title": "Sobre Nós",
-    "description": "Somos um estúdio de desenvolvimento focado em criar produtos digitais com rigor científico e metodologia Lean Startup."
+    "title": "Sobre o Anti-Byte",
+    "description": "Somos um estúdio de desenvolvimento focado em criar produtos digitais com rigor científico e metodologia Lean Startup.",
+    "tabs": {
+      "mission": "Missão",
+      "teams": "Equipe",
+      "history": "História",
+      "values": "Valores",
+      "contact": "Contato"
+    }
+  },
+  "aboutMission": {
+    "label": "// NOSSA MISSÃO",
+    "title": "Transformar Ideias em Produtos Que Escalam",
+    "description": "Não somos apenas uma agência de desenvolvimento ou uma startup tradicional. Somos um Laboratório de Inovação Aplicada, onde aplicamos rigor científico ao processo criativo de construir produtos digitais.",
+    "beliefs": [
+      {
+        "title": "O mercado se recompensa com execução consistente, não com ideias brilhantes",
+        "description": "Acreditamos que ideias por si só não geram valor - é a execução consistente que transforma conceitos em resultados tangíveis."
+      },
+      {
+        "title": "A validação prematura previne desperdício e acelera aprendizado",
+        "description": "Testamos rapidamente nossas hipóteses com usuários reais, evitando meses de desenvolvimento em direção ao problema errado."
+      },
+      {
+        "title": "Qualidade técnica não é luxo - é o que permite escalabilidade sustentável",
+        "description": "Arquitetura sólida e código limpo não são extravagâncias, são requisitos fundamentais para crescer sem quebrar."
+      },
+      {
+        "title": "Design humano e performance técnica são forças complementares",
+        "description": "Experiências centradas no usuário e excelência técnica se reforçam mutuamente para criar produtos excepcionais."
+      }
+    ]
+  },
+  "aboutTeams": {
+    "label": "// EQUIPE",
+    "title": "Conheça Nossa Equipe",
+    "expertise": ["Arquitetura de Software", "Design Patterns", "Performance Engineering", "Product Strategy", "User Research", "Go-to-Market", "Backend Systems", "Microservices", "Cloud Architecture", "Design Systems", "Interaction Design", "Accessibility"]
+  },
+  "aboutHistory": {
+    "label": "// HISTÓRIA",
+    "title": "Nossa Jornada"
+  },
+  "aboutValues": {
+    "label": "// VALORES",
+    "title": "Nossos Valores",
+    "values": [
+      {
+        "title": "Validação sobre Opinião",
+        "description": "Nunca construímos algo que achamos que as pessoas querem. Testamos com usuários reais, validamos prematuramente e iteramos rápido. Nossa confiança vem de dados, não de opiniões."
+      },
+      {
+        "title": "Falhar Elegante",
+        "description": "Errar é parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em direção ao problema errado."
+      },
+      {
+        "title": "Transparência Radical",
+        "description": "Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram."
+      },
+      {
+        "title": "Deep Work Profundo",
+        "description": "Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência."
+      }
+    ]
+  },
+  "aboutContact": {
+    "label": "// CONTATO",
+    "title": "Vamos Conversar?",
+    "email": "hello@anti-byte.com",
+    "location": "São Paulo, Brasil (Remote-first)",
+    "timezone": "UTC-3 / UTC+1 (Lisboa/London)",
+    "readyToStart": "Pronto para começar?",
+    "buildTogether": "Vamos construir algo incrível juntos.",
+    "contactUs": "Entre em Contato →"
   },
   "footer": {
     "copyright": "© 2026 Anti-Byte Lean Startup Studio. Todos os direitos reservados.",
@@ -86,6 +192,250 @@
       "button": "Inscrever-se",
       "success": "Obrigado por se inscrever!",
       "error": "Ops! Houve um erro ao se inscrever."
+    },
+    "brandDescription": "Construímos e testamos múltiplos produtos digitais para descobrir o que funciona no mercado.",
+    "name": "Anti-Byte",
+    "company": "Anti-Byte Lean Startup Studio",
+    "experimenting": "Experimentando com produtos digitais.",
+    "nav": {
+      "projects": "Projetos",
+      "company": "Empresa",
+      "legal": "Legal"
     }
-  }
+  },
+  "stats": {
+    "heroStats": {
+      "projects": "Projetos Ativos",
+      "mvps": "MVPs Testados",
+      "data": "Decisões Baseadas em Dados",
+      "cycle": "Ciclo de Validação"
+    },
+    "metrics": {
+      "projectsActive": "Projetos Ativos",
+      "mvpsTested": "MVPs Testados",
+      "customerLed": "Customer-led",
+      "validationCycle": "Ciclo de Validação"
+    }
+  },
+  "heroStatusBadges": {
+    "active": "ATIVO",
+    "validation": "EM VALIDAÇÃO",
+    "archived": "ARQUIVADO"
+  },
+  "philosophyPrinciples": [
+    {
+      "title": "Validação Rápida",
+      "description": "Testamos hipóteses em semanas, não meses. Landing pages, pesquisas e protótipos antes de escrever código de produção."
+    },
+    {
+      "title": "Experimentação de Baixo Custo",
+      "description": "Preservamos caixa falhando rápido e barato. Sem métricas vanitas, sem escalamento prematuro, apenas operações lean."
+    },
+    {
+      "title": "Iteração Contínua",
+      "description": "Produtos que funcionam são melhorados com base no feedback real dos usuários. O que não é lançado fica no cemitério."
+    },
+    {
+      "title": "Decisões Baseadas em Dados",
+      "description": "Confiamos em métricas, não em intuição. Cada decisão de pivotar ou perseverar vem do comportamento real dos usuários."
+    }
+  ],
+  "contactInfo": {
+    "email": "hello@anti-byte.com",
+    "location": "São Paulo, Brasil (Remote-first)",
+    "timezone": "UTC-3 / UTC+1 (Lisboa/London)"
+  },
+  "companyHistory": [
+    {
+      "year": "2018-2021",
+      "title": "A Semente - Experimentos iniciais",
+      "description": "Começamos como três desenvolvedores independentes, validando pequenas ideias com landing pages simples. Aprendemos que o mercado não quer produtos 'bonitos' - quer soluções que resolvem problemas reais."
+    },
+    {
+      "year": "2021-2023",
+      "title": "Validação em Ação",
+      "description": "Testamos mais de 20 MVPs. Falhamos com elegância, aprendemos com dados e dobramos nossa aposta no que funcionava. Nossa equipe cresce para 8 pessoas focadas em execução rápida."
+    },
+    {
+      "year": "2023-Atual",
+      "title": "Lean Startup Studio",
+      "description": "Hoje operamos como um estúdio híbrido: validamos ideias externas enquanto escalam nossos próprios produtos. Cada projeto é um experimento com hipótese clara e critérios de sucesso medíveis."
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Everton Antunes de Oliveira",
+      "role": "Founder & Lead Architect",
+      "bio": "Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance técnica com design humano. Especialista em transformar complexidade em clareza.",
+      "expertise": ["Arquitetura de Software", "Design Patterns", "Performance Engineering"]
+    },
+    {
+      "name": "Ana Silva",
+      "role": "Head of Product",
+      "bio": "Product Manager apaixonada por Lean Startup e validação contínua. Anteriormente liderou a escala de produtos para startups Series A em fintech.",
+      "expertise": ["Product Strategy", "User Research", "Go-to-Market"]
+    },
+    {
+      "name": "Carlos Mendes",
+      "role": "Technical Lead",
+      "bio": "Engenheiro de backend especializado em sistemas distribuídos e escalabilidade. Transforma requisitos vagos em arquiteturas robustas.",
+      "expertise": ["Backend Systems", "Microservices", "Cloud Architecture"]
+    },
+    {
+      "name": "Juliana Costa",
+      "role": "UX Design Lead",
+      "bio": "Designer com visão obsessiva para micro-interações e acessibilidade. Cria experiências que são ao mesmo tempo funcionais e emocionalmente ressonantes.",
+      "expertise": ["Design Systems", "Interaction Design", "Accessibility"]
+    }
+  ],
+  "missionBeliefs": [
+    {
+      "title": "O mercado se recompensa com execução consistente, não com ideias brilhantes",
+      "description": "Acreditamos que ideias por si só não geram valor - é a execução consistente que transforma conceitos em resultados tangíveis."
+    },
+    {
+      "title": "A validação prematura previne desperdício e acelera aprendizado",
+      "description": "Testamos rapidamente nossas hipóteses com usuários reais, evitando meses de desenvolvimento em direção ao problema errado."
+    },
+    {
+      "title": "Qualidade técnica não é luxo - é o que permite escalabilidade sustentável",
+      "description": "Arquitetura sólida e código limpo não são extravagâncias, são requisitos fundamentais para crescer sem quebrar."
+    },
+    {
+      "title": "Design humano e performance técnica são forças complementares",
+      "description": "Experiências centradas no usuário e excelência técnica se reforçam mutuamente para criar produtos excepcionais."
+    }
+  ],
+  "projects": [
+    {
+      "name": "FlowState",
+      "description": "Async workflow orchestrator para equipes distribuídas.",
+      "status": "validation"
+    },
+    {
+      "name": "DataLens",
+      "description": "Dashboard de analytics em tempo real com detecção de anomalias.",
+      "status": "growth"
+    },
+    {
+      "name": "EchoLink",
+      "description": "Ferramenta de colaboração focada em assincronia.",
+      "status": "archived"
+    },
+    {
+      "name": "Project Alpha",
+      "description": "Projeto de teste para desenvolvimento.",
+      "status": "active"
+    }
+  ],
+  "companyMission": {
+    "label": "// NOSSA MISSÃO",
+    "title": "Transformar Ideias em Produtos Que Escalam",
+    "description": "Não somos apenas uma agência de desenvolvimento ou uma startup tradicional. Somos um Laboratório de Inovação Aplicada, onde aplicamos rigor científico ao processo criativo de construir produtos digitais.",
+    "coreBeliefs": [
+      {
+        "id": "belief-001",
+        "title": "O mercado se recompensa com execução consistente, não com ideias brilhantes",
+        "description": "Acreditamos que ideias por si só não geram valor - é a execução consistente que transforma conceitos em resultados tangíveis."
+      },
+      {
+        "id": "belief-002",
+        "title": "A validação prematura previne desperdício e acelera aprendizado",
+        "description": "Testamos rapidamente nossas hipóteses com usuários reais, evitando meses de desenvolvimento em direção ao problema errado."
+      },
+      {
+        "id": "belief-003",
+        "title": "Qualidade técnica não é luxo - é o que permite escalabilidade sustentável",
+        "description": "Arquitetura sólida e código limpo não são extravagâncias, são requisitos fundamentais para crescer sem quebrar."
+      },
+      {
+        "id": "belief-004",
+        "title": "Design humano e performance técnica são forças complementares",
+        "description": "Experiências centradas no usuário e excelência técnica se reforçam mutuamente para criar produtos excepcionais."
+      }
+    ]
+  },
+  "companyHistory": [
+    {
+      "year": "2018-2021",
+      "title": "A Semente - Experimentos iniciais",
+      "description": "Começamos como três desenvolvedores independentes, validando pequenas ideias com landing pages simples. Aprendemos que o mercado não quer produtos 'bonitos' - quer soluções que resolvem problemas reais."
+    },
+    {
+      "year": "2021-2023",
+      "title": "Validação em Ação",
+      "description": "Testamos mais de 20 MVPs. Falhamos com elegância, aprendemos com dados e dobramos nossa aposta no que funcionava. Nossa equipe cresce para 8 pessoas focadas em execução rápida."
+    },
+    {
+      "year": "2023-Atual",
+      "title": "Lean Startup Studio",
+      "description": "Hoje operamos como um estúdio híbrido: validamos ideias externas enquanto escalam nossos próprios produtos. Cada projeto é um experimento com hipótese clara e critérios de sucesso medíveis."
+    }
+  ],
+  "companyValues": [
+    {
+      "title": "Validação sobre Opinião",
+      "description": "Nunca construímos algo que achamos que as pessoas querem. Testamos com usuários reais, validamos prematuramente e iteramos rápido. Nossa confiança vem de dados, não de opiniões."
+    },
+    {
+      "title": "Falhar Elegante",
+      "description": "Errar é parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em direção ao problema errado."
+    },
+    {
+      "title": "Transparência Radical",
+      "description": "Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram."
+    },
+    {
+      "title": "Deep Work Profundo",
+      "description": "Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência."
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Everton Antunes de Oliveira",
+      "role": "Founder & Lead Architect",
+      "bio": "Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance técnica com design humano. Especialista em transformar complexidade em clareza.",
+      "expertise": ["Arquitetura de Software", "Design Patterns", "Performance Engineering"]
+    },
+    {
+      "name": "Ana Silva",
+      "role": "Head of Product",
+      "bio": "Product Manager apaixonada por Lean Startup e validação contínua. Anteriormente liderou a escala de produtos para startups Series A em fintech.",
+      "expertise": ["Product Strategy", "User Research", "Go-to-Market"]
+    },
+    {
+      "name": "Carlos Mendes",
+      "role": "Technical Lead",
+      "bio": "Engenheiro de backend especializado em sistemas distribuídos e escalabilidade. Transforma requisitos vagos em arquiteturas robustas.",
+      "expertise": ["Backend Systems", "Microservices", "Cloud Architecture"]
+    },
+    {
+      "name": "Juliana Costa",
+      "role": "UX Design Lead",
+      "bio": "Designer com visão obsessiva para micro-interações e acessibilidade. Cria experiências que são ao mesmo tempo funcionais e emocionalmente ressonantes.",
+      "expertise": ["Design Systems", "Interaction Design", "Accessibility"]
+    }
+  ],
+  "methodSteps": [
+    {
+      "number": "01",
+      "title": "Validação",
+      "description": "Validamos ideias com clientes reais antes de escrever uma linha de código."
+    },
+    {
+      "number": "02",
+      "title": "Prototipagem",
+      "description": "Criamos protótipos rápidos para testar funcionalidades com feedback imediato."
+    },
+    {
+      "number": "03",
+      "title": "Iteração",
+      "description": "Melhoramos continuamente com base em dados reais e feedback do mercado."
+    },
+    {
+      "number": "04",
+      "title": "Escalonamento",
+      "description": "Apenas depois de validar, escalamos o que funciona com responsabilidade."
+    }
+  ]
 }

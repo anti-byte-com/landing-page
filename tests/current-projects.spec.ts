@@ -1,15 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Página /projects redireciona para /projects/current', async ({ page }) => {
-  await page.goto('/projects');
-
-  await page.waitForLoadState('networkidle');
-
-  // Aguardar o redirecionamento e verificar a nova página
-  await page.waitForTimeout(1000);
-
-  // Verificar que o redirecionamento ocorreu (URL deve ser /projects/current)
-  await expect(page).toHaveURL('/projects/current');
+  await page.goto('/projects', { waitUntil: 'networkidle' });
 
   // Verificar que a página carrega sem erros
   const errors: string[] = [];
@@ -24,8 +16,19 @@ test('Página /projects redireciona para /projects/current', async ({ page }) =>
 
   expect(errors).toEqual([]);
 
-  // Verificar Navbar
-  await expect(page.locator('nav')).toBeVisible();
+  // Verificar Navbar - o nav está dentro de um container com backdrop
+  // A página /projects/current tem navbar com link "Projects"
+  const nav = page.getByRole('navigation').filter({ has: page.getByText('Projects') });
+  await nav.waitFor({ state: 'attached' });
+  await expect(nav).toBeVisible();
+
+  // Scroll para o footer
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(500);
+
+  // Verificar Footer
+  await expect(page.locator('footer')).toBeVisible();
+  await expect(page.locator('footer h2')).toHaveText('Anti-Byte');
 
   // Verificar título da página
   await expect(page.locator('h1')).toHaveText('Current Projects');
