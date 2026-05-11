@@ -24,11 +24,14 @@ const BrandDescription: React.FC = () => {
   );
 };
 
-const FooterHeader: React.FC = () => (
+const FooterHeader: React.FC = () => { 
+  const { t } = useTranslation();
+  return (
   <h2 className="text-2xl font-display font-bold leading-tight">
     {t('company.name')}
   </h2>
-);
+  );
+};
 
 const NavigationLinks: React.FC = () => {
   const { t } = useTranslation();

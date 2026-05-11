@@ -10,14 +10,14 @@ const PrinciplesGrid: React.FC = () => {
     <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-6">
       {philosophyPrinciples.map((principle, index) => (
         <Card
-          key={principle.title}
+          key={principle.id}
           className={`zebra-card-alt${(index % 2) + 1}`}
         >
           <h3 className="text-lg font-display font-semibold mb-3 text-on-surface">
-            {t(principle.title)}
+            {t(principle.titleKey)}
           </h3>
           <p className="text-sm text-on-surface-variant/80 leading-relaxed">
-            {t(principle.description)}
+            {t(principle.descriptionKey)}
           </p>
         </Card>
       ))}
