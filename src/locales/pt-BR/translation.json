@@ -95,7 +95,7 @@
     "label": "Newsletter",
     "title": "Receba novidades em seu e-mail",
     "placeholder": "Seu melhor e-mail",
-    "button": "Inscrever-se",
+    "button": "Inscrever-se →",
     "success": "Obrigado por se inscrever!",
     "error": "Ops! Houve um erro ao se inscrever."
   },
@@ -167,7 +167,7 @@
         "description": "Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram."
       },
       {
-        "title": "Deep Work Profundo",
+        "title": "Deep Work",
         "description": "Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência."
       }
     ]
@@ -189,7 +189,7 @@
       "label": "Newsletter",
       "title": "Receba novidades em seu e-mail",
       "placeholder": "Seu melhor e-mail",
-      "button": "Inscrever-se",
+      "button": "Inscrever-se →",
       "success": "Obrigado por se inscrever!",
       "error": "Ops! Houve um erro ao se inscrever."
     },
@@ -386,7 +386,7 @@
       "description": "Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram."
     },
     {
-      "title": "Deep Work Profundo",
+      "title": "Deep Work",
       "description": "Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência."
     }
   ],

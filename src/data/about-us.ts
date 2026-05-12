@@ -48,23 +48,20 @@ export const companyHistory = {
     {
       id: 'history-001',
       year: '2018-2021',
-      title: 'A Semente - Experimentos iniciais',
-      description:
-        "Começamos como três desenvolvedores independentes, validando pequenas ideias com landing pages simples. Aprendemos que o mercado não quer produtos 'bonitos' - quer soluções que resolvem problemas reais.",
+      title: 'companyHistory.0.title',
+      description: 'companyHistory.0.description',
     },
     {
       id: 'history-002',
       year: '2021-2023',
-      title: 'Validação em Ação',
-      description:
-        'Testamos mais de 20 MVPs. Falhamos com elegância, aprendemos com dados e dobramos nossa aposta no que funcionava. Nossa equipe cresce para 8 pessoas focadas em execução rápida.',
+      title: 'companyHistory.1.title',
+      description: 'companyHistory.1.description',
     },
     {
       id: 'history-003',
-      year: '2023-Presente',
-      title: 'Lean Startup Studio',
-      description:
-        'Hoje operamos como um estúdio híbrido: validamos ideias externas enquanto escalam nossos próprios produtos. Cada projeto é um experimento com hipótese clara e critérios de sucesso medíveis.',
+      year: '2023-Atual',
+      title: 'companyHistory.2.title',
+      description: 'companyHistory.2.description',
     },
   ],
 };
@@ -76,56 +73,52 @@ export const companyValues = {
   values: [
     {
       id: 'value-001',
-      title: 'Validação sobre Opinião',
-      description:
-        'Nunca construímos algo que achamos que as pessoas querem. Testamos com usuários reais, validamos prematuramente e iteramos rápido. Nossa confiança vem de dados, não de opiniões.',
+      title: 'companyValues.0.title',
+      description: 'companyValues.0.description',
     },
     {
       id: 'value-002',
-      title: 'Falhar Elegante',
-      description:
-        'Errar é parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em direção ao problema errado.',
+      title: 'companyValues.1.title',
+      description: 'companyValues.1.description',
     },
     {
       id: 'value-003',
-      title: 'Transparência Radical',
-      description:
-        'Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram.',
+      title: 'companyValues.2.title',
+      description: 'companyValues.2.description',
     },
     {
       id: 'value-004',
-      title: 'Deep Work Profundo',
-      description:
-        'Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência.',
+      title: 'companyValues.3.title',
+      description: 'companyValues.3.description',
     },
   ],
 };
 
 export const companyMission = {
   id: 'mission-section',
-  label: 'aboutMission.label',
-  title: 'aboutMission.title',
-  description: 'aboutMission.description',
+  label: 'companyMission.label',
+  title: 'companyMission.title',
+  description: 'companyMission.description',
   coreBeliefs: [
     {
       id: 'belief-001',
-      title: 'aboutMission.beliefs.0.title',
-      description: 'aboutMission.beliefs.0.description',
+      title: 'companyMission.coreBeliefs.0.title',
+      description: 'companyMission.coreBeliefs.0.description',
     },
     {
       id: 'belief-002',
-      title: 'aboutMission.beliefs.1.title',
-      description: 'aboutMission.beliefs.1.description',
+      title: 'companyMission.coreBeliefs.1.title',
+      description: 'companyMission.coreBeliefs.1.description',
     },
     {
       id: 'belief-003',
-      title: 'aboutMission.beliefs.2.title',
-      description: 'aboutMission.beliefs.2.description',
+      title: 'companyMission.coreBeliefs.2.title',
+      description: 'companyMission.coreBeliefs.2.description',
     },
     {
       id: 'belief-004',
-      title: 'aboutMission.beliefs.3.title',
-      description: 'aboutMission.beliefs.3.description',
+      title: 'companyMission.coreBeliefs.3.title',
+      description: 'companyMission.coreBeliefs.3.description',
     },
   ],
 };
