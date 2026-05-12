@@ -1,13 +1,16 @@
 import React from 'react';
-import SharedNavbarContainer from '@/components/shared/NavbarContainer';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import SharedContainer from '@/components/shared/Container';
+import SharedHeader, { HeaderBreadcrumb } from '@/components/shared/Header';
 import SharedFooter from '@/components/shared/Footer';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
 
 const ArchivedCaseStudies: React.FC = () => {
   useScrollToTop();
+
+  const breadcrumbs: HeaderBreadcrumb[] = [
+    { label: 'Docs', href: '/docs' },
+    { label: 'Archived Case Studies' },
+  ];
 
   React.useEffect(() => {
     document.title = `${COMPANY_NAME} - Archived Case Studies`;
@@ -18,23 +21,25 @@ const ArchivedCaseStudies: React.FC = () => {
 
   return (
     <>
-      <SharedNavbarContainer
-        showLogo={true}
-        navLinks={[{ label: 'About', to: '/about' }]}
-        ctaText="Projects"
-        ctaUrl="/projects"
+      <SharedHeader
+        logoText={COMPANY_NAME}
+        navigationLinks={[
+          { label: 'Home', href: '/' },
+        ]}
+        breadcrumbs={breadcrumbs}
+        pageTitle="Archived Case Studies"
+        pageDescription="Explore our past successful projects and case studies that showcase our expertise."
       />
 
-      {/* Gradient Background Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
+          About
+          {/* Gradient Background Overlay */}
+          <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
-      <SharedContainer className="py-24 md:py-32">
-        <div className="flex items-center justify-center min-h-[60vh]">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-            Archived Case Studies
-          </h1>
-        </div>
-      </SharedContainer>
+        </h1>
+      </div>
+
       <SharedFooter />
     </>
   );

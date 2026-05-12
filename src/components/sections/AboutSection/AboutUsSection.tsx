@@ -71,9 +71,6 @@ const AboutLayout: React.FC<AboutLayoutProps> = ({ isSpa }) => {
     );
   }
 
-  // Subpágina do footer (layout atual da landing page)
-  const { t } = useTranslation();
-
   return (
     <section className="py-24 px-6 md:px-8 bg-surface">
       <SharedContainer>

@@ -1,13 +1,16 @@
 import React from 'react';
-import SharedNavbarContainer from '@/components/shared/NavbarContainer';
+import SharedHeader, { HeaderBreadcrumb } from '@/components/shared/Header';
 import SharedFooter from '@/components/shared/Footer';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import SharedContainer from '@/components/shared/Container';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
 
 const Blog: React.FC = () => {
   useScrollToTop();
+
+  const breadcrumbs: HeaderBreadcrumb[] = [
+    { label: 'Docs', href: '/docs' },
+    { label: 'Blog' },
+  ];
 
   React.useEffect(() => {
     document.title = `${COMPANY_NAME} - Blog`;
@@ -18,23 +21,24 @@ const Blog: React.FC = () => {
 
   return (
     <>
-      <SharedNavbarContainer
-        showLogo={true}
-        navLinks={[{ label: 'About', to: '/about' }]}
-        ctaText="Projects"
-        ctaUrl="/projects"
+      <SharedHeader
+        logoText={COMPANY_NAME}
+        navigationLinks={[
+          { label: 'Home', href: '/' },
+        ]}
+        breadcrumbs={breadcrumbs}
+        pageTitle="Blog"
+        pageDescription="Stay updated with the latest news, insights, and developments from Anti-Byte."
       />
 
-      {/* Gradient Background Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
+          About
+          {/* Gradient Background Overlay */}
+          <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
-      <SharedContainer className="py-24 md:py-32">
-        <div className="flex items-center justify-center min-h-[60vh]">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-            Blog
-          </h1>
-        </div>
-      </SharedContainer>
+        </h1>
+      </div>
 
       <SharedFooter />
     </>

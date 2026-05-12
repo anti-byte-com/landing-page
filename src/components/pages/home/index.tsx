@@ -1,6 +1,5 @@
 import React from 'react';
 import SharedNavbarContainer from '@/components/shared/NavbarContainer';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import SharedContainer from '@/components/shared/Container';
 import HeroSection from '@/components/sections/HeroSection';
 import MethodSection from '@/components/sections/MethodSection';

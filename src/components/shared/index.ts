@@ -8,6 +8,7 @@ export { default as Container } from './Container';
 export { default as Navbar } from './Navbar';
 export { default as NavbarContainer } from './NavbarContainer';
 export { default as Footer } from './Footer';
+export { default as Header, type HeaderProps, type HeaderLink, type HeaderBreadcrumb } from './Header';
 
 // Newsletter components
 export { default as Newsletter } from './Newsletter';

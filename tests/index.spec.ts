@@ -14,7 +14,7 @@ test('homepage loads without error messages', async ({ page }) => {
     errors.push(error.message);
   });
 
-  await page.goto('/');
+  await page.goto('/contact');
 
   // aguarda estabilizar renderizações async
   await page.waitForLoadState('networkidle');

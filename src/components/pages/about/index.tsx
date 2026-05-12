@@ -1,7 +1,5 @@
 import React from 'react';
-import SharedNavbarContainer from '@/components/shared/NavbarContainer';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import SharedContainer from '@/components/shared/Container';
+import SharedHeader, { HeaderBreadcrumb } from '@/components/shared/Header';
 import SharedFooter from '@/components/shared/Footer';
 import AboutUsSection from '@/components/sections/AboutSection';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
@@ -9,6 +7,11 @@ import { COMPANY_NAME } from '@/config/constants';
 
 const About: React.FC = () => {
   useScrollToTop();
+
+  const breadcrumbs: HeaderBreadcrumb[] = [
+    { label: 'Home', href: '/' },
+    { label: 'About' },
+  ];
 
   React.useEffect(() => {
     document.title = `${COMPANY_NAME} - About`;
@@ -19,26 +22,27 @@ const About: React.FC = () => {
 
   return (
     <>
-      {/* Navbar - aparece apenas em /about, não na home */}
-      <SharedNavbarContainer
-        showLogo={true}
-        navLinks={[{ label: 'Contact', to: '/about#contact' }]}
-        ctaText="Projects"
-        ctaUrl="/projects"
+      <SharedHeader
+        logoText={COMPANY_NAME}
+        navigationLinks={[
+          { label: 'Home', href: '/' },
+        ]}
+        breadcrumbs={breadcrumbs}
+        pageTitle="About"
+        pageDescription="Learn more about Anti-Byte, our mission, values, and the team behind the platform."
       />
 
-      {/* Gradient Background Overlay */}
-      <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
+          About
+          {/* Gradient Background Overlay */}
+          <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
-      <SharedContainer className="py-24 md:py-32">
-        <div className="flex items-center justify-center min-h-[60vh]">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-            About
-          </h1>
-        </div>
-      </SharedContainer>
+        </h1>
+      </div>
 
-      <SharedFooter />
+      <SharedFooter className="scroll-mt-24" />
+
     </>
   );
 };
