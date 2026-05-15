@@ -17,7 +17,6 @@ const StatsCard: React.FC<StatsCardProps> = ({
   return (
     <div
       className="stat-card bg-surface-container-lowest rounded-lg p-8 aspect-square flex flex-col justify-center items-center text-center"
-      style={{ borderColor: accentColor }}
     >
       <div className="text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2">
         {label}

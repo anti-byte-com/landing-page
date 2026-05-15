@@ -101,7 +101,7 @@ h6 {
     border-width: 1px;
     border-opacity: 0.15;
     outline: none;
-    box-shadow: 0 8px 32px rgba(61, 74, 117, 0.15);
+    box-shadow: 0 0 0 4px rgba(61, 74, 117, 0.1);
   }
 
   /* Zebra-striping utilities for tonal layering */

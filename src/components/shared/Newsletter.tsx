@@ -21,7 +21,12 @@ const NewsletterForm: React.FC = () => {
         <input
           type="email"
           placeholder={t('newsletter.placeholder')}
-          className="flex-1 px-4 py-3 bg-surface-container-lowest rounded-lg border-none outline-none focus:ring-2 focus:ring-surface-tint text-sm placeholder:text-on-surface-variant/60 focus:ring-1 focus:ring-surface-tint/30 ghost-border"
+          className="flex-1 px-4 py-3 bg-surface-container-lowest rounded-lg border-none outline-none 
+                     focus:ring-2 focus:ring-primary/30 text-sm 
+                     placeholder:text-on-surface-variant/60 
+                     ghost-border hover:bg-surface-container-lowest/80
+                     hover:border-primary/15 hover:shadow-[0_0_0_1px_rgba(61,74,117,0.1)]
+                     focus:border-primary/20 focus:shadow-[0_0_0_3px_rgba(61,74,117,0.15)]"
         />
 
         <button
