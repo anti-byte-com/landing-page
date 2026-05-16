@@ -4,18 +4,21 @@ import MetaTag from '@/components/sections/MetaTag';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import SharedFooter from '@/components/shared/Footer';
 import { COMPANY_NAME } from '@/config/constants';
+import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicy: React.FC = () => {
+  const { t } = useTranslation();
+
   useScrollToTop();
 
   const breadcrumbs: HeaderBreadcrumb[] = [
-    { label: 'Legal', href: '/legal' },
-    { label: 'Privacy Policy' },
+    { label: t('footer.nav.company'), href: '/about' },
+    { label: t('legalPage.privacyPolicy') },
   ];
 
   React.useEffect(() => {
     if (typeof document !== 'undefined') {
-      document.title = `${COMPANY_NAME} - Privacy Policy`;
+      document.title = `${COMPANY_NAME} - ${t('legalPage.privacyPolicy')}`;
     }
 
     return () => {
@@ -23,24 +26,24 @@ const PrivacyPolicy: React.FC = () => {
         document.title = '';
       }
     };
-  }, []);
+  }, [t]);
 
   return (
     <>
-      <MetaTag title="Privacy Policy" />
+      <MetaTag title={t('legalPage.privacyPolicy')} />
       <SharedHeader
         logoText={COMPANY_NAME}
         navigationLinks={[
-          { label: 'Home', href: '/' },
+          { label: t('common.backToHome'), href: '/' },
         ]}
         breadcrumbs={breadcrumbs}
-        pageTitle="Privacy Policy"
+        pageTitle={t('legalPage.privacyPolicy')}
         pageDescription="We are committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information when you use our services."
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">
         <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-          Privacy Policy
+          {t('legalPage.privacyPolicy')}
         </h1>
       </div>
 

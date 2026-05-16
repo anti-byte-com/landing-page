@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../../../components/atoms/Card';
+import { useTranslation } from 'react-i18next';
 
 type ProjectData = {
   id: string;
@@ -17,6 +18,8 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
+  const { t } = useTranslation();
+
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const statusColors: Record<string, string> = {
     active: 'text-primary',
@@ -58,10 +61,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       {/* Card Footer with subtle indicator - fixed at bottom */}
       <div className="flex items-center justify-between pt-4">
         <span className="text-xs text-on-surface-variant/60 font-medium">
-          Project #0
+          {t(`projectsSection.projectNumber`, { number: project.id.slice(-3) })}
         </span>
         <span className="inline-flex items-center text-xs font-semibold text-secondary group-hover:text-primary transition-colors">
-          View Details →
+          {t('projectsSection.viewDetails')}
         </span>
       </div>
     </Card>

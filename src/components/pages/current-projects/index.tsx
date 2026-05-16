@@ -1,28 +1,29 @@
 import React from 'react';
 import { projects as projectsData } from '@/data/projects';
 import SharedHeader, { HeaderBreadcrumb } from '@/components/shared/Header';
-import Section from '@/components/shared/Section';
-import SectionHeader from '@/components/shared/SectionHeader';
 import StatusBadge from '@/components/shared/StatusBadge';
 import SharedFooter from '@/components/shared/Footer';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import Card from '@/components/atoms/Card';
 import { COMPANY_NAME } from '@/config/constants';
+import { useTranslation } from 'react-i18next';
 
 const CurrentProjects: React.FC = () => {
+  const { t } = useTranslation();
+
   useScrollToTop();
 
   const breadcrumbs: HeaderBreadcrumb[] = [
-    { label: 'Docs', href: '/docs' },
-    { label: 'Current Projects' },
+    { label: t('nav.projects'), href: '/projects' },
+    { label: t('nav.currentProjects') },
   ];
 
   React.useEffect(() => {
-    document.title = `${COMPANY_NAME} - Current Projects`;
+    document.title = `${COMPANY_NAME} - ${t('nav.currentProjects')}`;
     return () => {
       document.title = '';
     };
-  }, []);
+  }, [t]);
 
   const activeProjects = projectsData.filter((p) => p.status !== 'archived');
 
@@ -49,13 +50,13 @@ const CurrentProjects: React.FC = () => {
           { label: 'Home', href: '/' },
         ]}
         breadcrumbs={breadcrumbs}
-        pageTitle="Current Projects"
+        pageTitle={t('nav.currentProjects')}
         pageDescription="Explore our ongoing projects across active development, validation, and growth initiatives."
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">
         <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-          About
+          {t('nav.currentProjects')}
           {/* Gradient Background Overlay */}
           <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 

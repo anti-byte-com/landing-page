@@ -8,8 +8,11 @@ import ProjectsSection from '@/components/sections/ProjectsSection';
 import SharedFooter from '@/components/shared/Footer';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
+import { useTranslation } from 'react-i18next';
 
 const Home: React.FC = () => {
+  const { t } = useTranslation();
+
   useScrollToTop();
 
   React.useEffect(() => {
@@ -25,10 +28,10 @@ const Home: React.FC = () => {
       <SharedNavbarContainer
         showLogo={true}
         navLinks={[
-          { label: 'Projects', to: '/projects' },
-          { label: 'About', to: '/about' },
+          { label: t('nav.projects'), to: '/projects' },
+          { label: t('nav.about'), to: '/about' },
         ]}
-        ctaText="Contact"
+        ctaText={t('common.contactUs')}
         ctaUrl="/contact"
       />
 
