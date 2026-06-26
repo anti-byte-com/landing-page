@@ -10,12 +10,15 @@ import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
 import { projects } from '@/data/projects';
 
-const RICH_SECTION_KEYS = [
-  'origin',
-  'operationModel',
-  'marketValidation',
-  'impact',
-] as const;
+const SECTION_KEYS_BY_SLUG: Record<string, string[]> = {
+  'atendo-aqui': [
+    'origin',
+    'operationModel',
+    'marketValidation',
+    'impact',
+    'conclusion',
+  ],
+};
 
 const ProjectDetail: React.FC = () => {
   const { t } = useTranslation();
@@ -42,6 +45,10 @@ const ProjectDetail: React.FC = () => {
     { label: project.name },
   ];
 
+  const richSectionKeys = project.hasRichContent
+    ? (SECTION_KEYS_BY_SLUG[project.slug] ?? [])
+    : [];
+
   return (
     <div className="flex flex-col min-h-screen">
       <MetaTag title={project.name} />
@@ -59,30 +66,34 @@ const ProjectDetail: React.FC = () => {
             <>
               {/* Intro */}
               <p className="text-base md:text-lg text-on-surface-variant leading-relaxed mb-16">
-                {t('projectsDetail.atendoAqui.intro')}
+                {t(`projectsDetail.${project.slug}.intro`)}
               </p>
 
               {/* Sections */}
               <article className="flex flex-col gap-12">
-                {RICH_SECTION_KEYS.map((key) => (
-                  <section key={key} className="flex flex-col gap-4">
-                    <SectionHeader
-                      title={t(
-                        `projectsDetail.atendoAqui.sections.${key}.title`
+                {richSectionKeys.map((key) => {
+                  const isConclusion = key === 'conclusion';
+                  return (
+                    <section key={key} className="flex flex-col gap-4">
+                      {!isConclusion && (
+                        <SectionHeader
+                          title={t(
+                            `projectsDetail.${project.slug}.sections.${key}.title`
+                          )}
+                        />
                       )}
-                    />
-                    <p className="text-base text-on-surface-variant leading-relaxed">
-                      {t(`projectsDetail.atendoAqui.sections.${key}.body`)}
-                    </p>
-                  </section>
-                ))}
-
-                {/* Conclusion */}
-                <section className="flex flex-col gap-4">
-                  <p className="text-base text-on-surface-variant leading-relaxed italic">
-                    {t('projectsDetail.atendoAqui.conclusion')}
-                  </p>
-                </section>
+                      <p
+                        className={`text-base text-on-surface-variant leading-relaxed ${isConclusion ? 'italic' : ''}`}
+                      >
+                        {t(
+                          isConclusion
+                            ? `projectsDetail.${project.slug}.${key}`
+                            : `projectsDetail.${project.slug}.sections.${key}.body`
+                        )}
+                      </p>
+                    </section>
+                  );
+                })}
               </article>
 
               {/* Image Gallery */}

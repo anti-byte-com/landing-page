@@ -1,6 +1,6 @@
-import img1 from '@/assets/projects/atendo-aqui/atendo-aqui-01.jpg';
-import img2 from '@/assets/projects/atendo-aqui/atendo-aqui-02.jpg';
-import img3 from '@/assets/projects/atendo-aqui/atendo-aqui-03.jpg';
+import atendoImg1 from '@/assets/projects/atendo-aqui/atendo-aqui-01.jpg';
+import atendoImg2 from '@/assets/projects/atendo-aqui/atendo-aqui-02.jpg';
+import atendoImg3 from '@/assets/projects/atendo-aqui/atendo-aqui-03.jpg';
 
 export interface Project {
   id: string;
@@ -19,13 +19,13 @@ export const projects: Project[] = [
     name: 'Atendo Aqui',
     descriptionKey: 'projects.0.description',
     status: 'archived',
-    images: [img1, img2, img3],
+    images: [atendoImg1, atendoImg2, atendoImg3],
     hasRichContent: true,
   },
   {
     id: 'proj-002',
-    slug: 'live-fy',
-    name: 'Live-fy',
+    slug: 'entrei-comprei',
+    name: 'Entrei Comprei',
     descriptionKey: 'projects.1.description',
     status: 'validation',
   },

@@ -141,11 +141,11 @@
       "description": "Platform for sharing healthcare spaces by the hour — archived project."
     },
     "1": {
-      "description": "Live event streaming and engagement platform currently in validation."
+      "description": "Sales platform for live streams and chat groups — in development."
     }
   },
   "projectsDetail": {
-    "atendoAqui": {
+    "atendo-aqui": {
       "intro": "Atendo Aqui was a pioneering initiative based on the sharing economy, whose mission was to democratize access to healthcare infrastructure through a digital solution. Operating exclusively as a mobile application, the platform functioned as a marketplace model, connecting owners of offices and clinics (Hosts) to independent healthcare professionals (Guests).",
       "sections": {
         "origin": {
@@ -166,6 +166,34 @@
         }
       },
       "conclusion": "Atendo Aqui positioned itself as a resource optimization tool, offering professionals the freedom to serve their patients wherever they were, without the bureaucracy and maintenance costs of owning a property."
+    },
+    "entrei-comprei": {
+      "tagline": "Sell on live streams and in chat groups.",
+      "intro": "Platform focused on improving the customer experience in live sales and chat group sales.",
+      "cta": "Download the Android App",
+      "featuresHeadline": "We are a platform in development, working toward:",
+      "sections": {
+        "groups": {
+          "title": "Exclusive Groups",
+          "body": "Bring your customers to an exclusive group. Use your groups to promote products and maintain a close relationship with your customers."
+        },
+        "app": {
+          "title": "Silent App",
+          "body": "Your customer only receives notifications when you interact in the group."
+        },
+        "featureSales": {
+          "title": "Stress-Free Sales",
+          "body": "Receive a complete sales report and stop wasting time on post-sale follow-ups."
+        },
+        "featureChat": {
+          "title": "Sales via Chat",
+          "body": "Your customers can add products to the cart directly through the chat, without leaving the conversation."
+        },
+        "featureLive": {
+          "title": "Live Sales",
+          "body": "Stay focused on your live stream while your customers add products to their cart in real time."
+        }
+      }
     }
   },
   "nav": {

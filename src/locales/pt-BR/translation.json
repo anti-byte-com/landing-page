@@ -239,11 +239,11 @@
       "description": "Plataforma de compartilhamento de espa\u00e7os de sa\u00fade por hora — projeto arquivado."
     },
     "1": {
-      "description": "Plataforma de streaming de eventos ao vivo e engajamento em valida\u00e7\u00e3o."
+      "description": "Plataforma de vendas por live e grupos de chat — em desenvolvimento."
     }
   },
   "projectsDetail": {
-    "atendoAqui": {
+    "atendo-aqui": {
       "intro": "A Atendo Aqui foi uma iniciativa pioneira fundamentada na economia compartilhada, que teve como miss\u00e3o democratizar o acesso a infraestruturas de sa\u00fade atrav\u00e9s de uma solu\u00e7\u00e3o digital. Operando exclusivamente como um aplicativo m\u00f3vel, a plataforma funcionava no modelo de marketplace, conectando propriet\u00e1rios de consult\u00f3rios e cl\u00ednicas (Anfitri\u00f5es) a profissionais de sa\u00fade aut\u00f4nomos (H\u00f3spedes).",
       "sections": {
         "origin": {
@@ -264,6 +264,34 @@
         }
       },
       "conclusion": "A Atendo Aqui posicionou-se como uma ferramenta de otimiza\u00e7\u00e3o de recursos, oferecendo aos profissionais a liberdade de atender seus pacientes onde estivessem, sem as burocracias e os custos de manuten\u00e7\u00e3o de um im\u00f3vel pr\u00f3prio."
+    },
+    "entrei-comprei": {
+      "tagline": "Venda na live e no chat.",
+      "intro": "Plataforma focada em melhorar a experi\u00eancia do cliente nas vendas por live e por grupos de chat.",
+      "cta": "Baixe o APP Android",
+      "featuresHeadline": "Somos uma plataforma em desenvolvimento, estamos caminhando para:",
+      "sections": {
+        "groups": {
+          "title": "Grupos Exclusivos",
+          "body": "Traga seus clientes para um grupo exclusivo. Utilize seus grupos para promover produtos e manter um relacionamento pr\u00f3ximo com seu cliente."
+        },
+        "app": {
+          "title": "App Silencioso",
+          "body": "Seu cliente recebe notifica\u00e7\u00e3o apenas quando voc\u00ea interage no grupo."
+        },
+        "featureSales": {
+          "title": "Venda sem Estresse",
+          "body": "Receba um relat\u00f3rio completo das vendas e n\u00e3o perca tempo no p\u00f3s-venda."
+        },
+        "featureChat": {
+          "title": "Vendas pelo Chat",
+          "body": "Seu cliente pode adicionar produtos ao carrinho diretamente pelo chat, sem sair da conversa."
+        },
+        "featureLive": {
+          "title": "Live de Vendas",
+          "body": "Mantenha o foco na sua live enquanto seus clientes adicionam produtos ao carrinho em tempo real."
+        }
+      }
     }
   },
   "header": {
