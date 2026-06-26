@@ -138,10 +138,34 @@
       "archived": "Archived"
     },
     "0": {
-      "description": "Live event streaming and engagement platform currently in validation."
+      "description": "Platform for sharing healthcare spaces by the hour — archived project."
     },
     "1": {
-      "description": "Patient attendance management system — archived project."
+      "description": "Live event streaming and engagement platform currently in validation."
+    }
+  },
+  "projectsDetail": {
+    "atendoAqui": {
+      "intro": "Atendo Aqui was a pioneering initiative based on the sharing economy, whose mission was to democratize access to healthcare infrastructure through a digital solution. Operating exclusively as a mobile application, the platform functioned as a marketplace model, connecting owners of offices and clinics (Hosts) to independent healthcare professionals (Guests).",
+      "sections": {
+        "origin": {
+          "title": "Project Origin",
+          "body": "The project was born to solve two major bottlenecks in the sector: the high vacancy of private spaces — which reached between 14 and 20 idle hours per week — and the high fixed costs that prevented many professionals from having their own practice locations."
+        },
+        "operationModel": {
+          "title": "Operation Model",
+          "body": "Through the application, professionals such as doctors, dentists, psychologists, and physical therapists could find, schedule, and pay for the use of qualified rooms only for the time needed."
+        },
+        "marketValidation": {
+          "title": "Market Validation",
+          "body": "The MVP (Minimum Viable Product) was launched in May 2021, reaching 50 registered users and space listings in several cities in Santa Catarina, including Florianópolis, Joinville, Itajaí, and Chapecó."
+        },
+        "impact": {
+          "title": "Impact and Partnerships",
+          "body": "The initiative established strategic alignments with medical associations (such as ACM) and hotel chains to transform idle spaces into productive locations for health and well-being."
+        }
+      },
+      "conclusion": "Atendo Aqui positioned itself as a resource optimization tool, offering professionals the freedom to serve their patients wherever they were, without the bureaucracy and maintenance costs of owning a property."
     }
   },
   "nav": {

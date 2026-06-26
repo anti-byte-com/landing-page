@@ -236,10 +236,34 @@
       "archived": "Arquivado"
     },
     "0": {
-      "description": "Plataforma de streaming de eventos ao vivo e engajamento em valida\u00e7\u00e3o."
+      "description": "Plataforma de compartilhamento de espa\u00e7os de sa\u00fade por hora — projeto arquivado."
     },
     "1": {
-      "description": "Sistema de atendimento e presen\u00e7a de pacientes — projeto arquivado."
+      "description": "Plataforma de streaming de eventos ao vivo e engajamento em valida\u00e7\u00e3o."
+    }
+  },
+  "projectsDetail": {
+    "atendoAqui": {
+      "intro": "A Atendo Aqui foi uma iniciativa pioneira fundamentada na economia compartilhada, que teve como miss\u00e3o democratizar o acesso a infraestruturas de sa\u00fade atrav\u00e9s de uma solu\u00e7\u00e3o digital. Operando exclusivamente como um aplicativo m\u00f3vel, a plataforma funcionava no modelo de marketplace, conectando propriet\u00e1rios de consult\u00f3rios e cl\u00ednicas (Anfitri\u00f5es) a profissionais de sa\u00fade aut\u00f4nomos (H\u00f3spedes).",
+      "sections": {
+        "origin": {
+          "title": "Origem do Projeto",
+          "body": "O projeto nasceu para solucionar dois grandes gargalos do setor: a alta ociosidade de espa\u00e7os privados — que chegava a registrar entre 14 e 20 horas vagas por semana — e os elevados custos fixos que impediam muitos profissionais de possu\u00edrem seus pr\u00f3prios locais de atendimento."
+        },
+        "operationModel": {
+          "title": "Modelo de Operação",
+          "body": "Atrav\u00e9s do aplicativo, profissionais como m\u00e9dicos, dentistas, psic\u00f3logos e fisioterapeutas podiam encontrar, agendar e pagar pelo uso de salas qualificadas apenas pelo tempo necess\u00e1rio."
+        },
+        "marketValidation": {
+          "title": "Valida\u00e7\u00e3o de Mercado",
+          "body": "O MVP (Produto M\u00ednimo Vi\u00e1vel) foi lan\u00e7ado em maio de 2021, alcan\u00e7ando a marca de 50 usu\u00e1rios cadastrados e an\u00fancios de espa\u00e7os em diversas cidades de Santa Catarina, incluindo Florian\u00f3polis, Joinville, Itaja\u00ed e Chapec\u00f3."
+        },
+        "impact": {
+          "title": "Impacto e Parcerias",
+          "body": "A iniciativa estabeleceu alinhamentos estrat\u00e9gicos com associa\u00e7\u00f5es m\u00e9dicas (como a ACM) e redes de hot\u00e9is para transformar espa\u00e7os ociosos em locais produtivos para a sa\u00fade e o bem-estar."
+        }
+      },
+      "conclusion": "A Atendo Aqui posicionou-se como uma ferramenta de otimiza\u00e7\u00e3o de recursos, oferecendo aos profissionais a liberdade de atender seus pacientes onde estivessem, sem as burocracias e os custos de manuten\u00e7\u00e3o de um im\u00f3vel pr\u00f3prio."
     }
   },
   "header": {
