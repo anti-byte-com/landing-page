@@ -276,7 +276,13 @@
   },
   "pages": {
     "about": {
-      "description": "Learn more about Anti-Byte, our mission, values, and the team behind the platform."
+      "description": "We are a startup focused on developing native applications for mobile and desktop devices, integrated with cloud solutions.",
+      "updatedNote": "Last updated: June 2026",
+      "intro": "We are a startup dedicated to developing native applications for mobile and desktop devices, integrated with cloud solutions. Our approach combines the best of local and cloud environments to create products that unite high performance, scalability, and operational efficiency.",
+      "body": [
+        "We explore the advantages of each technology to deliver modern solutions capable of offering a fluid experience to users while reducing infrastructure and maintenance costs. We believe that quality applications do not need to require complex architectures or excessive investments to generate value.",
+        "Our goal is to develop products and services that are fast, reliable, and accessible, allowing companies of different sizes to benefit from digital transformation with robust and sustainable technology."
+      ]
     },
     "blog": {
       "description": "Stay updated with the latest news, insights, and developments from Anti-Byte."
@@ -370,7 +376,89 @@
       }
     },
     "terms": {
-      "description": "Our terms of service outline the legal agreements and conditions you accept when using our platform."
+      "description": "Our Terms of Service establish the legal agreements and conditions you accept when using our website, applications, and services. Please read them carefully before using our services.",
+      "updatedNote": "Last updated: June 2026",
+      "intro": "These Terms of Service govern the use of the website, applications, and services provided by Anti-Byte. By accessing and using our services, you agree to the conditions described in this document. We recommend reading each section carefully.",
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "body": "By accessing this website, using our applications, or any services provided through them, you agree to these Terms of Service. If you do not agree with any provision of these terms, do not use our services."
+        },
+        "services": {
+          "title": "2. Description of Services",
+          "body": "We provide services and features through our website and applications. The features offered may be changed, expanded, restricted, or discontinued at any time, with or without prior notice."
+        },
+        "permittedUse": {
+          "title": "3. Permitted Use",
+          "body": "The user agrees to use the services lawfully and in compliance with applicable legislation.",
+          "prohibitedLead": "It is prohibited to:",
+          "prohibitedItems": [
+            "Use the services for illegal or fraudulent activities",
+            "Attempt to gain unauthorized access to systems, accounts, or data",
+            "Interfere with the operation of the services or their infrastructure",
+            "Use the services in a way that may cause harm to third parties or the platform"
+          ]
+        },
+        "accounts": {
+          "title": "4. User Accounts",
+          "body": [
+            "When applicable, the user is responsible for maintaining the confidentiality of their access credentials and for all activities carried out in their account.",
+            "The user agrees to provide true, complete, and up-to-date information."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "5. Intellectual Property",
+          "body": [
+            "All content made available through the website and applications, including texts, images, logos, brands, interfaces, software, and other materials, is protected by intellectual property laws and belongs to their respective owners.",
+            "No provision of these terms grants the user any ownership rights over such content."
+          ]
+        },
+        "availability": {
+          "title": "6. Service Availability",
+          "body": [
+            "Although we strive to keep the services available and operational, we do not guarantee uninterrupted availability, absence of failures, or error-free operation.",
+            "Temporary interruptions may occur for maintenance, updates, or technical reasons beyond our control."
+          ]
+        },
+        "liability": {
+          "title": "7. Limitation of Liability",
+          "body": "The services are provided \"as is\" and \"as available\".",
+          "liabilityLead": "To the maximum extent permitted by applicable legislation, we are not responsible for:",
+          "liabilityItems": [
+            "Indirect, incidental, or consequential losses",
+            "Service interruptions",
+            "Data loss caused by external factors",
+            "Inappropriate use of the services by the user",
+            "Problems arising from third-party failures, communication networks, or app stores"
+          ]
+        },
+        "appStores": {
+          "title": "8. Applications Distributed Through App Stores",
+          "body": [
+            "When applications are obtained through third-party app stores, such as the Apple App Store or Google Play, the user will also be subject to the terms and policies of those platforms.",
+            "The respective app stores are not responsible for the support, maintenance, or operation of the services offered by our applications, except as required by applicable legislation."
+          ]
+        },
+        "suspension": {
+          "title": "9. Suspension and Termination",
+          "body": "We may suspend or terminate access to the services if we identify a violation of these Terms of Service, misuse of the platform, or situations that pose risks to the security of the services or third parties."
+        },
+        "changes": {
+          "title": "10. Changes to the Terms",
+          "body": [
+            "We reserve the right to modify these Terms of Service at any time. The most recent version will always be available through our official channels.",
+            "Continued use of the services after the publication of the changes will be considered acceptance of the new terms."
+          ]
+        },
+        "governingLaw": {
+          "title": "11. Governing Law",
+          "body": "These Terms of Service shall be governed by the laws of the Federative Republic of Brazil."
+        },
+        "contact": {
+          "title": "12. Contact",
+          "body": "If you have any questions about these Terms of Service, please contact us through the communication channels available on our website or applications."
+        }
+      }
     },
     "resources": {
       "description": "Comprehensive resources, documentation, and guides to help you get the most out of Anti-Byte."

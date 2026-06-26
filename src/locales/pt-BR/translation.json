@@ -266,7 +266,13 @@
   },
   "pages": {
     "about": {
-      "description": "Saiba mais sobre o Anti-Byte, nossa miss\u00e3o, valores e a equipe por tr\u00e1s da plataforma."
+      "description": "Somos uma startup focada em desenvolvimento de aplicativos nativos para dispositivos móveis e desktop, integrados a soluções em nuvem.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Somos uma startup dedicada ao desenvolvimento de aplicativos nativos para dispositivos móveis e desktop, integrados a soluções em nuvem. Nossa abordagem combina o melhor dos ambientes local e cloud para criar produtos que unem alto desempenho, escalabilidade e eficiência operacional.",
+      "body": [
+        "Exploramos as vantagens de cada tecnologia para entregar soluções modernas, capazes de oferecer uma experiência fluida aos usuários enquanto reduzem custos de infraestrutura e manutenção. Acreditamos que aplicações de qualidade não precisam exigir arquiteturas complexas ou investimentos excessivos para gerar valor.",
+        "Nosso objetivo é desenvolver produtos e serviços que sejam rápidos, confiáveis e acessíveis, permitindo que empresas de diferentes portes aproveitem os benefícios da transformação digital com tecnologia robusta e sustentável."
+      ]
     },
     "blog": {
       "description": "Fique por dentro das \u00faltimas novidades, insights e desenvolvimentos do Anti-Byte."
@@ -360,7 +366,89 @@
       }
     },
     "terms": {
-      "description": "Nossos termos de servi\u00e7o descrevem os acordos legais e condi\u00e7\u00f5es que voc\u00ea aceita ao usar nossa plataforma."
+      "description": "Nossos Termos de Serviço estabelecem os acordos legais e condições que você aceita ao usar nosso site, aplicativos e serviços. Leia-os com atenção antes de utilizar nossos serviços.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Estes Termos de Serviço regem o uso do site, dos aplicativos e dos serviços disponibilizados pela Anti-Byte. Ao acessar e utilizar nossos serviços, você concorda com as condições descritas neste documento. Recomendamos a leitura atenta de cada seção.",
+      "sections": {
+        "acceptance": {
+          "title": "1. Aceitação dos Termos",
+          "body": "Ao acessar este site, utilizar nossos aplicativos ou quaisquer serviços disponibilizados por meio deles, você concorda com estes Termos de Serviço. Caso não concorde com qualquer disposição destes termos, não utilize nossos serviços."
+        },
+        "services": {
+          "title": "2. Descrição dos Serviços",
+          "body": "Disponibilizamos serviços e funcionalidades por meio de nosso site e aplicativos. Os recursos oferecidos poderão ser alterados, ampliados, restringidos ou descontinuados a qualquer momento, com ou sem aviso prévio."
+        },
+        "permittedUse": {
+          "title": "3. Uso Permitido",
+          "body": "O usuário concorda em utilizar os serviços de forma lícita e em conformidade com a legislação aplicável.",
+          "prohibitedLead": "É proibido:",
+          "prohibitedItems": [
+            "Utilizar os serviços para atividades ilegais ou fraudulentas",
+            "Tentar obter acesso não autorizado a sistemas, contas ou dados",
+            "Interferir no funcionamento dos serviços ou de sua infraestrutura",
+            "Utilizar os serviços de forma que possa causar prejuízo a terceiros ou à plataforma"
+          ]
+        },
+        "accounts": {
+          "title": "4. Contas de Usuário",
+          "body": [
+            "Quando aplicável, o usuário é responsável por manter a confidencialidade de suas credenciais de acesso e por todas as atividades realizadas em sua conta.",
+            "O usuário compromete-se a fornecer informações verdadeiras, completas e atualizadas."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "5. Propriedade Intelectual",
+          "body": [
+            "Todo o conteúdo disponibilizado por meio do site e dos aplicativos, incluindo textos, imagens, logotipos, marcas, interfaces, software e demais materiais, é protegido pelas leis de propriedade intelectual e pertence aos seus respectivos titulares.",
+            "Nenhuma disposição destes termos concede ao usuário qualquer direito de propriedade sobre tais conteúdos."
+          ]
+        },
+        "availability": {
+          "title": "6. Disponibilidade dos Serviços",
+          "body": [
+            "Embora busquemos manter os serviços disponíveis e operacionais, não garantimos disponibilidade ininterrupta, ausência de falhas ou funcionamento livre de erros.",
+            "Poderão ocorrer interrupções temporárias para manutenção, atualização ou por motivos técnicos fora de nosso controle."
+          ]
+        },
+        "liability": {
+          "title": "7. Limitação de Responsabilidade",
+          "body": "Os serviços são fornecidos \"como estão\" e \"conforme disponíveis\".",
+          "liabilityLead": "Na máxima extensão permitida pela legislação aplicável, não nos responsabilizamos por:",
+          "liabilityItems": [
+            "Perdas indiretas, incidentais ou consequenciais",
+            "Interrupções de serviço",
+            "Perda de dados causada por fatores externos",
+            "Uso inadequado dos serviços pelo usuário",
+            "Problemas decorrentes de falhas de terceiros, redes de comunicação ou lojas de aplicativos"
+          ]
+        },
+        "appStores": {
+          "title": "8. Aplicativos Distribuídos por Lojas de Aplicativos",
+          "body": [
+            "Quando os aplicativos forem obtidos por meio de lojas de aplicativos de terceiros, como Apple App Store ou Google Play, o usuário também estará sujeito aos termos e políticas dessas plataformas.",
+            "As respectivas lojas de aplicativos não são responsáveis pelo suporte, manutenção ou operação dos serviços oferecidos por nossos aplicativos, salvo quando exigido pela legislação aplicável."
+          ]
+        },
+        "suspension": {
+          "title": "9. Suspensão e Encerramento",
+          "body": "Poderemos suspender ou encerrar o acesso aos serviços caso identifiquemos violação destes Termos de Serviço, uso indevido da plataforma ou situações que representem riscos à segurança dos serviços ou de terceiros."
+        },
+        "changes": {
+          "title": "10. Alterações dos Termos",
+          "body": [
+            "Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento. A versão mais recente estará sempre disponível em nossos canais oficiais.",
+            "A continuidade do uso dos serviços após a publicação das alterações será considerada como aceitação dos novos termos."
+          ]
+        },
+        "governingLaw": {
+          "title": "11. Legislação Aplicável",
+          "body": "Estes Termos de Serviço serão regidos pelas leis da República Federativa do Brasil."
+        },
+        "contact": {
+          "title": "12. Contato",
+          "body": "Em caso de dúvidas sobre estes Termos de Serviço, entre em contato pelos canais de comunicação disponibilizados em nosso site ou aplicativos."
+        }
+      }
     },
     "resources": {
       "description": "Recursos abrangentes, documenta\u00e7\u00e3o e guias para ajudar voc\u00ea a aproveitar ao m\u00e1ximo o Anti-Byte."
