@@ -7,7 +7,7 @@
   "philosophyPrinciples.1.description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations.",
   "philosophyPrinciples.2.description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard.",
   "philosophyPrinciples.3.description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior.",
-"companyValues": {
+  "companyValues": {
     "label": "// VALUES",
     "title": "Our Values",
     "values": [
@@ -285,7 +285,35 @@
       "description": "Get in touch with our team. We're here to help answer your questions and discuss how we can assist you."
     },
     "cookies": {
-      "description": "Understanding how we use cookies to improve your experience. We value your privacy and aim for full transparency in our data practices."
+      "description": "This website does not use cookies or similar technologies. Learn about our non-use policy and our commitment to privacy and transparency.",
+      "updatedNote": "Last updated: June 2026",
+      "intro": "This Cookie Policy explains how the Anti-Byte website handles cookies and equivalent technologies. Since we do not use these mechanisms, the purpose of this document is to formally declare this non-use and ensure full transparency about the practices adopted on our website.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "What are cookies",
+          "body": "Cookies are small text files stored on the user's device that can be used for authentication, preferences, access statistics and other navigation-related functionalities."
+        },
+        "noUsage": {
+          "title": "Statement of non-use",
+          "body": "This website does not use first-party or third-party cookies. No file is stored in your browser for identification, tracking, behavioral analysis or advertising purposes."
+        },
+        "similarTech": {
+          "title": "Similar technologies",
+          "body": "This website also does not use cookie-like technologies, such as Local Storage, Session Storage, IndexedDB or fingerprinting mechanisms, to track users."
+        },
+        "thirdParty": {
+          "title": "Third-party services",
+          "body": "This website does not embed traffic analysis tools, behavioral advertising or third-party widgets that may install cookies in your browser. There are currently no exceptions to this rule."
+        },
+        "futureChanges": {
+          "title": "Future changes",
+          "body": "Should the use of cookies or similar technologies be implemented in the future, this Cookie Policy will be updated to reflect these changes in a clear and transparent manner."
+        },
+        "contact": {
+          "title": "Contact",
+          "body": "If you have any questions about this policy, please contact us via email at {{email}}."
+        }
+      }
     },
     "privacy": {
       "description": "We are committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information when you use our services."

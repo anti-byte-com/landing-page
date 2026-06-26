@@ -275,7 +275,35 @@
       "description": "Entre em contato com nossa equipe. Estamos aqui para tirar suas d\u00favidas e discutir como podemos ajud\u00e1-lo."
     },
     "cookies": {
-      "description": "Entenda como usamos cookies para melhorar sua experi\u00eancia. Valorizamos sua privacidade e buscamos total transpar\u00eancia em nossas pr\u00e1ticas de dados."
+      "description": "Este site não utiliza cookies nem tecnologias semelhantes. Conheça nossa política de não utilização e nosso compromisso com privacidade e transparência.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Esta Política de Cookies explica como o site da Anti-Byte trata cookies e tecnologias equivalentes. Como não utilizamos esses mecanismos, o propósito deste documento é declarar formalmente essa não utilização e garantir total transparência sobre as práticas adotadas em nosso site.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "O que são cookies",
+          "body": "Cookies são pequenos arquivos de texto armazenados no dispositivo do usuário que podem ser utilizados para autenticação, preferências, estatísticas de acesso e outras funcionalidades relacionadas à navegação."
+        },
+        "noUsage": {
+          "title": "Declaração de não utilização",
+          "body": "Este site não utiliza cookies próprios nem cookies de terceiros. Nenhum arquivo é armazenado em seu navegador para fins de identificação, rastreamento, análise de comportamento ou publicidade."
+        },
+        "similarTech": {
+          "title": "Tecnologias semelhantes",
+          "body": "Este site também não utiliza tecnologias similares a cookies, como Local Storage, Session Storage, IndexedDB ou mecanismos de fingerprinting, para rastreamento de usuários."
+        },
+        "thirdParty": {
+          "title": "Serviços de terceiros",
+          "body": "Este site não incorpora ferramentas de análise de tráfego, publicidade comportamental ou widgets de terceiros que possam instalar cookies em seu navegador. Não há exceções a esta regra no momento."
+        },
+        "futureChanges": {
+          "title": "Alterações futuras",
+          "body": "Caso a utilização de cookies ou tecnologias semelhantes seja implementada futuramente, esta Política de Cookies será atualizada para refletir essas mudanças de forma clara e transparente."
+        },
+        "contact": {
+          "title": "Contato",
+          "body": "Em caso de dúvidas sobre esta política, entre em contato através do e-mail {{email}}."
+        }
+      }
     },
     "privacy": {
       "description": "Estamos comprometidos em proteger sua privacidade. Esta pol\u00edtica explica como coletamos, usamos e protegemos suas informa\u00e7\u00f5es pessoais quando voc\u00ea utiliza nossos servi\u00e7os."
