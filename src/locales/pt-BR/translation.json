@@ -134,9 +134,12 @@
   "aboutContact": {
     "label": "// CONTATO",
     "title": "Vamos Conversar?",
-    "email": "hello@anti-byte.com",
-    "location": "S\u00e3o Paulo, Brasil (Remote-first)",
-    "timezone": "UTC-3 / UTC+1 (Lisboa/London)",
+    "emailLabel": "E-mail",
+    "locationLabel": "Localiza\u00e7\u00e3o",
+    "timezoneLabel": "Fuso Hor\u00e1rio",
+    "email": "contact@anti-byte.com",
+    "location": "Brasil, Florian\u00f3polis SC",
+    "timezone": "UTC/GMT -3 horas",
     "readyToStart": "Pronto para come\u00e7ar?",
     "buildTogether": "Vamos construir algo incr\u00edvel juntos.",
     "contactUs": "Entre em Contato \u2192"
@@ -297,9 +300,9 @@
     }
   },
   "contactInfo": {
-    "email": "hello@anti-byte.com",
-    "location": "S\u00e3o Paulo, Brasil (Remote-first)",
-    "timezone": "UTC-3 / UTC+1 (Lisboa/London)"
+    "email": "contact@anti-byte.com",
+    "location": "Brasil, Florian\u00f3polis SC",
+    "timezone": "UTC/GMT -3 horas"
   },
   "legalPage": {
     "termsOfService": "Termos de Servi\u00e7o",

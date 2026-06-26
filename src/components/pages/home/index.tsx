@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       {/* Navbar */}
       <SharedNavbarContainer
         showLogo={true}
@@ -38,21 +38,17 @@ const Home: React.FC = () => {
       {/* Gradient Background Overlay */}
       <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
-      {/* Hero Section */}
-      <HeroSection />
-
-      {/* Method Section */}
-      <MethodSection />
-
-      {/* Philosophy Section */}
-      <PhilosophySection />
-
-      {/* Projects Section */}
-      <ProjectsSection />
+      {/* Main Content */}
+      <main className="flex-1">
+        <HeroSection />
+        <MethodSection />
+        <PhilosophySection />
+        <ProjectsSection />
+      </main>
 
       {/* Footer */}
       <SharedFooter />
-    </>
+    </div>
   );
 };
 

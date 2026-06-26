@@ -24,7 +24,7 @@ const About: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <SharedHeader
         logoText={COMPANY_NAME}
         navigationLinks={[
@@ -35,18 +35,18 @@ const About: React.FC = () => {
         pageDescription={t('pages.about.description')}
       />
 
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-          {t('nav.about')}
-          {/* Gradient Background Overlay */}
-          <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
+      <main className="flex-1">
+        <div className="flex items-center justify-center min-h-[60vh]">
+          <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
+            {t('nav.about')}
+          </h1>
+        </div>
+      </main>
 
-        </h1>
-      </div>
+      <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
       <SharedFooter className="scroll-mt-24" />
-
-    </>
+    </div>
   );
 };
 
