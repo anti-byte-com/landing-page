@@ -59,7 +59,7 @@ const NavigationLinks: React.FC = () => {
               {t('nav.archivedCaseStudies')}
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/blog"
               className="text-sm text-secondary hover:text-primary transition-colors"
@@ -74,7 +74,7 @@ const NavigationLinks: React.FC = () => {
             >
               {t('nav.resources')}
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
@@ -91,14 +91,14 @@ const NavigationLinks: React.FC = () => {
               {t('nav.about')}
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/our-approach"
               className="text-sm text-secondary hover:text-primary transition-colors"
             >
               {t('nav.ourApproach')}
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/contact"

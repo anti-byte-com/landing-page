@@ -61,7 +61,9 @@
   },
   "philosophy": {
     "label": "// FILOSOFIA",
-    "title": "Por Que Agimos Assim"
+    "title": "Por Que Agimos Assim",
+    "description": "N\u00e3o somos um est\u00fadio que aposta alto e reza para dar certo. Executamos experimentos, aprendemos rapidamente com dados e investimos no que funciona.",
+    "descriptionFull": "Cada projeto \u00e9 um experimento com hip\u00f3tese clara, resultados mensur\u00e1veis e crit\u00e9rios de sucesso predeterminados. Matamos ideias antes que drenem recursos, e escalamos as que comprovam seu valor no mercado."
   },
   "method": {
     "label": "// M\u00c9TODO",

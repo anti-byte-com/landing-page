@@ -38,12 +38,12 @@ const NewsletterForm: React.FC = () => {
       </form>
 
       {/* Metrics - Grid 4 columns  lg:grid-cols-4 gap-6 p-8 rounded-xl bg-surface-container-lowest */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {/*<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <MetricItem label={t('stats.heroStats.projects')} value={t('newsletter.metrics.projectsValue')} />
         <MetricItem label={t('stats.heroStats.mvps')} value={t('newsletter.metrics.mvpsValue')} />
         <MetricItem label={t('stats.heroStats.data')} value={t('newsletter.metrics.dataValue')} />
         <MetricItem label={t('stats.heroStats.cycle')} value={t('newsletter.metrics.cycleValue')} />
-      </div>
+      </div>*/}
     </div>
   );
 };

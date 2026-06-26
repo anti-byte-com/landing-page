@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Right Column: Stats Panel */}
-          <HeroStatsPanel />
+          {/* <HeroStatsPanel />  */}
         </div>
       </div>
     </section>
