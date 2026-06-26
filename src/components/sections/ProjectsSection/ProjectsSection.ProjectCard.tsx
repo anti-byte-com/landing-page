@@ -44,7 +44,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             ` ${project.status === 'validation' ? 'bg-secondary/10 text-secondary' : ''} ${project.status === 'archived' ? 'bg-on-surface-variant/5 text-on-surface-variant' : ''} ${project.status === 'growth' ? 'bg-tertiary/10 text-tertiary' : ''}`
           }
         >
-          {project.status.toUpperCase()}
+          {t(`projects.badge.${project.status}`)}
         </span>
       </div>
 

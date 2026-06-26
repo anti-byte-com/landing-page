@@ -31,7 +31,7 @@ const Resources: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.resources')}
-        pageDescription="Comprehensive resources, documentation, and guides to help you get the most out of Anti-Byte."
+        pageDescription={t('pages.resources.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

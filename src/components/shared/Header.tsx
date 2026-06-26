@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export interface HeaderLink {
   label: string;
@@ -27,6 +28,7 @@ const Header: React.FC<HeaderProps> = ({
   pageTitle,
   pageDescription = '',
 }) => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   // Mobile menu links (sem Sign In e Solutions)
@@ -83,7 +85,7 @@ const Header: React.FC<HeaderProps> = ({
           <button
             className="lg:hidden p-2 text-on-surface/70 hover:text-on-surface transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 rounded-lg"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
+            aria-label={t('header.toggleMenu')}
           >
             <svg
               className="w-5 h-5"
@@ -134,14 +136,14 @@ const Header: React.FC<HeaderProps> = ({
         <div className="pt-6 pb-12 md:pt-10 md:pb-16">
           {/* Breadcrumb / Path */}
           {breadcrumbs.length > 0 && (
-            <nav aria-label="Breadcrumb" className="mb-6 overflow-x-auto">
+            <nav aria-label={t('header.breadcrumb')} className="mb-6 overflow-x-auto">
               <ol className="flex items-center gap-2 text-[14px] text-on-surface/60">
                 <li>
                   <a
                     href="/"
                     className="hover:text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 rounded px-1 py-0.5"
                   >
-                    Home
+                    {t('header.home')}
                   </a>
                 </li>
 

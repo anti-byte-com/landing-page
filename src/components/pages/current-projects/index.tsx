@@ -47,11 +47,11 @@ const CurrentProjects: React.FC = () => {
       <SharedHeader
         logoText={COMPANY_NAME}
         navigationLinks={[
-          { label: 'Home', href: '/' },
+          { label: t('common.backToHome'), href: '/' },
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.currentProjects')}
-        pageDescription="Explore our ongoing projects across active development, validation, and growth initiatives."
+        pageDescription={t('pages.currentProjects.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

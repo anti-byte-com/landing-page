@@ -1,174 +1,131 @@
 {
+  "philosophyPrinciples.0.title": "Valida\u00e7\u00e3o R\u00e1pida",
+  "philosophyPrinciples.1.title": "Experimenta\u00e7\u00e3o de Baixo Custo",
+  "philosophyPrinciples.2.title": "Itera\u00e7\u00e3o Cont\u00ednua",
+  "philosophyPrinciples.3.title": "Decis\u00f5es Baseadas em Dados",
+  "philosophyPrinciples.0.description": "Testamos hip\u00f3teses em semanas, n\u00e3o meses. Landing pages, pesquisas e prot\u00f3tipos antes de escrever c\u00f3digo de produ\u00e7\u00e3o.",
+  "philosophyPrinciples.1.description": "Preservamos caixa falhando r\u00e1pido e barato. Sem m\u00e9tricas vanitas, sem escalamento prematuro, apenas opera\u00e7\u00f5es lean.",
+  "philosophyPrinciples.2.description": "Produtos que funcionam s\u00e3o melhorados com base no feedback real dos usu\u00e1rios. O que n\u00e3o \u00e9 lan\u00e7ado fica no cemit\u00e9rio.",
+  "philosophyPrinciples.3.description": "Confiamos em m\u00e9tricas, n\u00e3o em intui\u00e7\u00e3o. Cada decis\u00e3o de pivotar ou perseverar vem do comportamento real dos usu\u00e1rios.",
   "common": {
     "learnMore": "Saiba mais",
     "viewProject": "Ver projeto",
     "readMore": "Ler mais",
-    "contactUs": "Fale conosco",
+    "contactUs": "Entre em contato",
     "backToHome": "Voltar para home",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "cookies": "Política de Cookies"
+    "privacy": "Pol\u00edtica de Privacidade",
+    "terms": "Termos de Servi\u00e7o",
+    "cookies": "Pol\u00edtica de Cookies"
   },
-  "projects": {
-    "badge": {
-      "active": "Ativo",
-      "validation": "Validação",
-      "growth": "Crescimento",
-      "archived": "Arquivado"
+  "projectsSection": {
+    "label": "Projetos",
+    "title": "O Que Estamos Construindo",
+    "description": "Explore nossos projetos atuais e veja como ajudamos empresas a transformar ideias em produtos reais.",
+    "noProjects": "Nenhum projeto dispon\u00edvel no momento.",
+    "viewDetails": "Ver Detalhes \u2192",
+    "projectNumber": "Projeto #{{number}}"
+  },
+  "about": {
+    "title": "Sobre o Anti-Byte",
+    "description": "Somos um est\u00fadio de desenvolvimento focado em criar produtos digitais com rigor cient\u00edfico e metodologia Lean Startup.",
+    "tabs": {
+      "mission": "Miss\u00e3o",
+      "teams": "Equipe",
+      "history": "Hist\u00f3ria",
+      "values": "Valores",
+      "contact": "Contato"
     }
   },
-  "nav": {
-    "projects": "Projetos",
-    "about": "Sobre",
-    "projectsRedirect": "Projetos",
-    "currentProjects": "Projetos Atuais",
-    "archivedCaseStudies": "Estudos de Caso Arquivados",
-    "blog": "Blog",
-    "resources": "Recursos",
-    "contact": "Contato",
-    "ourApproach": "Nossa Abordagem"
+  "companyMission": {
+    "label": "// NOSSA MISS\u00c3O",
+    "title": "Transformar Ideias em Produtos Que Escalam",
+    "description": "N\u00e3o somos apenas uma ag\u00eancia de desenvolvimento ou uma startup tradicional. Somos um Laborat\u00f3rio de Inova\u00e7\u00e3o Aplicada, onde aplicamos rigor cient\u00edfico ao processo criativo de construir produtos digitais.",
+    "coreBeliefs": [
+      {
+        "title": "O mercado se recompensa com execu\u00e7\u00e3o consistente, n\u00e3o com ideias brilhantes",
+        "description": "Acreditamos que ideias por si s\u00f3 n\u00e3o geram valor - \u00e9 a execu\u00e7\u00e3o consistente que transforma conceitos em resultados tang\u00edveis."
+      },
+      {
+        "title": "A valida\u00e7\u00e3o prematura previne desperd\u00edcio e acelera aprendizado",
+        "description": "Testamos rapidamente nossas hip\u00f3teses com usu\u00e1rios reais, evitando meses de desenvolvimento em dire\u00e7\u00e3o ao problema errado."
+      },
+      {
+        "title": "Qualidade t\u00e9cnica n\u00e3o \u00e9 luxo - \u00e9 o que permite escalabilidade sustent\u00e1vel",
+        "description": "Arquitetura s\u00f3lida e c\u00f3digo limpo n\u00e3o s\u00e3o extravag\u00e2ncias, s\u00e3o requisitos fundamentais para crescer sem quebrar."
+      },
+      {
+        "title": "Design humano e excel\u00eancia t\u00e9cnica s\u00e3o for\u00e7as complementares",
+        "description": "Experi\u00eancias centradas no usu\u00e1rio e excel\u00eancia t\u00e9cnica se refor\u00e7am mutuamente para criar produtos excepcionais."
+      }
+    ]
   },
-  "hero": {
-    "label": "Hero",
-    "title": "Construindo & Validando Múltiplos Produtos",
-    "description": "Lean Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
-    "descriptionFull": "Não construímos produtos únicos. Experimentamos com múltiplos produtos digitais simultaneamente para encontrar o ajuste de mercado através de velocidade, validação e decisões baseadas em dados.",
-    "stats": {
-      "projects": "Projetos Ativos",
-      "mvps": "MVPs Testados",
-      "data": "Decisões Baseadas em Dados",
-      "cycle": "Ciclo de Validação"
-    }
+  "philosophy": {
+    "label": "// FILOSOFIA",
+    "title": "Por Que Agimos Assim"
   },
   "method": {
-    "label": "Method",
+    "label": "// M\u00c9TODO",
     "title": "Modelo Lean Startup Studio",
-    "description": "Utilizamos a metodologia Lean Startup para criar, aprender e validar produtos digitais de forma ágil e eficiente.",
     "steps": [
       {
-        "number": "01",
-        "title": "Validação",
-        "description": "Validamos ideias com clientes reais antes de escrever uma linha de código."
+        "label": "Etapa 01",
+        "title": "Valida\u00e7\u00e3o",
+        "description": "Validamos ideias com clientes reais antes de escrever uma linha de c\u00f3digo."
       },
       {
-        "number": "02",
+        "label": "Etapa 02",
         "title": "Prototipagem",
-        "description": "Criamos protótipos rápidos para testar funcionalidades com feedback imediato."
+        "description": "Criamos prot\u00f3tipos r\u00e1pidos para testar funcionalidades com feedback imediato."
       },
       {
-        "number": "03",
-        "title": "Iteração",
+        "label": "Etapa 03",
+        "title": "Itera\u00e7\u00e3o",
         "description": "Melhoramos continuamente com base em dados reais e feedback do mercado."
       },
       {
-        "number": "04",
+        "label": "Etapa 04",
         "title": "Escalonamento",
         "description": "Apenas depois de validar, escalamos o que funciona com responsabilidade."
       }
     ]
   },
-  "philosophy": {
-    "label": "Philosophy",
-    "title": "Como Pensamos",
-    "description": "Não somos um estúdio que aposta alto e ora para o melhor. Rodamos experimentos, aprendemos rapidamente com dados e investimos no que funciona.",
-    "descriptionFull": "Cada projeto é um experimento com hipótese clara, resultados mensuráveis e critérios predeterminados de sucesso. Matamos ideias antes que drenem recursos, e escalamos aquelas que provam seu valor no mercado.",
+  "aboutHistory": {
+    "label": "// HIST\u00d3RIA",
+    "title": "Nossa Jornada",
     "items": [
       {
-        "title": "Validação Rápida",
-        "description": "Testamos hipóteses em semanas, não meses. Landing pages, pesquisas e protótipos antes de escrever código de produção."
+        "title": "In\u00edcio da jornada com a equipe inicial",
+        "description": "Fundamos o est\u00fadio com um grupo seleto de desenvolvedores especializados em criar produtos digitais que equilibram performance t\u00e9cnica e experi\u00eancia do usu\u00e1rio."
       },
       {
-        "title": "Experimentação de Baixo Custo",
-        "description": "Preservamos caixa falhando rápido e barato. Sem métricas vanitas, sem escalamento prematuro, apenas operações lean."
+        "title": "Primeira fase de crescimento",
+        "description": "Ampliamos nossa equipe e come\u00e7amos a trabalhar com m\u00faltiplos projetos simultaneamente, aplicando metodologias Lean Startup para cada um deles."
       },
       {
-        "title": "Iteração Contínua",
-        "description": "Produtos que funcionam são melhorados com base no feedback real dos usuários. O que não é lançado fica no cemitério."
-      },
-      {
-        "title": "Decisões Baseadas em Dados",
-        "description": "Confiamos em métricas, não em intuição. Cada decisão de pivotar ou perseverar vem do comportamento real dos usuários."
+        "title": "Atual - Expans\u00e3o cont\u00ednua",
+        "description": "Estamos ativos em v\u00e1rios projetos de valida\u00e7\u00e3o, crescimento e desenvolvimento escalado, sempre mantendo nossa abordagem centrada no usu\u00e1rio."
       }
     ]
   },
-  "newsletter": {
-    "label": "Newsletter",
-    "title": "Receba novidades em seu e-mail",
-    "placeholder": "Seu melhor e-mail",
-    "button": "Inscrever-se →",
-    "success": "Obrigado por se inscrever!",
-    "error": "Ops! Houve um erro ao se inscrever."
-  },
-  "projectsSection": {
-    "label": "Projetos",
-    "title": "O Que Estamos Construindo",
-    "description": "Explore nossos projetos atuais e veja como estamos ajudando empresas a transformar suas ideias em produtos reais.",
-    "noProjects": "Nenhum projeto disponível no momento.",
-    "viewDetails": "Ver Detalhes →",
-    "projectNumber": "Projeto #{{number}}"
-  },
-  "about": {
-    "title": "Sobre o Anti-Byte",
-    "description": "Somos um estúdio de desenvolvimento focado em criar produtos digitais com rigor científico e metodologia Lean Startup.",
-    "tabs": {
-      "mission": "Missão",
-      "teams": "Equipe",
-      "history": "História",
-      "values": "Valores",
-      "contact": "Contato"
-    }
-  },
-  "aboutMission": {
-    "label": "// NOSSA MISSÃO",
-    "title": "Transformar Ideias em Produtos Que Escalam",
-    "description": "Não somos apenas uma agência de desenvolvimento ou uma startup tradicional. Somos um Laboratório de Inovação Aplicada, onde aplicamos rigor científico ao processo criativo de construir produtos digitais.",
-    "beliefs": [
-      {
-        "title": "O mercado se recompensa com execução consistente, não com ideias brilhantes",
-        "description": "Acreditamos que ideias por si só não geram valor - é a execução consistente que transforma conceitos em resultados tangíveis."
-      },
-      {
-        "title": "A validação prematura previne desperdício e acelera aprendizado",
-        "description": "Testamos rapidamente nossas hipóteses com usuários reais, evitando meses de desenvolvimento em direção ao problema errado."
-      },
-      {
-        "title": "Qualidade técnica não é luxo - é o que permite escalabilidade sustentável",
-        "description": "Arquitetura sólida e código limpo não são extravagâncias, são requisitos fundamentais para crescer sem quebrar."
-      },
-      {
-        "title": "Design humano e performance técnica são forças complementares",
-        "description": "Experiências centradas no usuário e excelência técnica se reforçam mutuamente para criar produtos excepcionais."
-      }
-    ]
-  },
-  "aboutTeams": {
-    "label": "// EQUIPE",
-    "title": "Conheça Nossa Equipe",
-    "expertise": ["Arquitetura de Software", "Design Patterns", "Performance Engineering", "Product Strategy", "User Research", "Go-to-Market", "Backend Systems", "Microservices", "Cloud Architecture", "Design Systems", "Interaction Design", "Accessibility"]
-  },
-  "aboutHistory": {
-    "label": "// HISTÓRIA",
-    "title": "Nossa Jornada"
-  },
-  "aboutValues": {
+  "companyValues": {
     "label": "// VALORES",
     "title": "Nossos Valores",
     "values": [
       {
-        "title": "Validação sobre Opinião",
-        "description": "Nunca construímos algo que achamos que as pessoas querem. Testamos com usuários reais, validamos prematuramente e iteramos rápido. Nossa confiança vem de dados, não de opiniões."
+        "title": "Valida\u00e7\u00e3o sobre Opini\u00e3o",
+        "description": "Nunca constru\u00edmos algo que achamos que as pessoas querem. Testamos com usu\u00e1rios reais, validamos prematuramente e iteramos r\u00e1pido. Nossa confian\u00e7a vem de dados, n\u00e3o de opini\u00f5es."
       },
       {
         "title": "Falhar Elegante",
-        "description": "Errar é parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em direção ao problema errado."
+        "description": "Errar \u00e9 parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em dire\u00e7\u00e3o ao problema errado."
       },
       {
-        "title": "Transparência Radical",
-        "description": "Compartilhamos o que construímos, por que decidimos e quais lições aprendemos. Nosso portfolio público inclui projetos arquivados com explicações honestas do porquê não funcionaram."
+        "title": "Transpar\u00eancia Radical",
+        "description": "Compartilhamos o que constru\u00edmos, por que decidimos e quais li\u00e7\u00f5es aprendemos. Nosso portf\u00f3lio p\u00fablico inclui projetos arquivados com explica\u00e7\u00f5es honestas do porqu\u00ea n\u00e3o funcionaram."
       },
       {
         "title": "Deep Work",
-        "description": "Eliminamos distrações para manter qualidade técnica alta. Nossa oficina é nosso templo. Investimos pesado em ferramentas que nos permitem construir rápido sem comprometer a excelência."
+        "description": "Eliminamos distra\u00e7\u00f5es para manter qualidade t\u00e9cnica alta. Nossa oficina \u00e9 nosso templo. Investimos pesado em ferramentas que nos permitem construir r\u00e1pido sem comprometer a excel\u00eancia."
       }
     ]
   },
@@ -176,60 +133,178 @@
     "label": "// CONTATO",
     "title": "Vamos Conversar?",
     "email": "hello@anti-byte.com",
-    "location": "São Paulo, Brasil (Remote-first)",
+    "location": "S\u00e3o Paulo, Brasil (Remote-first)",
     "timezone": "UTC-3 / UTC+1 (Lisboa/London)",
-    "readyToStart": "Pronto para começar?",
-    "buildTogether": "Vamos construir algo incrível juntos.",
-    "contactUs": "Entre em Contato →"
+    "readyToStart": "Pronto para come\u00e7ar?",
+    "buildTogether": "Vamos construir algo incr\u00edvel juntos.",
+    "contactUs": "Entre em Contato \u2192"
+  },
+  "aboutTeams": {
+    "label": "// EQUIPE",
+    "title": "Conhe\u00e7a Nossa Equipe",
+    "members": [
+      "Everton Antunes de Oliveira - Founder & Lead Architect: Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance t\u00e9cnica com design humano. Especialista em transformar complexidade em clareza.",
+      "Ana Silva - Head of Product: Product Manager apaixonada por Lean Startup e valida\u00e7\u00e3o cont\u00ednua. Anteriormente liderou a escala de produtos para startups Series A em fintech.",
+      "Carlos Mendes - Technical Lead: Engenheiro de backend especializado em sistemas distribu\u00eddos e escalabilidade. Transforma requisitos vagos em arquiteturas robustas.",
+      "Juliana Costa - UX Design Lead: Designer com vis\u00e3o obsessiva para micro-intera\u00e7\u00f5es e acessibilidade. Cria experi\u00eancias que s\u00e3o ao mesmo tempo funcionais e emocionalmente ressonantes."
+    ],
+    "expertise": [
+      "Arquitetura de Software",
+      "Design Patterns",
+      "Performance Engineering",
+      "Product Strategy",
+      "User Research",
+      "Go-to-Market",
+      "Backend Systems",
+      "Microservices",
+      "Cloud Architecture",
+      "Design Systems",
+      "Interaction Design",
+      "Accessibility"
+    ]
   },
   "footer": {
-    "copyright": "© 2026 Anti-Byte Lean Startup Studio. Todos os direitos reservados.",
+    "copyright": "\u00a9 2026 Anti-Byte Lean Startup Studio. Todos os direitos reservados.",
     "social": "Siga-nos nas redes sociais",
     "newsletter": {
       "label": "Newsletter",
       "title": "Receba novidades em seu e-mail",
       "placeholder": "Seu melhor e-mail",
-      "button": "Inscrever-se →",
+      "button": "Inscrever-se \u2192",
       "success": "Obrigado por se inscrever!",
       "error": "Ops! Houve um erro ao se inscrever."
     },
-    "brandDescription": "Construímos e testamos múltiplos produtos digitais para descobrir o que funciona no mercado.",
+    "brandDescription": "Constru\u00edmos e testamos m\u00faltiplos produtos digitais para descobrir o que funciona no mercado.",
     "name": "Anti-Byte",
     "company": "Anti-Byte Lean Startup Studio",
     "experimenting": "Experimentando com produtos digitais.",
     "nav": {
       "projects": "Projetos",
       "company": "Empresa",
-      "legal": "Legal"
+      "legal": "Jur\u00eddico"
     }
   },
   "stats": {
     "heroStats": {
       "projects": "Projetos Ativos",
       "mvps": "MVPs Testados",
-      "data": "Decisões Baseadas em Dados",
-      "cycle": "Ciclo de Validação"
+      "data": "Decis\u00f5es Baseadas em Dados",
+      "cycle": "Ciclo de Valida\u00e7\u00e3o",
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 dias"
     },
     "metrics": {
       "projectsActive": "Projetos Ativos",
       "mvpsTested": "MVPs Testados",
       "customerLed": "Customer-led",
-      "validationCycle": "Ciclo de Validação"
+      "validationCycle": "Ciclo de Valida\u00e7\u00e3o"
     }
   },
   "heroStatusBadges": {
     "active": "ATIVO",
-    "validation": "EM VALIDAÇÃO",
+    "validation": "EM VALIDA\u00c7\u00c3O",
     "archived": "ARQUIVADO"
+  },
+  "hero": {
+    "label": "// HERO",
+    "title": "Construindo & Validando M\u00faltiplos Produtos",
+    "description": "Lean Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
+    "descriptionFull": "N\u00e3o constru\u00edmos produtos \u00fanicos. Experimentamos com m\u00faltiplos produtos digitais simultaneamente para encontrar o ajuste de mercado atrav\u00e9s de velocidade, valida\u00e7\u00e3o e decis\u00f5es baseadas em dados."
+  },
+  "nav": {
+    "projects": "Projetos",
+    "about": "Sobre",
+    "currentProjects": "Projetos Atuais",
+    "archivedCaseStudies": "Estudos de Caso Arquivados",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contato",
+    "ourApproach": "Nossa Abordagem"
+  },
+  "projects": {
+    "badge": {
+      "active": "Ativo",
+      "validation": "Valida\u00e7\u00e3o",
+      "growth": "Crescimento",
+      "archived": "Arquivado"
+    },
+    "0": {
+      "description": "Async workflow orchestrator para equipes distribu\u00eddas."
+    },
+    "1": {
+      "description": "Dashboard de analytics em tempo real com detec\u00e7\u00e3o de anomalias."
+    },
+    "2": {
+      "description": "Ferramenta de colabora\u00e7\u00e3o focada em assincronia."
+    },
+    "3": {
+      "description": "Projeto de teste para desenvolvimento."
+    }
+  },
+  "header": {
+    "toggleMenu": "Abrir menu",
+    "breadcrumb": "Navega\u00e7\u00e3o estrutural",
+    "home": "In\u00edcio"
+  },
+  "languageSelector": {
+    "label": "Alternar idioma",
+    "english": "Ingl\u00eas",
+    "portuguese": "Portugu\u00eas"
+  },
+  "newsletter": {
+    "label": "Newsletter",
+    "title": "Receba novidades em seu e-mail",
+    "placeholder": "Seu melhor e-mail",
+    "button": "Inscrever-se \u2192",
+    "metrics": {
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 dias"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Saiba mais sobre o Anti-Byte, nossa miss\u00e3o, valores e a equipe por tr\u00e1s da plataforma."
+    },
+    "blog": {
+      "description": "Fique por dentro das \u00faltimas novidades, insights e desenvolvimentos do Anti-Byte."
+    },
+    "contact": {
+      "description": "Entre em contato com nossa equipe. Estamos aqui para tirar suas d\u00favidas e discutir como podemos ajud\u00e1-lo."
+    },
+    "cookies": {
+      "description": "Entenda como usamos cookies para melhorar sua experi\u00eancia. Valorizamos sua privacidade e buscamos total transpar\u00eancia em nossas pr\u00e1ticas de dados."
+    },
+    "privacy": {
+      "description": "Estamos comprometidos em proteger sua privacidade. Esta pol\u00edtica explica como coletamos, usamos e protegemos suas informa\u00e7\u00f5es pessoais quando voc\u00ea utiliza nossos servi\u00e7os."
+    },
+    "terms": {
+      "description": "Nossos termos de servi\u00e7o descrevem os acordos legais e condi\u00e7\u00f5es que voc\u00ea aceita ao usar nossa plataforma."
+    },
+    "resources": {
+      "description": "Recursos abrangentes, documenta\u00e7\u00e3o e guias para ajudar voc\u00ea a aproveitar ao m\u00e1ximo o Anti-Byte."
+    },
+    "ourApproach": {
+      "description": "Descubra nossa metodologia e os princ\u00edpios que nos guiam na cria\u00e7\u00e3o de experi\u00eancias digitais excepcionais."
+    },
+    "currentProjects": {
+      "description": "Explore nossos projetos em andamento nas \u00e1reas de desenvolvimento ativo, valida\u00e7\u00e3o e crescimento."
+    },
+    "archivedCaseStudies": {
+      "description": "Explore nossos projetos passados e estudos de caso que demonstram nossa expertise."
+    }
   },
   "contactInfo": {
     "email": "hello@anti-byte.com",
-    "location": "São Paulo, Brasil (Remote-first)",
+    "location": "S\u00e3o Paulo, Brasil (Remote-first)",
     "timezone": "UTC-3 / UTC+1 (Lisboa/London)"
   },
   "legalPage": {
-    "termsOfService": "Termos de Serviço",
-    "privacyPolicy": "Política de Privacidade",
-    "cookiePolicy": "Política de Cookies"
+    "termsOfService": "Termos de Servi\u00e7o",
+    "privacyPolicy": "Pol\u00edtica de Privacidade",
+    "cookiePolicy": "Pol\u00edtica de Cookies"
   }
 }

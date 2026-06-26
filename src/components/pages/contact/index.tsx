@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.contact')}
-        pageDescription="Get in touch with our team. We're here to help answer your questions and discuss how we can assist you."
+        pageDescription={t('pages.contact.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

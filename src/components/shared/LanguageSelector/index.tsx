@@ -6,7 +6,7 @@ interface LanguageSelectorProps {
 }
 
 export const LanguageSelector: React.FC<LanguageSelectorProps> = ({ className = '' }) => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const currentLang = i18n.language;
 
@@ -22,9 +22,9 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({ className = 
       <button
         onClick={() => changeLanguage(currentLang === 'pt-BR' ? 'en-US' : 'pt-BR')}
         className="px-3 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded transition-colors"
-        aria-label="Alternar idioma"
+        aria-label={t('languageSelector.label')}
       >
-        {currentLang === 'pt-BR' ? 'English' : 'Português'}
+        {currentLang === 'pt-BR' ? t('languageSelector.english') : t('languageSelector.portuguese')}
       </button>
       <span className="capitalize ml-1 text-xs text-gray-500 dark:text-gray-400">
         {currentLang === 'pt-BR' ? 'PT' : 'EN'}

@@ -1,156 +1,13 @@
 {
-  "common": {
-    "learnMore": "Learn more",
-    "viewProject": "View project",
-    "readMore": "Read more",
-    "contactUs": "Contact us",
-    "backToHome": "Back to home",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy"
-  },
-  "projects": {
-    "badge": {
-      "active": "Active",
-      "validation": "Validation",
-      "growth": "Growth",
-      "archived": "Archived"
-    }
-  },
-  "nav": {
-    "projects": "Projects",
-    "about": "About",
-    "projectsRedirect": "Projects",
-    "currentProjects": "Current Projects",
-    "archivedCaseStudies": "Archived Case Studies",
-    "blog": "Blog",
-    "resources": "Resources",
-    "contact": "Contact",
-    "ourApproach": "Our Approach"
-  },
-  "hero": {
-    "label": "Hero",
-    "title": "Building & Validating Multiple Products",
-    "description": "Lean Startup Studio — We rapidly validate ideas, scale what works, and iterate continuously.",
-    "descriptionFull": "We don't build single products. We experiment with multiple digital products simultaneously to find market fit through speed, validation, and data-driven decisions.",
-    "stats": {
-      "projects": "Active Projects",
-      "mvps": "MVPs Tested",
-      "data": "Data-Driven Decisions",
-      "cycle": "Validation Cycle"
-    }
-  },
-  "method": {
-    "label": "Method",
-    "title": "Lean Startup Studio Model",
-    "description": "We use the Lean Startup methodology to build, learn, and validate digital products in an agile and efficient way.",
-    "steps": [
-      {
-        "number": "01",
-        "title": "Validation",
-        "description": "We validate ideas with real customers before writing any line of code."
-      },
-      {
-        "number": "02",
-        "title": "Prototyping",
-        "description": "We create rapid prototypes to test features with immediate feedback."
-      },
-      {
-        "number": "03",
-        "title": "Iteration",
-        "description": "We continuously improve based on real data and market feedback."
-      },
-      {
-        "number": "04",
-        "title": "Scaling",
-        "description": "We scale what works responsibly only after validating."
-      }
-    ]
-  },
-  "philosophy": {
-    "label": "Philosophy",
-    "title": "How We Think",
-    "description": "We are not a product studio that bets big and prays for the best. We run experiments, learn quickly from data, and double down on what works.",
-    "descriptionFull": "Every project is an experiment with a clear hypothesis, measurable outcomes, and predetermined success criteria. We kill ideas before they drain resources, and scale the ones that prove their worth in the market.",
-    "items": [
-      {
-        "title": "Rapid Validation",
-        "description": "We test hypotheses in weeks, not months. Landing pages, surveys, and prototypes before writing production code."
-      },
-      {
-        "title": "Low-Cost Experimentation",
-        "description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations."
-      },
-      {
-        "title": "Continuous Iteration",
-        "description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard."
-      },
-      {
-        "title": "Data-Driven Decisions",
-        "description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior."
-      }
-    ]
-  },
-  "newsletter": {
-    "label": "Newsletter",
-    "title": "Get updates in your email",
-    "placeholder": "Your best email",
-    "button": "Subscribe →",
-    "success": "Thanks for subscribing!",
-    "error": "Oops! There was an error subscribing."
-  },
-  "projectsSection": {
-    "label": "Projects",
-    "title": "What We're Building",
-    "description": "Explore our current projects and see how we help companies transform their ideas into real products.",
-    "noProjects": "No projects available at the moment.",
-    "viewDetails": "View Details →",
-    "projectNumber": "Project #{{number}}"
-  },
-  "about": {
-    "title": "About Anti-Byte",
-    "description": "We are a development studio focused on creating digital products with scientific rigor and Lean Startup methodology.",
-    "tabs": {
-      "mission": "Mission",
-      "teams": "Team",
-      "history": "History",
-      "values": "Values",
-      "contact": "Contact"
-    }
-  },
-  "aboutMission": {
-    "label": "// OUR MISSION",
-    "title": "Transform Ideas Into Scalable Products",
-    "description": "We're not just a development agency or a traditional startup. We're an Applied Innovation Laboratory where we apply scientific rigor to the creative process of building digital products.",
-    "beliefs": [
-      {
-        "title": "The market rewards consistent execution, not brilliant ideas",
-        "description": "We believe ideas alone don't create value - it's consistent execution that transforms concepts into tangible results."
-      },
-      {
-        "title": "Early validation prevents waste and accelerates learning",
-        "description": "We rapidly test our hypotheses with real users, avoiding months of development toward the wrong problem."
-      },
-      {
-        "title": "Technical quality is not a luxury - it enables sustainable scalability",
-        "description": "Solid architecture and clean code are not extravagances, they're fundamental requirements for growing without breaking."
-      },
-      {
-        "title": "Human-centered design and technical excellence are complementary forces",
-        "description": "User-centered experiences and technical excellence reinforce each other to create exceptional products."
-      }
-    ]
-  },
-  "aboutTeams": {
-    "label": "// TEAM",
-    "title": "Meet Our Team",
-    "expertise": ["Software Architecture", "Design Patterns", "Performance Engineering", "Product Strategy", "User Research", "Go-to-Market", "Backend Systems", "Microservices", "Cloud Architecture", "Design Systems", "Interaction Design", "Accessibility"]
-  },
-  "aboutHistory": {
-    "label": "// HISTORY",
-    "title": "Our Journey"
-  },
-  "aboutValues": {
+  "philosophyPrinciples.0.title": "Rapid Validation",
+  "philosophyPrinciples.1.title": "Low-Cost Experimentation",
+  "philosophyPrinciples.2.title": "Continuous Iteration",
+  "philosophyPrinciples.3.title": "Data-Driven Decisions",
+  "philosophyPrinciples.0.description": "We test hypotheses in weeks, not months. Landing pages, surveys, and prototypes before writing production code.",
+  "philosophyPrinciples.1.description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations.",
+  "philosophyPrinciples.2.description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard.",
+  "philosophyPrinciples.3.description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior.",
+"companyValues": {
     "label": "// VALUES",
     "title": "Our Values",
     "values": [
@@ -182,6 +39,30 @@
     "buildTogether": "Let's build something amazing together.",
     "contactUs": "Get in Touch →"
   },
+  "aboutTeams": {
+    "label": "// TEAM",
+    "title": "Meet Our Team",
+    "members": [
+      "Everton Antunes de Oliveira - Founder & Lead Architect: Software architect with over 15 years building systems that balance technical performance with human design. Expert in transforming complexity into clarity.",
+      "Ana Silva - Head of Product: Product Manager passionate about Lean Startup and continuous validation. Previously led scaling products for Series A fintech startups.",
+      "Carlos Mendes - Technical Lead: Backend engineer specialized in distributed systems and scalability. Turns vague requirements into robust architectures.",
+      "Juliana Costa - UX Design Lead: Designer with an obsessive vision for micro-interactions and accessibility. Creates experiences that are both functional and emotionally resonant."
+    ],
+    "expertise": [
+      "Software Architecture",
+      "Design Patterns",
+      "Performance Engineering",
+      "Product Strategy",
+      "User Research",
+      "Go-to-Market",
+      "Backend Systems",
+      "Microservices",
+      "Cloud Architecture",
+      "Design Systems",
+      "Interaction Design",
+      "Accessibility"
+    ]
+  },
   "footer": {
     "copyright": "© 2026 Anti-Byte Lean Startup Studio. All rights reserved.",
     "social": "Follow us on social media",
@@ -208,7 +89,11 @@
       "projects": "Active Projects",
       "mvps": "MVPs Tested",
       "data": "Data-Driven Decisions",
-      "cycle": "Validation Cycle"
+      "cycle": "Validation Cycle",
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 days"
     },
     "metrics": {
       "projectsActive": "Projects Active",
@@ -231,5 +116,197 @@
     "termsOfService": "Terms of Service",
     "privacyPolicy": "Privacy Policy",
     "cookiePolicy": "Cookie Policy"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewProject": "View project",
+    "readMore": "Read more",
+    "contactUs": "Contact us",
+    "backToHome": "Back to home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "projects": {
+    "badge": {
+      "active": "Active",
+      "validation": "In Validation",
+      "growth": "Growth",
+      "archived": "Archived"
+    },
+    "0": {
+      "description": "Async workflow orchestrator for distributed teams."
+    },
+    "1": {
+      "description": "Real-time analytics dashboard with anomaly detection."
+    },
+    "2": {
+      "description": "Async-first collaboration tool."
+    },
+    "3": {
+      "description": "Test project for development."
+    }
+  },
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "currentProjects": "Current Projects",
+    "archivedCaseStudies": "Archived Case Studies",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact",
+    "ourApproach": "Our Approach"
+  },
+  "hero": {
+    "label": "// HERO",
+    "title": "Building & Validating Multiple Products",
+    "description": "Lean Startup Studio — We rapidly validate ideas, scale what works, and iterate continuously.",
+    "descriptionFull": "We don't build single products. We experiment with multiple digital products simultaneously to find market fit through speed, validation, and data-driven decisions."
+  },
+  "method": {
+    "label": "// METHOD",
+    "title": "Lean Startup Studio Model",
+    "steps": [
+      {
+        "label": "Step 01",
+        "title": "Validation",
+        "description": "We validate ideas with real customers before writing any line of code."
+      },
+      {
+        "label": "Step 02",
+        "title": "Prototyping",
+        "description": "We create rapid prototypes to test features with immediate feedback."
+      },
+      {
+        "label": "Step 03",
+        "title": "Iteration",
+        "description": "We continuously improve based on real data and market feedback."
+      },
+      {
+        "label": "Step 04",
+        "title": "Scaling",
+        "description": "We scale what works responsibly only after validating."
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "// PHILOSOPHY",
+    "title": "How We Think",
+    "description": "We are not a product studio that bets big and prays for the best. We run experiments, learn quickly from data, and double down on what works.",
+    "descriptionFull": "Every project is an experiment with a clear hypothesis, measurable outcomes, and predetermined success criteria. We kill ideas before they drain resources, and scale the ones that prove their worth in the market."
+  },
+  "aboutHistory": {
+    "label": "// HISTORY",
+    "title": "Our Journey",
+    "items": [
+      {
+        "title": "The Seed - Early Experiments",
+        "description": "We started as three independent developers, validating small ideas with simple landing pages. We learned that the market doesn't want 'pretty' products - it wants solutions that solve real problems."
+      },
+      {
+        "title": "Validation in Action",
+        "description": "We tested over 20 MVPs. We failed elegantly, learned from data, and doubled down on what worked. Our team grew to 8 people focused on fast execution."
+      },
+      {
+        "title": "Lean Startup Studio",
+        "description": "Today we operate as a hybrid studio: we validate external ideas while scaling our own products. Every project is an experiment with a clear hypothesis and measurable success criteria."
+      }
+    ]
+  },
+  "companyMission": {
+    "label": "// OUR MISSION",
+    "title": "Transform Ideas Into Scalable Products",
+    "description": "We're not just a development agency or a traditional startup. We're an Applied Innovation Laboratory where we apply scientific rigor to the creative process of building digital products.",
+    "coreBeliefs": [
+      {
+        "title": "The market rewards consistent execution, not brilliant ideas",
+        "description": "We believe ideas alone don't create value - it's consistent execution that transforms concepts into tangible results."
+      },
+      {
+        "title": "Early validation prevents waste and accelerates learning",
+        "description": "We rapidly test our hypotheses with real users, avoiding months of development toward the wrong problem."
+      },
+      {
+        "title": "Technical quality is not a luxury - it enables sustainable scalability",
+        "description": "Solid architecture and clean code are not extravagances, they're fundamental requirements for growing without breaking."
+      },
+      {
+        "title": "Human-centered design and technical excellence are complementary forces",
+        "description": "User-centered experiences and technical excellence reinforce each other to create exceptional products."
+      }
+    ]
+  },
+  "projectsSection": {
+    "label": "Projects",
+    "title": "What We're Building",
+    "viewDetails": "View Details →",
+    "projectNumber": "Project #{{number}}"
+  },
+  "about": {
+    "title": "About Anti-Byte",
+    "tabs": {
+      "mission": "Mission",
+      "teams": "Team",
+      "history": "History",
+      "values": "Values",
+      "contact": "Contact"
+    }
+  },
+  "company": {
+    "name": "Anti-Byte"
+  },
+  "header": {
+    "toggleMenu": "Toggle menu",
+    "breadcrumb": "Breadcrumb",
+    "home": "Home"
+  },
+  "languageSelector": {
+    "label": "Switch language",
+    "english": "English",
+    "portuguese": "Portuguese"
+  },
+  "newsletter": {
+    "label": "Newsletter",
+    "title": "Get updates in your email",
+    "placeholder": "Your best email",
+    "button": "Subscribe \u2192",
+    "metrics": {
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 days"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Learn more about Anti-Byte, our mission, values, and the team behind the platform."
+    },
+    "blog": {
+      "description": "Stay updated with the latest news, insights, and developments from Anti-Byte."
+    },
+    "contact": {
+      "description": "Get in touch with our team. We're here to help answer your questions and discuss how we can assist you."
+    },
+    "cookies": {
+      "description": "Understanding how we use cookies to improve your experience. We value your privacy and aim for full transparency in our data practices."
+    },
+    "privacy": {
+      "description": "We are committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information when you use our services."
+    },
+    "terms": {
+      "description": "Our terms of service outline the legal agreements and conditions you accept when using our platform."
+    },
+    "resources": {
+      "description": "Comprehensive resources, documentation, and guides to help you get the most out of Anti-Byte."
+    },
+    "ourApproach": {
+      "description": "Discover our methodology and the principles that guide how we build exceptional digital experiences."
+    },
+    "currentProjects": {
+      "description": "Explore our ongoing projects across active development, validation, and growth initiatives."
+    },
+    "archivedCaseStudies": {
+      "description": "Explore our past successful projects and case studies that showcase our expertise."
+    }
   }
 }

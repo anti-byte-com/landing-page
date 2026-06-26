@@ -31,7 +31,7 @@ const ArchivedCaseStudies: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.archivedCaseStudies')}
-        pageDescription="Explore our past successful projects and case studies that showcase our expertise."
+        pageDescription={t('pages.archivedCaseStudies.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

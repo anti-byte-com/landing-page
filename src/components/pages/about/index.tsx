@@ -32,7 +32,7 @@ const About: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.about')}
-        pageDescription="Learn more about Anti-Byte, our mission, values, and the team behind the platform."
+        pageDescription={t('pages.about.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

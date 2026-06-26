@@ -39,10 +39,10 @@ const NewsletterForm: React.FC = () => {
 
       {/* Metrics - Grid 4 columns  lg:grid-cols-4 gap-6 p-8 rounded-xl bg-surface-container-lowest */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <MetricItem label={t('stats.heroStats.projects')} value="8" />
-        <MetricItem label={t('stats.heroStats.mvps')} value="50+" />
-        <MetricItem label={t('stats.heroStats.data')} value="92%" />
-        <MetricItem label={t('stats.heroStats.cycle')} value="7 dias" />
+        <MetricItem label={t('stats.heroStats.projects')} value={t('newsletter.metrics.projectsValue')} />
+        <MetricItem label={t('stats.heroStats.mvps')} value={t('newsletter.metrics.mvpsValue')} />
+        <MetricItem label={t('stats.heroStats.data')} value={t('newsletter.metrics.dataValue')} />
+        <MetricItem label={t('stats.heroStats.cycle')} value={t('newsletter.metrics.cycleValue')} />
       </div>
     </div>
   );

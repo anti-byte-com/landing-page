@@ -31,7 +31,7 @@ const Blog: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.blog')}
-        pageDescription="Stay updated with the latest news, insights, and developments from Anti-Byte."
+        pageDescription={t('pages.blog.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

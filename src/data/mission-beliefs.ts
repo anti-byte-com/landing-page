@@ -5,23 +5,23 @@
 export const missionBeliefs = [
   {
     id: 'belief-001',
-    titleKey: 'aboutMission.beliefs.0.title',
-    descriptionKey: 'aboutMission.beliefs.0.description',
+    titleKey: 'companyMission.coreBeliefs.0.title',
+    descriptionKey: 'companyMission.coreBeliefs.0.description',
   },
   {
     id: 'belief-002',
-    titleKey: 'aboutMission.beliefs.1.title',
-    descriptionKey: 'aboutMission.beliefs.1.description',
+    titleKey: 'companyMission.coreBeliefs.1.title',
+    descriptionKey: 'companyMission.coreBeliefs.1.description',
   },
   {
     id: 'belief-003',
-    titleKey: 'aboutMission.beliefs.2.title',
-    descriptionKey: 'aboutMission.beliefs.2.description',
+    titleKey: 'companyMission.coreBeliefs.2.title',
+    descriptionKey: 'companyMission.coreBeliefs.2.description',
   },
   {
     id: 'belief-004',
-    titleKey: 'aboutMission.beliefs.3.title',
-    descriptionKey: 'aboutMission.beliefs.3.description',
+    titleKey: 'companyMission.coreBeliefs.3.title',
+    descriptionKey: 'companyMission.coreBeliefs.3.description',
   },
 ];
 

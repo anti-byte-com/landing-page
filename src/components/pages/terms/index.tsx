@@ -38,7 +38,7 @@ const TermsOfService: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('legalPage.termsOfService')}
-        pageDescription="Our terms of service outline the legal agreements and conditions you accept when using our platform."
+        pageDescription={t('pages.terms.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

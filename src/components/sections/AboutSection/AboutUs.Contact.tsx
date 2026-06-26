@@ -39,7 +39,7 @@ const AboutUsContact: React.FC = () => {
               {t(contactInfo.email)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
-              {contactInfo.email}
+              {t(contactInfo.email)}
             </p>
           </div>
         </Card>
@@ -66,7 +66,7 @@ const AboutUsContact: React.FC = () => {
               {t(contactInfo.location)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
-              {contactInfo.location}
+              {t(contactInfo.location)}
             </p>
           </div>
         </Card>
@@ -93,7 +93,7 @@ const AboutUsContact: React.FC = () => {
               {t(contactInfo.timezone)}
             </h3>
             <p className="text-sm text-on-surface-variant/80">
-              {contactInfo.timezone}
+              {t(contactInfo.timezone)}
             </p>
           </div>
         </Card>

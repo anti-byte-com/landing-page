@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 export interface HeroStat {
-  value: string;
+  valueKey: string;
   labelKey: string;
   descriptionKey: string;
   accentColor: string;
@@ -9,27 +9,27 @@ export interface HeroStat {
 
 export const heroStats: HeroStat[] = [
   {
-    value: '8',
-    labelKey: 'hero.stats.projects',
-    descriptionKey: 'hero.stats.projects',
+    valueKey: 'stats.heroStats.projectsValue',
+    labelKey: 'stats.heroStats.projects',
+    descriptionKey: 'stats.heroStats.projects',
     accentColor: '#6366f1',
   },
   {
-    value: '50+',
-    labelKey: 'hero.stats.mvps',
-    descriptionKey: 'hero.stats.mvps',
+    valueKey: 'stats.heroStats.mvpsValue',
+    labelKey: 'stats.heroStats.mvps',
+    descriptionKey: 'stats.heroStats.mvps',
     accentColor: '#8b5cf6',
   },
   {
-    value: '92%',
-    labelKey: 'hero.stats.data',
-    descriptionKey: 'hero.stats.data',
+    valueKey: 'stats.heroStats.dataValue',
+    labelKey: 'stats.heroStats.data',
+    descriptionKey: 'stats.heroStats.data',
     accentColor: '#ec4899',
   },
   {
-    value: '7 dias',
-    labelKey: 'hero.stats.cycle',
-    descriptionKey: 'hero.stats.cycle',
+    valueKey: 'stats.heroStats.cycleValue',
+    labelKey: 'stats.heroStats.cycle',
+    descriptionKey: 'stats.heroStats.cycle',
     accentColor: '#6366f1',
   },
 ];
@@ -39,6 +39,7 @@ export const useHeroStats = () => {
 
   return heroStats.map((stat) => ({
     ...stat,
+    value: t(stat.valueKey),
     label: t(stat.labelKey),
     description: t(stat.descriptionKey),
   }));

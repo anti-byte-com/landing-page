@@ -33,7 +33,7 @@ const CookiePolicy: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('legalPage.cookiePolicy')}
-        pageDescription="Understanding how we use cookies to improve your experience. We value your privacy and aim for full transparency in our data practices."
+        pageDescription={t('pages.cookies.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

@@ -38,7 +38,7 @@ const PrivacyPolicy: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('legalPage.privacyPolicy')}
-        pageDescription="We are committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information when you use our services."
+        pageDescription={t('pages.privacy.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">

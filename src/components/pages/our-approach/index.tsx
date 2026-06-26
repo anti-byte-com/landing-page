@@ -31,7 +31,7 @@ const OurApproach: React.FC = () => {
         ]}
         breadcrumbs={breadcrumbs}
         pageTitle={t('nav.ourApproach')}
-        pageDescription="Discover our methodology and the principles that guide how we build exceptional digital experiences."
+        pageDescription={t('pages.ourApproach.description')}
       />
 
       <div className="flex items-center justify-center min-h-[60vh]">
