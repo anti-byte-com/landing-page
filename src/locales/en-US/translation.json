@@ -1,12 +1,12 @@
 {
-  "philosophyPrinciples.0.title": "Rapid Validation",
-  "philosophyPrinciples.1.title": "Low-Cost Experimentation",
-  "philosophyPrinciples.2.title": "Continuous Iteration",
-  "philosophyPrinciples.3.title": "Data-Driven Decisions",
-  "philosophyPrinciples.0.description": "We test hypotheses in weeks, not months. Landing pages, surveys, and prototypes before writing production code.",
-  "philosophyPrinciples.1.description": "We preserve cash by failing fast and cheap. No vanity metrics, no premature scaling, just lean operations.",
-  "philosophyPrinciples.2.description": "Products that work are improved based on real user feedback. What isn't launched stays in the graveyard.",
-  "philosophyPrinciples.3.description": "We trust metrics, not intuition. Every pivot or persevere decision comes from real user behavior.",
+  "philosophyPrinciples.0.title": "Continuous Discovery",
+  "philosophyPrinciples.1.title": "Guided Experimentation",
+  "philosophyPrinciples.2.title": "Evidence-Based Learning",
+  "philosophyPrinciples.3.title": "Focus on What Generates Value",
+  "philosophyPrinciples.0.description": "We investigate real needs, user behaviors, and market opportunities before defining solutions.",
+  "philosophyPrinciples.1.description": "We use prototypes and MVPs to quickly validate hypotheses and learn from real product use.",
+  "philosophyPrinciples.2.description": "We track adoption, engagement, and value generation to understand the potential of each initiative.",
+  "philosophyPrinciples.3.description": "We concentrate time, resources, and investment on products that demonstrate proven potential for growth and impact.",
   "companyValues": {
     "label": "// VALUES",
     "title": "Our Values",
@@ -190,31 +190,31 @@
     "steps": [
       {
         "label": "Step 01",
-        "title": "Validation",
-        "description": "We validate ideas with real customers before writing any line of code."
+        "title": "Identify Opportunities",
+        "description": "We seek relevant problems and opportunities with potential to become digital products."
       },
       {
         "label": "Step 02",
-        "title": "Prototyping",
-        "description": "We create rapid prototypes to test features with immediate feedback."
+        "title": "Experiment",
+        "description": "We develop prototypes and MVPs to quickly validate product and business hypotheses."
       },
       {
         "label": "Step 03",
-        "title": "Iteration",
-        "description": "We continuously improve based on real data and market feedback."
+        "title": "Learn",
+        "description": "We analyze real usage, adoption, and value generation data to guide decisions."
       },
       {
         "label": "Step 04",
-        "title": "Scaling",
-        "description": "We scale what works responsibly only after validating."
+        "title": "Scale",
+        "description": "We direct efforts toward initiatives that demonstrate sustainable growth potential."
       }
     ]
   },
   "philosophy": {
     "label": "// PHILOSOPHY",
     "title": "How We Think",
-    "description": "We are not a product studio that bets big and prays for the best. We run experiments, learn quickly from data, and double down on what works.",
-    "descriptionFull": "Every project is an experiment with a clear hypothesis, measurable outcomes, and predetermined success criteria. We kill ideas before they drain resources, and scale the ones that prove their worth in the market."
+    "description": "We believe innovation is not born from isolated bets, but from a continuous process of discovery, experimentation, and learning.",
+    "descriptionFull": "We explore multiple opportunities in parallel, investigating real problems, validating hypotheses, and measuring results before scaling investments. Our goal is to identify initiatives capable of generating concrete value for users and markets. Every project starts as an opportunity to be understood. Decisions are guided by evidence, accumulated learning, and observed results throughout the process."
   },
   "aboutHistory": {
     "label": "// HISTORY",
