@@ -316,7 +316,58 @@
       }
     },
     "privacy": {
-      "description": "We are committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information when you use our services."
+      "description": "This Privacy Policy explains how we collect, use, and safeguard personal and technical data. Our commitment is to treat your data with transparency and responsibility.",
+      "updatedNote": "Last updated: June 2026",
+      "intro": "This Privacy Policy describes how the Anti-Byte website collects, uses, and protects data provided by users and technical information generated during navigation. Our commitment is to treat your data with transparency, responsibility, and in compliance with applicable legislation.",
+      "sections": {
+        "dataCollection": {
+          "title": "Data Collection",
+          "body": "We collect only data provided voluntarily by users through contact forms or other channels available on this website:",
+          "voluntaryItems": [
+            "Name",
+            "Email address",
+            "Messaging app addresses (such as WhatsApp, Telegram or similar)"
+          ],
+          "techBody": "In addition, during website navigation, technical information may be automatically recorded by hosting and infrastructure systems, including:",
+          "techItems": [
+            "IP address",
+            "Date and time of access",
+            "Browser used",
+            "Operating system",
+            "Other technical information necessary for the operation and security of the service"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Data Processing",
+          "body": [
+            "The personal data collected has the sole purpose of enabling contact between our team and the user when necessary, whether to respond to requests, provide information about our services or continue communications initiated by the user themselves.",
+            "Technical navigation data may be used for security purposes, problem diagnosis, abuse prevention and maintenance of the website infrastructure."
+          ]
+        },
+        "sharing": {
+          "title": "Data Sharing",
+          "body": [
+            "We do not share personal data with third parties for commercial or marketing purposes.",
+            "Data may be processed by hosting, infrastructure and technology providers strictly necessary for the operation of this website, observing appropriate security measures and applicable legal obligations."
+          ]
+        },
+        "storage": {
+          "title": "Storage and Security",
+          "body": "We adopt reasonable security measures to protect the data under our responsibility against unauthorized access, disclosure, alteration or undue destruction."
+        },
+        "rights": {
+          "title": "Data Subject Rights",
+          "body": "Under applicable legislation, including the General Data Protection Law (LGPD), the user may request information about the personal data processed, as well as request its correction, update or deletion, when applicable."
+        },
+        "changes": {
+          "title": "Changes to this Policy",
+          "body": "This Privacy Policy may be updated periodically to reflect changes in our processes or legal requirements. The most recent version will always be available on this website."
+        },
+        "contact": {
+          "title": "Contact",
+          "body": "If you have any questions about this Privacy Policy or about the processing of personal data, please contact us through the communication channels available on this website."
+        }
+      }
     },
     "terms": {
       "description": "Our terms of service outline the legal agreements and conditions you accept when using our platform."

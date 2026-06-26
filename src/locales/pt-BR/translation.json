@@ -306,7 +306,58 @@
       }
     },
     "privacy": {
-      "description": "Estamos comprometidos em proteger sua privacidade. Esta pol\u00edtica explica como coletamos, usamos e protegemos suas informa\u00e7\u00f5es pessoais quando voc\u00ea utiliza nossos servi\u00e7os."
+      "description": "Esta Política de Privacidade explica como coletamos, usamos e protegemos dados pessoais e técnicos. Nosso compromisso é tratar seus dados com transparência e responsabilidade.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Esta Política de Privacidade descreve como o site da Anti-Byte coleta, utiliza e protege os dados fornecidos pelos usuários e as informações técnicas geradas durante a navegação. Nosso compromisso é tratar seus dados com transparência, responsabilidade e em conformidade com a legislação aplicável.",
+      "sections": {
+        "dataCollection": {
+          "title": "Coleta de Dados",
+          "body": "Coletamos apenas os dados fornecidos voluntariamente pelos usuários por meio de formulários de contato ou outros canais disponibilizados neste site:",
+          "voluntaryItems": [
+            "Nome",
+            "Endereço de e-mail",
+            "Endereços de aplicativos de mensagens (como WhatsApp, Telegram ou similares)"
+          ],
+          "techBody": "Além disso, durante a navegação no site, informações técnicas podem ser registradas automaticamente pelos sistemas de hospedagem e infraestrutura, incluindo:",
+          "techItems": [
+            "Endereço IP",
+            "Data e horário de acesso",
+            "Navegador utilizado",
+            "Sistema operacional",
+            "Outras informações técnicas necessárias para a operação e segurança do serviço"
+          ]
+        },
+        "purpose": {
+          "title": "Finalidade do Tratamento dos Dados",
+          "body": [
+            "Os dados pessoais coletados têm como única finalidade possibilitar o contato entre nossa equipe e o usuário quando necessário, seja para responder solicitações, prestar informações sobre nossos serviços ou dar continuidade a comunicações iniciadas pelo próprio usuário.",
+            "Os dados técnicos de navegação podem ser utilizados para fins de segurança, diagnóstico de problemas, prevenção de abusos e manutenção da infraestrutura do site."
+          ]
+        },
+        "sharing": {
+          "title": "Compartilhamento de Dados",
+          "body": [
+            "Não compartilhamos dados pessoais com terceiros para fins comerciais ou de marketing.",
+            "Os dados poderão ser processados por provedores de hospedagem, infraestrutura e serviços tecnológicos estritamente necessários para a operação deste site, observadas as medidas de segurança adequadas e as obrigações legais aplicáveis."
+          ]
+        },
+        "storage": {
+          "title": "Armazenamento e Segurança",
+          "body": "Adotamos medidas razoáveis de segurança para proteger os dados sob nossa responsabilidade contra acessos não autorizados, divulgação, alteração ou destruição indevida."
+        },
+        "rights": {
+          "title": "Direitos do Titular",
+          "body": "Nos termos da legislação aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD), o usuário poderá solicitar informações sobre os dados pessoais tratados, bem como requerer sua correção, atualização ou exclusão, quando cabível."
+        },
+        "changes": {
+          "title": "Alterações desta Política",
+          "body": "Esta Política de Privacidade poderá ser atualizada periodicamente para refletir alterações em nossos processos ou exigências legais. A versão mais recente estará sempre disponível neste site."
+        },
+        "contact": {
+          "title": "Contato",
+          "body": "Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento de dados pessoais, entre em contato pelos canais de comunicação disponibilizados neste site."
+        }
+      }
     },
     "terms": {
       "description": "Nossos termos de servi\u00e7o descrevem os acordos legais e condi\u00e7\u00f5es que voc\u00ea aceita ao usar nossa plataforma."
