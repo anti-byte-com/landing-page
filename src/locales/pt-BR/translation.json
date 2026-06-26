@@ -67,7 +67,7 @@
   },
   "method": {
     "label": "// M\u00c9TODO",
-    "title": "Modelo Lean Startup Studio",
+    "title": "Modelo Startup Studio",
     "steps": [
       {
         "label": "Etapa 01",
@@ -169,7 +169,7 @@
     ]
   },
   "footer": {
-    "copyright": "\u00a9 2026 Anti-Byte Lean Startup Studio. Todos os direitos reservados.",
+    "copyright": "\u00a9 2026 Anti-Byte Startup Studio. Todos os direitos reservados.",
     "social": "Siga-nos nas redes sociais",
     "newsletter": {
       "label": "Newsletter",
@@ -181,7 +181,7 @@
     },
     "brandDescription": "Constru\u00edmos e testamos m\u00faltiplos produtos digitais para descobrir o que funciona no mercado.",
     "name": "Anti-Byte",
-    "company": "Anti-Byte Lean Startup Studio",
+    "company": "Anti-Byte Startup Studio",
     "experimenting": "Experimentando com produtos digitais.",
     "nav": {
       "projects": "Projetos",
@@ -215,7 +215,7 @@
   "hero": {
     "label": "// HERO",
     "title": "Construindo & Validando M\u00faltiplos Produtos",
-    "description": "Lean Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
+    "description": "Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
     "descriptionFull": "N\u00e3o constru\u00edmos produtos \u00fanicos. Experimentamos com m\u00faltiplos produtos digitais simultaneamente para encontrar o ajuste de mercado atrav\u00e9s de velocidade, valida\u00e7\u00e3o e decis\u00f5es baseadas em dados."
   },
   "nav": {

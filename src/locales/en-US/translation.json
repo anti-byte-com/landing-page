@@ -67,7 +67,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2026 Anti-Byte Lean Startup Studio. All rights reserved.",
+    "copyright": "© 2026 Anti-Byte Startup Studio. All rights reserved.",
     "social": "Follow us on social media",
     "newsletter": {
       "label": "Newsletter",
@@ -79,7 +79,7 @@
     },
     "brandDescription": "We build and test multiple digital products to find what works in the market.",
     "name": "Anti-Byte",
-    "company": "Anti-Byte Lean Startup Studio",
+    "company": "Anti-Byte Startup Studio",
     "experimenting": "Experimenting with digital products.",
     "nav": {
       "projects": "Projects",
@@ -181,12 +181,12 @@
   "hero": {
     "label": "// HERO",
     "title": "Building & Validating Multiple Products",
-    "description": "Lean Startup Studio — We rapidly validate ideas, scale what works, and iterate continuously.",
+    "description": "Startup Studio — We rapidly validate ideas, scale what works, and iterate continuously.",
     "descriptionFull": "We don't build single products. We experiment with multiple digital products simultaneously to find market fit through speed, validation, and data-driven decisions."
   },
   "method": {
     "label": "// METHOD",
-    "title": "Lean Startup Studio Model",
+    "title": "Startup Studio Model",
     "steps": [
       {
         "label": "Step 01",
@@ -229,7 +229,7 @@
         "description": "We tested over 20 MVPs. We failed elegantly, learned from data, and doubled down on what worked. Our team grew to 8 people focused on fast execution."
       },
       {
-        "title": "Lean Startup Studio",
+        "title": "Startup Studio",
         "description": "Today we operate as a hybrid studio: we validate external ideas while scaling our own products. Every project is an experiment with a clear hypothesis and measurable success criteria."
       }
     ]

@@ -1,5 +1,5 @@
 /**
- * Dados para a página About Us - Anti-Byte Lean Startup Studio
+ * Dados para a página About Us - Anti-Byte Startup Studio
  */
 
 export interface TeamMember {
@@ -143,7 +143,11 @@ export const teamMembersTranslation = {
       name: 'Everton Antunes de Oliveira - Founder & Lead Architect: Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance técnica com design humano. Especialista em transformar complexidade em clareza.',
       role: 'Founder & Lead Architect',
       bio: 'Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance técnica com design humano. Especialista em transformar complexidade em clareza.',
-      expertise: ['Arquitetura de Software', 'Design Patterns', 'Performance Engineering'],
+      expertise: [
+        'Arquitetura de Software',
+        'Design Patterns',
+        'Performance Engineering',
+      ],
     },
     {
       name: 'Ana Silva - Head of Product: Product Manager apaixonada por Lean Startup e validação contínua. Anteriormente liderou a escala de produtos para startups Series A em fintech.',
@@ -176,7 +180,7 @@ export const teamMembersTranslation = {
     'Cloud Architecture',
     'Design Systems',
     'Interaction Design',
-    'Accessibility'
+    'Accessibility',
   ],
 };
 
