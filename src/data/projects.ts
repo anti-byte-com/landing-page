@@ -1,27 +1,25 @@
-export const projects = [
+export interface Project {
+  id: string;
+  slug: string;
+  name: string;
+  descriptionKey: string;
+  status: 'active' | 'validation' | 'growth' | 'archived';
+}
+
+export const projects: Project[] = [
   {
     id: 'proj-001',
-    name: 'FlowState',
+    slug: 'atendo-aqui',
+    name: 'Atendo Aqui',
     descriptionKey: 'projects.0.description',
-    status: 'validation',
-  },
-  {
-    id: 'proj-002',
-    name: 'DataLens',
-    descriptionKey: 'projects.1.description',
-    status: 'growth',
-  },
-  {
-    id: 'proj-003',
-    name: 'EchoLink',
-    descriptionKey: 'projects.2.description',
     status: 'archived',
   },
   {
-    id: 'proj-004',
-    name: 'Project Alpha',
-    descriptionKey: 'projects.3.description',
-    status: 'active',
+    id: 'proj-002',
+    slug: 'live-fy',
+    name: 'Live-fy',
+    descriptionKey: 'projects.1.description',
+    status: 'validation',
   },
 ];
 

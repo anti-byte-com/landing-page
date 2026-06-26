@@ -1,6 +1,8 @@
 import React from 'react';
+import { projects as projectsData } from '@/data/projects';
 import SharedHeader, { HeaderBreadcrumb } from '@/components/shared/Header';
 import SharedFooter from '@/components/shared/Footer';
+import ProjectCard from '@/components/sections/ProjectsSection/ProjectsSection.ProjectCard';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
 import { useTranslation } from 'react-i18next';
@@ -11,7 +13,7 @@ const ArchivedCaseStudies: React.FC = () => {
   useScrollToTop();
 
   const breadcrumbs: HeaderBreadcrumb[] = [
-    { label: t('nav.ourApproach'), href: '/approach' },
+    { label: t('common.backToHome'), href: '/' },
     { label: t('nav.archivedCaseStudies') },
   ];
 
@@ -20,7 +22,11 @@ const ArchivedCaseStudies: React.FC = () => {
     return () => {
       document.title = '';
     };
-  }, []);
+  }, [t]);
+
+  const archivedProjects = projectsData
+    .filter((p) => p.status === 'archived')
+    .map((p) => ({ ...p, description: t(p.descriptionKey) }));
 
   return (
     <>
@@ -34,14 +40,21 @@ const ArchivedCaseStudies: React.FC = () => {
         pageDescription={t('pages.archivedCaseStudies.description')}
       />
 
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <h1 className="text-4xl md:text-5xl font-display font-bold text-primary">
-          {t('nav.archivedCaseStudies')}
-          {/* Gradient Background Overlay */}
-          <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
+      <section className="py-20 px-6 md:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {archivedProjects.map((project, index) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+                index={index}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
 
-        </h1>
-      </div>
+      <div className="fixed inset-0 bg-gradient-to-br from-surface-container/20 via-surface to-primary/5 -z-10" />
 
       <SharedFooter />
     </>

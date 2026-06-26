@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from '../../../components/atoms/Card';
 import { useTranslation } from 'react-i18next';
 
 type ProjectData = {
   id: string;
+  slug: string;
   name: string;
   description: string;
   status: 'validation' | 'growth' | 'archived';
@@ -63,9 +65,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         <span className="text-xs text-on-surface-variant/60 font-medium">
           {t(`projectsSection.projectNumber`, { number: project.id.slice(-3) })}
         </span>
-        <span className="inline-flex items-center text-xs font-semibold text-secondary group-hover:text-primary transition-colors">
+        <Link
+          to={`/projects/current/${project.slug}`}
+          className="inline-flex items-center text-xs font-semibold text-secondary group-hover:text-primary transition-colors"
+        >
           {t('projectsSection.viewDetails')}
-        </span>
+        </Link>
       </div>
     </Card>
   );

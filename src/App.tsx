@@ -4,6 +4,7 @@ import Home from '@/components/pages/home';
 import About from '@/components/pages/about';
 import Blog from '@/components/pages/blog';
 import CurrentProjects from '@/components/pages/current-projects';
+import ProjectDetail from '@/components/pages/project-detail';
 import ProjectsRedirect from '@/components/pages/projects-redirect';
 import ArchivedCaseStudies from '@/components/pages/archived-case-studies';
 import Privacy from '@/components/pages/privacy';
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/projects" element={<ProjectsRedirect />} />
         <Route path="/projects/current" element={<CurrentProjects />} />
+        <Route path="/projects/current/:slug" element={<ProjectDetail />} />
         <Route path="/cases/archived" element={<ArchivedCaseStudies />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />

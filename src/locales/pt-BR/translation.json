@@ -233,16 +233,10 @@
       "archived": "Arquivado"
     },
     "0": {
-      "description": "Async workflow orchestrator para equipes distribu\u00eddas."
+      "description": "Plataforma de streaming de eventos ao vivo e engajamento em valida\u00e7\u00e3o."
     },
     "1": {
-      "description": "Dashboard de analytics em tempo real com detec\u00e7\u00e3o de anomalias."
-    },
-    "2": {
-      "description": "Ferramenta de colabora\u00e7\u00e3o focada em assincronia."
-    },
-    "3": {
-      "description": "Projeto de teste para desenvolvimento."
+      "description": "Sistema de atendimento e presen\u00e7a de pacientes — projeto arquivado."
     }
   },
   "header": {
@@ -297,6 +291,9 @@
     },
     "archivedCaseStudies": {
       "description": "Explore nossos projetos passados e estudos de caso que demonstram nossa expertise."
+    },
+    "projectDetail": {
+      "comingSoon": "Conte\u00fado em breve."
     }
   },
   "contactInfo": {

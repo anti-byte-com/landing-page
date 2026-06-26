@@ -135,16 +135,10 @@
       "archived": "Archived"
     },
     "0": {
-      "description": "Async workflow orchestrator for distributed teams."
+      "description": "Live event streaming and engagement platform currently in validation."
     },
     "1": {
-      "description": "Real-time analytics dashboard with anomaly detection."
-    },
-    "2": {
-      "description": "Async-first collaboration tool."
-    },
-    "3": {
-      "description": "Test project for development."
+      "description": "Patient attendance management system — archived project."
     }
   },
   "nav": {
@@ -307,6 +301,9 @@
     },
     "archivedCaseStudies": {
       "description": "Explore our past successful projects and case studies that showcase our expertise."
+    },
+    "projectDetail": {
+      "comingSoon": "Content coming soon."
     }
   }
 }
