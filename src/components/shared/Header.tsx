@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import logoIconImg from '@/assets/logo-icon.png';
 
 export interface HeaderLink {
   label: string;
@@ -22,7 +23,13 @@ export interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({
   logoText,
-  logoIcon = null,
+  logoIcon = (
+    <img
+      src={logoIconImg}
+      alt=""
+      className="h-6 w-6 md:h-8 md:w-8 rounded-lg"
+    />
+  ),
   navigationLinks,
   breadcrumbs,
   pageTitle,
@@ -55,11 +62,7 @@ const Header: React.FC<HeaderProps> = ({
             href="/"
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 rounded-lg px-1"
           >
-            {logoIcon && (
-              <span className="shrink-0">
-                {logoIcon}
-              </span>
-            )}
+            {logoIcon && <span className="shrink-0">{logoIcon}</span>}
             <span className="text-[15px] md:text-2xl font-display font-semibold text-on-surface group-hover:text-primary transition-colors tracking-tight">
               {logoText}
             </span>
@@ -136,7 +139,10 @@ const Header: React.FC<HeaderProps> = ({
         <div className="pt-6 pb-12 md:pt-10 md:pb-16">
           {/* Breadcrumb / Path */}
           {breadcrumbs.length > 0 && (
-            <nav aria-label={t('header.breadcrumb')} className="mb-6 overflow-x-auto">
+            <nav
+              aria-label={t('header.breadcrumb')}
+              className="mb-6 overflow-x-auto"
+            >
               <ol className="flex items-center gap-2 text-[14px] text-on-surface/60">
                 <li>
                   <a

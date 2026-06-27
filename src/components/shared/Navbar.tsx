@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logoIconImg from '@/assets/logo-icon.png';
 
 interface NavbarProps {
   showLogo?: boolean;
@@ -67,6 +68,11 @@ const NavbarContainer: React.FC<NavbarProps> = ({
  */
 const NavbarLogo: React.FC = () => (
   <Link to="/" className="group flex items-center space-x-2">
+    <img
+      src={logoIconImg}
+      alt=""
+      className="h-6 w-6 md:h-7 md:w-7 rounded-lg"
+    />
     {/* Logo text with gradient */}
     <span className="text-lg font-display font-bold text-on-surface group-hover:text-primary-gradient transition-colors bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
       Anti-Byte
