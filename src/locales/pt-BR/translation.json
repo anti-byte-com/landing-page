@@ -1,0 +1,532 @@
+{
+  "philosophyPrinciples.0.title": "Descoberta Cont\u00ednua",
+  "philosophyPrinciples.1.title": "Experimenta\u00e7\u00e3o Orientada",
+  "philosophyPrinciples.2.title": "Aprendizado por Evid\u00eancias",
+  "philosophyPrinciples.3.title": "Foco no que Gera Valor",
+  "philosophyPrinciples.0.description": "Investigamos necessidades reais, comportamentos dos usu\u00e1rios e oportunidades de mercado antes de definir solu\u00e7\u00f5es.",
+  "philosophyPrinciples.1.description": "Utilizamos prot\u00f3tipos e MVPs para validar hip\u00f3teses rapidamente e aprender com o uso real dos produtos.",
+  "philosophyPrinciples.2.description": "Acompanhamos ado\u00e7\u00e3o, engajamento e gera\u00e7\u00e3o de valor para entender o potencial de cada iniciativa.",
+  "philosophyPrinciples.3.description": "Concentramos tempo, recursos e investimento nos produtos que demonstram potencial comprovado de crescimento e impacto.",
+  "common": {
+    "learnMore": "Saiba mais",
+    "viewProject": "Ver projeto",
+    "readMore": "Ler mais",
+    "contactUs": "Entre em contato",
+    "backToHome": "Voltar para home",
+    "privacy": "Pol\u00edtica de Privacidade",
+    "terms": "Termos de Servi\u00e7o",
+    "cookies": "Pol\u00edtica de Cookies"
+  },
+  "projectsSection": {
+    "label": "Projetos",
+    "title": "O Que Estamos Construindo",
+    "description": "Explore nossos projetos atuais e veja como ajudamos empresas a transformar ideias em produtos reais.",
+    "noProjects": "Nenhum projeto dispon\u00edvel no momento.",
+    "viewDetails": "Ver Detalhes \u2192",
+    "projectNumber": "Projeto #{{number}}"
+  },
+  "about": {
+    "title": "Sobre o Anti-Byte",
+    "description": "Somos um est\u00fadio de desenvolvimento focado em criar produtos digitais com rigor cient\u00edfico e metodologia Lean Startup.",
+    "tabs": {
+      "mission": "Miss\u00e3o",
+      "teams": "Equipe",
+      "history": "Hist\u00f3ria",
+      "values": "Valores",
+      "contact": "Contato"
+    }
+  },
+  "companyMission": {
+    "label": "// NOSSA MISS\u00c3O",
+    "title": "Transformar Ideias em Produtos Que Escalam",
+    "description": "N\u00e3o somos apenas uma ag\u00eancia de desenvolvimento ou uma startup tradicional. Somos um Laborat\u00f3rio de Inova\u00e7\u00e3o Aplicada, onde aplicamos rigor cient\u00edfico ao processo criativo de construir produtos digitais.",
+    "coreBeliefs": [
+      {
+        "title": "O mercado se recompensa com execu\u00e7\u00e3o consistente, n\u00e3o com ideias brilhantes",
+        "description": "Acreditamos que ideias por si s\u00f3 n\u00e3o geram valor - \u00e9 a execu\u00e7\u00e3o consistente que transforma conceitos em resultados tang\u00edveis."
+      },
+      {
+        "title": "A valida\u00e7\u00e3o prematura previne desperd\u00edcio e acelera aprendizado",
+        "description": "Testamos rapidamente nossas hip\u00f3teses com usu\u00e1rios reais, evitando meses de desenvolvimento em dire\u00e7\u00e3o ao problema errado."
+      },
+      {
+        "title": "Qualidade t\u00e9cnica n\u00e3o \u00e9 luxo - \u00e9 o que permite escalabilidade sustent\u00e1vel",
+        "description": "Arquitetura s\u00f3lida e c\u00f3digo limpo n\u00e3o s\u00e3o extravag\u00e2ncias, s\u00e3o requisitos fundamentais para crescer sem quebrar."
+      },
+      {
+        "title": "Design humano e excel\u00eancia t\u00e9cnica s\u00e3o for\u00e7as complementares",
+        "description": "Experi\u00eancias centradas no usu\u00e1rio e excel\u00eancia t\u00e9cnica se refor\u00e7am mutuamente para criar produtos excepcionais."
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "// FILOSOFIA",
+    "title": "Por Que Agimos Assim",
+    "description": "Acreditamos que inova\u00e7\u00e3o n\u00e3o nasce de apostas isoladas, mas de um processo cont\u00ednuo de descoberta, experimenta\u00e7\u00e3o e aprendizado.",
+    "descriptionFull": "Exploramos m\u00faltiplas oportunidades em paralelo, investigando problemas reais, validando hip\u00f3teses e medindo resultados antes de ampliar investimentos. Nosso objetivo \u00e9 identificar iniciativas capazes de gerar valor concreto para usu\u00e1rios e mercados. Cada projeto come\u00e7a como uma oportunidade a ser compreendida. As decis\u00f5es s\u00e3o guiadas por evid\u00eancias, aprendizado acumulado e resultados observados ao longo do processo."
+  },
+  "method": {
+    "label": "// M\u00c9TODO",
+    "title": "Modelo Startup Studio",
+    "steps": [
+      {
+        "label": "Etapa 01",
+        "title": "Identificar Oportunidades",
+        "description": "Buscamos problemas relevantes e oportunidades com potencial de transforma\u00e7\u00e3o em produtos digitais."
+      },
+      {
+        "label": "Etapa 02",
+        "title": "Experimentar",
+        "description": "Desenvolvemos prot\u00f3tipos e MVPs para validar rapidamente hip\u00f3teses de produto e neg\u00f3cio."
+      },
+      {
+        "label": "Etapa 03",
+        "title": "Aprender",
+        "description": "Analisamos dados reais de uso, ado\u00e7\u00e3o e gera\u00e7\u00e3o de valor para orientar decis\u00f5es."
+      },
+      {
+        "label": "Etapa 04",
+        "title": "Escalar",
+        "description": "Direcionamos esfor\u00e7os para as iniciativas que demonstram potencial sustent\u00e1vel de crescimento."
+      }
+    ]
+  },
+  "aboutHistory": {
+    "label": "// HIST\u00d3RIA",
+    "title": "Nossa Jornada",
+    "items": [
+      {
+        "title": "In\u00edcio da jornada com a equipe inicial",
+        "description": "Fundamos o est\u00fadio com um grupo seleto de desenvolvedores especializados em criar produtos digitais que equilibram performance t\u00e9cnica e experi\u00eancia do usu\u00e1rio."
+      },
+      {
+        "title": "Primeira fase de crescimento",
+        "description": "Ampliamos nossa equipe e come\u00e7amos a trabalhar com m\u00faltiplos projetos simultaneamente, aplicando metodologias Lean Startup para cada um deles."
+      },
+      {
+        "title": "Atual - Expans\u00e3o cont\u00ednua",
+        "description": "Estamos ativos em v\u00e1rios projetos de valida\u00e7\u00e3o, crescimento e desenvolvimento escalado, sempre mantendo nossa abordagem centrada no usu\u00e1rio."
+      }
+    ]
+  },
+  "companyValues": {
+    "label": "// VALORES",
+    "title": "Nossos Valores",
+    "values": [
+      {
+        "title": "Valida\u00e7\u00e3o sobre Opini\u00e3o",
+        "description": "Nunca constru\u00edmos algo que achamos que as pessoas querem. Testamos com usu\u00e1rios reais, validamos prematuramente e iteramos r\u00e1pido. Nossa confian\u00e7a vem de dados, n\u00e3o de opini\u00f5es."
+      },
+      {
+        "title": "Falhar Elegante",
+        "description": "Errar \u00e9 parte do processo quando feito de forma informada. Aprendemos mais com um teste fracassado do que com meses de desenvolvimento em dire\u00e7\u00e3o ao problema errado."
+      },
+      {
+        "title": "Transpar\u00eancia Radical",
+        "description": "Compartilhamos o que constru\u00edmos, por que decidimos e quais li\u00e7\u00f5es aprendemos. Nosso portf\u00f3lio p\u00fablico inclui projetos arquivados com explica\u00e7\u00f5es honestas do porqu\u00ea n\u00e3o funcionaram."
+      },
+      {
+        "title": "Deep Work",
+        "description": "Eliminamos distra\u00e7\u00f5es para manter qualidade t\u00e9cnica alta. Nossa oficina \u00e9 nosso templo. Investimos pesado em ferramentas que nos permitem construir r\u00e1pido sem comprometer a excel\u00eancia."
+      }
+    ]
+  },
+  "aboutContact": {
+    "label": "// CONTATO",
+    "title": "Vamos Conversar?",
+    "emailLabel": "E-mail",
+    "locationLabel": "Localiza\u00e7\u00e3o",
+    "timezoneLabel": "Fuso Hor\u00e1rio",
+    "email": "contact@anti-byte.com",
+    "location": "Brasil, Florian\u00f3polis SC",
+    "timezone": "UTC/GMT -3 horas",
+    "readyToStart": "Pronto para come\u00e7ar?",
+    "buildTogether": "Vamos construir algo incr\u00edvel juntos.",
+    "contactUs": "Entre em Contato \u2192"
+  },
+  "aboutTeams": {
+    "label": "// EQUIPE",
+    "title": "Conhe\u00e7a Nossa Equipe",
+    "members": [
+      "Everton Antunes de Oliveira - Founder & Lead Architect: Arquiteto de software com mais de 15 anos construindo sistemas que equilibram performance t\u00e9cnica com design humano. Especialista em transformar complexidade em clareza.",
+      "Ana Silva - Head of Product: Product Manager apaixonada por Lean Startup e valida\u00e7\u00e3o cont\u00ednua. Anteriormente liderou a escala de produtos para startups Series A em fintech.",
+      "Carlos Mendes - Technical Lead: Engenheiro de backend especializado em sistemas distribu\u00eddos e escalabilidade. Transforma requisitos vagos em arquiteturas robustas.",
+      "Juliana Costa - UX Design Lead: Designer com vis\u00e3o obsessiva para micro-intera\u00e7\u00f5es e acessibilidade. Cria experi\u00eancias que s\u00e3o ao mesmo tempo funcionais e emocionalmente ressonantes."
+    ],
+    "expertise": [
+      "Arquitetura de Software",
+      "Design Patterns",
+      "Performance Engineering",
+      "Product Strategy",
+      "User Research",
+      "Go-to-Market",
+      "Backend Systems",
+      "Microservices",
+      "Cloud Architecture",
+      "Design Systems",
+      "Interaction Design",
+      "Accessibility"
+    ]
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 Anti-Byte Startup Studio. Todos os direitos reservados.",
+    "social": "Siga-nos nas redes sociais",
+    "newsletter": {
+      "label": "Newsletter",
+      "title": "Receba novidades em seu e-mail",
+      "placeholder": "Seu melhor e-mail",
+      "button": "Inscrever-se \u2192",
+      "success": "Obrigado por se inscrever!",
+      "error": "Ops! Houve um erro ao se inscrever."
+    },
+    "brandDescription": "Constru\u00edmos e testamos m\u00faltiplos produtos digitais para descobrir o que funciona no mercado.",
+    "name": "Anti-Byte",
+    "company": "Anti-Byte Startup Studio",
+    "experimenting": "Experimentando com produtos digitais.",
+    "nav": {
+      "projects": "Projetos",
+      "company": "Empresa",
+      "legal": "Jur\u00eddico"
+    }
+  },
+  "stats": {
+    "heroStats": {
+      "projects": "Projetos Ativos",
+      "mvps": "MVPs Testados",
+      "data": "Decis\u00f5es Baseadas em Dados",
+      "cycle": "Ciclo de Valida\u00e7\u00e3o",
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 dias"
+    },
+    "metrics": {
+      "projectsActive": "Projetos Ativos",
+      "mvpsTested": "MVPs Testados",
+      "customerLed": "Customer-led",
+      "validationCycle": "Ciclo de Valida\u00e7\u00e3o"
+    }
+  },
+  "heroStatusBadges": {
+    "active": "ATIVO",
+    "validation": "EM VALIDA\u00c7\u00c3O",
+    "archived": "ARQUIVADO"
+  },
+  "hero": {
+    "label": "// HERO",
+    "title": "Construindo & Validando M\u00faltiplos Produtos",
+    "description": "Startup Studio — Validamos ideias rapidamente, escalamos o que funciona e iteramos continuamente.",
+    "descriptionFull": "N\u00e3o constru\u00edmos produtos \u00fanicos. Experimentamos com m\u00faltiplos produtos digitais simultaneamente para encontrar o ajuste de mercado atrav\u00e9s de velocidade, valida\u00e7\u00e3o e decis\u00f5es baseadas em dados."
+  },
+  "nav": {
+    "projects": "Projetos",
+    "about": "Sobre",
+    "currentProjects": "Projetos Atuais",
+    "archivedCaseStudies": "Estudos de Caso Arquivados",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contato",
+    "ourApproach": "Nossa Abordagem"
+  },
+  "projects": {
+    "badge": {
+      "active": "Ativo",
+      "validation": "Valida\u00e7\u00e3o",
+      "growth": "Crescimento",
+      "archived": "Arquivado"
+    },
+    "0": {
+      "description": "Plataforma de compartilhamento de espa\u00e7os de sa\u00fade por hora — projeto arquivado."
+    },
+    "1": {
+      "description": "Plataforma de vendas por live e grupos de chat — em desenvolvimento."
+    }
+  },
+  "projectsDetail": {
+    "atendo-aqui": {
+      "intro": "A Atendo Aqui foi uma iniciativa pioneira fundamentada na economia compartilhada, que teve como miss\u00e3o democratizar o acesso a infraestruturas de sa\u00fade atrav\u00e9s de uma solu\u00e7\u00e3o digital. Operando exclusivamente como um aplicativo m\u00f3vel, a plataforma funcionava no modelo de marketplace, conectando propriet\u00e1rios de consult\u00f3rios e cl\u00ednicas (Anfitri\u00f5es) a profissionais de sa\u00fade aut\u00f4nomos (H\u00f3spedes).",
+      "sections": {
+        "origin": {
+          "title": "Origem do Projeto",
+          "body": "O projeto nasceu para solucionar dois grandes gargalos do setor: a alta ociosidade de espa\u00e7os privados — que chegava a registrar entre 14 e 20 horas vagas por semana — e os elevados custos fixos que impediam muitos profissionais de possu\u00edrem seus pr\u00f3prios locais de atendimento."
+        },
+        "operationModel": {
+          "title": "Modelo de Operação",
+          "body": "Atrav\u00e9s do aplicativo, profissionais como m\u00e9dicos, dentistas, psic\u00f3logos e fisioterapeutas podiam encontrar, agendar e pagar pelo uso de salas qualificadas apenas pelo tempo necess\u00e1rio."
+        },
+        "marketValidation": {
+          "title": "Valida\u00e7\u00e3o de Mercado",
+          "body": "O MVP (Produto M\u00ednimo Vi\u00e1vel) foi lan\u00e7ado em maio de 2021, alcan\u00e7ando a marca de 50 usu\u00e1rios cadastrados e an\u00fancios de espa\u00e7os em diversas cidades de Santa Catarina, incluindo Florian\u00f3polis, Joinville, Itaja\u00ed e Chapec\u00f3."
+        },
+        "impact": {
+          "title": "Impacto e Parcerias",
+          "body": "A iniciativa estabeleceu alinhamentos estrat\u00e9gicos com associa\u00e7\u00f5es m\u00e9dicas (como a ACM) e redes de hot\u00e9is para transformar espa\u00e7os ociosos em locais produtivos para a sa\u00fade e o bem-estar."
+        }
+      },
+      "conclusion": "A Atendo Aqui posicionou-se como uma ferramenta de otimiza\u00e7\u00e3o de recursos, oferecendo aos profissionais a liberdade de atender seus pacientes onde estivessem, sem as burocracias e os custos de manuten\u00e7\u00e3o de um im\u00f3vel pr\u00f3prio."
+    },
+    "entrei-comprei": {
+      "tagline": "Venda na live e no chat.",
+      "intro": "Nosso objetivo \u00e9 potencializar suas vendas por live e grupos de mensagens, com uma experi\u00eancia de compra impec\u00e1vel para seu cliente.",
+      "cta": "Baixe o APP Android",
+      "featuresHeadline": "Somos uma plataforma em desenvolvimento, nossos pr\u00f3ximos passos incluem:",
+      "sections": {
+        "groups": {
+          "title": "Grupos Exclusivos",
+          "body": "Traga seus clientes para um grupo exclusivo. Utilize seus grupos para promover produtos e manter um relacionamento pr\u00f3ximo com seu cliente."
+        },
+        "app": {
+          "title": "App Silencioso",
+          "body": "Seu cliente recebe notifica\u00e7\u00e3o apenas quando voc\u00ea interage no grupo."
+        },
+        "featureSales": {
+          "title": "Descomplique suas vendas",
+          "body": "Tenha o controle das suas vendas e fidelize seus clientes com um p\u00f3s venda \u00e1gil."
+        },
+        "featureChat": {
+          "title": "Vendas pelo Chat",
+          "body": "Seu cliente pode adicionar produtos ao carrinho diretamente pelo chat."
+        },
+        "featureLive": {
+          "title": "Live de Vendas",
+          "body": "Mantenha seu foco na live enquanto seus clientes poder\u00e3o adicionar produtos ao carrinho em tempo real."
+        }
+      },
+      "feedback": "Ajude-nos com seu feedback a deixar esse App perfeito para voc\u00ea."
+    }
+  },
+  "header": {
+    "toggleMenu": "Abrir menu",
+    "breadcrumb": "Navega\u00e7\u00e3o estrutural",
+    "home": "In\u00edcio"
+  },
+  "languageSelector": {
+    "label": "Alternar idioma",
+    "english": "Ingl\u00eas",
+    "portuguese": "Portugu\u00eas"
+  },
+  "newsletter": {
+    "label": "Newsletter",
+    "title": "Receba novidades em seu e-mail",
+    "placeholder": "Seu melhor e-mail",
+    "button": "Inscrever-se \u2192",
+    "metrics": {
+      "projectsValue": "8",
+      "mvpsValue": "50+",
+      "dataValue": "92%",
+      "cycleValue": "7 dias"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Somos uma startup focada em desenvolvimento de aplicativos nativos para dispositivos móveis e desktop, integrados a soluções em nuvem.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Somos uma startup dedicada ao desenvolvimento de aplicativos nativos para dispositivos móveis e desktop, integrados a soluções em nuvem. Nossa abordagem combina o melhor dos ambientes local e cloud para criar produtos que unem alto desempenho, escalabilidade e eficiência operacional.",
+      "body": [
+        "Exploramos as vantagens de cada tecnologia para entregar soluções modernas, capazes de oferecer uma experiência fluida aos usuários enquanto reduzem custos de infraestrutura e manutenção. Acreditamos que aplicações de qualidade não precisam exigir arquiteturas complexas ou investimentos excessivos para gerar valor.",
+        "Nosso objetivo é desenvolver produtos e serviços que sejam rápidos, confiáveis e acessíveis, permitindo que empresas de diferentes portes aproveitem os benefícios da transformação digital com tecnologia robusta e sustentável."
+      ]
+    },
+    "blog": {
+      "description": "Fique por dentro das \u00faltimas novidades, insights e desenvolvimentos do Anti-Byte."
+    },
+    "contact": {
+      "description": "Entre em contato com nossa equipe. Estamos aqui para tirar suas d\u00favidas e discutir como podemos ajud\u00e1-lo."
+    },
+    "cookies": {
+      "description": "Este site não utiliza cookies nem tecnologias semelhantes. Conheça nossa política de não utilização e nosso compromisso com privacidade e transparência.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Esta Política de Cookies explica como o site da Anti-Byte trata cookies e tecnologias equivalentes. Como não utilizamos esses mecanismos, o propósito deste documento é declarar formalmente essa não utilização e garantir total transparência sobre as práticas adotadas em nosso site.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "O que são cookies",
+          "body": "Cookies são pequenos arquivos de texto armazenados no dispositivo do usuário que podem ser utilizados para autenticação, preferências, estatísticas de acesso e outras funcionalidades relacionadas à navegação."
+        },
+        "noUsage": {
+          "title": "Declaração de não utilização",
+          "body": "Este site não utiliza cookies próprios nem cookies de terceiros. Nenhum arquivo é armazenado em seu navegador para fins de identificação, rastreamento, análise de comportamento ou publicidade."
+        },
+        "similarTech": {
+          "title": "Tecnologias semelhantes",
+          "body": "Este site também não utiliza tecnologias similares a cookies, como Local Storage, Session Storage, IndexedDB ou mecanismos de fingerprinting, para rastreamento de usuários."
+        },
+        "thirdParty": {
+          "title": "Serviços de terceiros",
+          "body": "Este site não incorpora ferramentas de análise de tráfego, publicidade comportamental ou widgets de terceiros que possam instalar cookies em seu navegador. Não há exceções a esta regra no momento."
+        },
+        "futureChanges": {
+          "title": "Alterações futuras",
+          "body": "Caso a utilização de cookies ou tecnologias semelhantes seja implementada futuramente, esta Política de Cookies será atualizada para refletir essas mudanças de forma clara e transparente."
+        },
+        "contact": {
+          "title": "Contato",
+          "body": "Em caso de dúvidas sobre esta política, entre em contato através do e-mail {{email}}."
+        }
+      }
+    },
+    "privacy": {
+      "description": "Esta Política de Privacidade explica como coletamos, usamos e protegemos dados pessoais e técnicos. Nosso compromisso é tratar seus dados com transparência e responsabilidade.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Esta Política de Privacidade descreve como o site da Anti-Byte coleta, utiliza e protege os dados fornecidos pelos usuários e as informações técnicas geradas durante a navegação. Nosso compromisso é tratar seus dados com transparência, responsabilidade e em conformidade com a legislação aplicável.",
+      "sections": {
+        "dataCollection": {
+          "title": "Coleta de Dados",
+          "body": "Coletamos apenas os dados fornecidos voluntariamente pelos usuários por meio de formulários de contato ou outros canais disponibilizados neste site:",
+          "voluntaryItems": [
+            "Nome",
+            "Endereço de e-mail",
+            "Endereços de aplicativos de mensagens (como WhatsApp, Telegram ou similares)"
+          ],
+          "techBody": "Além disso, durante a navegação no site, informações técnicas podem ser registradas automaticamente pelos sistemas de hospedagem e infraestrutura, incluindo:",
+          "techItems": [
+            "Endereço IP",
+            "Data e horário de acesso",
+            "Navegador utilizado",
+            "Sistema operacional",
+            "Outras informações técnicas necessárias para a operação e segurança do serviço"
+          ]
+        },
+        "purpose": {
+          "title": "Finalidade do Tratamento dos Dados",
+          "body": [
+            "Os dados pessoais coletados têm como única finalidade possibilitar o contato entre nossa equipe e o usuário quando necessário, seja para responder solicitações, prestar informações sobre nossos serviços ou dar continuidade a comunicações iniciadas pelo próprio usuário.",
+            "Os dados técnicos de navegação podem ser utilizados para fins de segurança, diagnóstico de problemas, prevenção de abusos e manutenção da infraestrutura do site."
+          ]
+        },
+        "sharing": {
+          "title": "Compartilhamento de Dados",
+          "body": [
+            "Não compartilhamos dados pessoais com terceiros para fins comerciais ou de marketing.",
+            "Os dados poderão ser processados por provedores de hospedagem, infraestrutura e serviços tecnológicos estritamente necessários para a operação deste site, observadas as medidas de segurança adequadas e as obrigações legais aplicáveis."
+          ]
+        },
+        "storage": {
+          "title": "Armazenamento e Segurança",
+          "body": "Adotamos medidas razoáveis de segurança para proteger os dados sob nossa responsabilidade contra acessos não autorizados, divulgação, alteração ou destruição indevida."
+        },
+        "rights": {
+          "title": "Direitos do Titular",
+          "body": "Nos termos da legislação aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD), o usuário poderá solicitar informações sobre os dados pessoais tratados, bem como requerer sua correção, atualização ou exclusão, quando cabível."
+        },
+        "changes": {
+          "title": "Alterações desta Política",
+          "body": "Esta Política de Privacidade poderá ser atualizada periodicamente para refletir alterações em nossos processos ou exigências legais. A versão mais recente estará sempre disponível neste site."
+        },
+        "contact": {
+          "title": "Contato",
+          "body": "Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento de dados pessoais, entre em contato pelos canais de comunicação disponibilizados neste site."
+        }
+      }
+    },
+    "terms": {
+      "description": "Nossos Termos de Serviço estabelecem os acordos legais e condições que você aceita ao usar nosso site, aplicativos e serviços. Leia-os com atenção antes de utilizar nossos serviços.",
+      "updatedNote": "Última atualização: junho de 2026",
+      "intro": "Estes Termos de Serviço regem o uso do site, dos aplicativos e dos serviços disponibilizados pela Anti-Byte. Ao acessar e utilizar nossos serviços, você concorda com as condições descritas neste documento. Recomendamos a leitura atenta de cada seção.",
+      "sections": {
+        "acceptance": {
+          "title": "1. Aceitação dos Termos",
+          "body": "Ao acessar este site, utilizar nossos aplicativos ou quaisquer serviços disponibilizados por meio deles, você concorda com estes Termos de Serviço. Caso não concorde com qualquer disposição destes termos, não utilize nossos serviços."
+        },
+        "services": {
+          "title": "2. Descrição dos Serviços",
+          "body": "Disponibilizamos serviços e funcionalidades por meio de nosso site e aplicativos. Os recursos oferecidos poderão ser alterados, ampliados, restringidos ou descontinuados a qualquer momento, com ou sem aviso prévio."
+        },
+        "permittedUse": {
+          "title": "3. Uso Permitido",
+          "body": "O usuário concorda em utilizar os serviços de forma lícita e em conformidade com a legislação aplicável.",
+          "prohibitedLead": "É proibido:",
+          "prohibitedItems": [
+            "Utilizar os serviços para atividades ilegais ou fraudulentas",
+            "Tentar obter acesso não autorizado a sistemas, contas ou dados",
+            "Interferir no funcionamento dos serviços ou de sua infraestrutura",
+            "Utilizar os serviços de forma que possa causar prejuízo a terceiros ou à plataforma"
+          ]
+        },
+        "accounts": {
+          "title": "4. Contas de Usuário",
+          "body": [
+            "Quando aplicável, o usuário é responsável por manter a confidencialidade de suas credenciais de acesso e por todas as atividades realizadas em sua conta.",
+            "O usuário compromete-se a fornecer informações verdadeiras, completas e atualizadas."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "5. Propriedade Intelectual",
+          "body": [
+            "Todo o conteúdo disponibilizado por meio do site e dos aplicativos, incluindo textos, imagens, logotipos, marcas, interfaces, software e demais materiais, é protegido pelas leis de propriedade intelectual e pertence aos seus respectivos titulares.",
+            "Nenhuma disposição destes termos concede ao usuário qualquer direito de propriedade sobre tais conteúdos."
+          ]
+        },
+        "availability": {
+          "title": "6. Disponibilidade dos Serviços",
+          "body": [
+            "Embora busquemos manter os serviços disponíveis e operacionais, não garantimos disponibilidade ininterrupta, ausência de falhas ou funcionamento livre de erros.",
+            "Poderão ocorrer interrupções temporárias para manutenção, atualização ou por motivos técnicos fora de nosso controle."
+          ]
+        },
+        "liability": {
+          "title": "7. Limitação de Responsabilidade",
+          "body": "Os serviços são fornecidos \"como estão\" e \"conforme disponíveis\".",
+          "liabilityLead": "Na máxima extensão permitida pela legislação aplicável, não nos responsabilizamos por:",
+          "liabilityItems": [
+            "Perdas indiretas, incidentais ou consequenciais",
+            "Interrupções de serviço",
+            "Perda de dados causada por fatores externos",
+            "Uso inadequado dos serviços pelo usuário",
+            "Problemas decorrentes de falhas de terceiros, redes de comunicação ou lojas de aplicativos"
+          ]
+        },
+        "appStores": {
+          "title": "8. Aplicativos Distribuídos por Lojas de Aplicativos",
+          "body": [
+            "Quando os aplicativos forem obtidos por meio de lojas de aplicativos de terceiros, como Apple App Store ou Google Play, o usuário também estará sujeito aos termos e políticas dessas plataformas.",
+            "As respectivas lojas de aplicativos não são responsáveis pelo suporte, manutenção ou operação dos serviços oferecidos por nossos aplicativos, salvo quando exigido pela legislação aplicável."
+          ]
+        },
+        "suspension": {
+          "title": "9. Suspensão e Encerramento",
+          "body": "Poderemos suspender ou encerrar o acesso aos serviços caso identifiquemos violação destes Termos de Serviço, uso indevido da plataforma ou situações que representem riscos à segurança dos serviços ou de terceiros."
+        },
+        "changes": {
+          "title": "10. Alterações dos Termos",
+          "body": [
+            "Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento. A versão mais recente estará sempre disponível em nossos canais oficiais.",
+            "A continuidade do uso dos serviços após a publicação das alterações será considerada como aceitação dos novos termos."
+          ]
+        },
+        "governingLaw": {
+          "title": "11. Legislação Aplicável",
+          "body": "Estes Termos de Serviço serão regidos pelas leis da República Federativa do Brasil."
+        },
+        "contact": {
+          "title": "12. Contato",
+          "body": "Em caso de dúvidas sobre estes Termos de Serviço, entre em contato pelos canais de comunicação disponibilizados em nosso site ou aplicativos."
+        }
+      }
+    },
+    "resources": {
+      "description": "Recursos abrangentes, documenta\u00e7\u00e3o e guias para ajudar voc\u00ea a aproveitar ao m\u00e1ximo o Anti-Byte."
+    },
+    "ourApproach": {
+      "description": "Descubra nossa metodologia e os princ\u00edpios que nos guiam na cria\u00e7\u00e3o de experi\u00eancias digitais excepcionais."
+    },
+    "currentProjects": {
+      "description": "Explore nossos projetos em andamento nas \u00e1reas de desenvolvimento ativo, valida\u00e7\u00e3o e crescimento."
+    },
+    "archivedCaseStudies": {
+      "description": "Explore nossos projetos passados e estudos de caso que demonstram nossa expertise."
+    },
+    "projectDetail": {
+      "comingSoon": "Conte\u00fado em breve."
+    }
+  },
+  "contactInfo": {
+    "email": "contact@anti-byte.com",
+    "location": "Brasil, Florian\u00f3polis SC",
+    "timezone": "UTC/GMT -3 horas"
+  },
+  "legalPage": {
+    "termsOfService": "Termos de Servi\u00e7o",
+    "privacyPolicy": "Pol\u00edtica de Privacidade",
+    "cookiePolicy": "Pol\u00edtica de Cookies"
+  }
+}

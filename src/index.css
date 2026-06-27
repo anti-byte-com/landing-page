@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #0b0e16;
+  --surface-container: #161924;
+  --surface-container-low: #1c2031;
+  --surface-container-high: #12141d;
+  --surface-container-highest: #0f121a;
+  --surface-container-lowest: #0c0e16;
+  --surface-bright: #1a1d29;
+  --surface-tint: #3d4a75;
+  --primary: #6dfe9c;
+  --primary-container: #0b2f16;
+  --secondary: #9392ff;
+  --tertiary: #ffb95f;
+  --error: #ff716c;
+  --on-surface: #e7e8ed;
+  --on-surface-variant: #b0b3c4;
+  --on-primary: #021c0f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+}
+
+/* Animation Utilities */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+/* Gradient Utilities */
+@layer utilities {
+  .text-primary-gradient {
+    background-image: linear-gradient(
+      10deg,
+      var(--primary) 0%,
+      var(--secondary) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-primary-gradient {
+    background-image: linear-gradient(
+      90deg,
+      var(--primary) 0%,
+      var(--secondary) 100%
+    );
+  }
+}
+
+/* Ghost Border Utility */
+@layer components {
+  .ghost-border {
+    border: 1px solid transparent;
+  }
+
+  .ghost-border:focus {
+    border-color: var(--surface-tint);
+    border-width: 1px;
+    border-opacity: 0.15;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(61, 74, 117, 0.1);
+  }
+
+  /* Zebra-striping utilities for tonal layering */
+  .zebra-card-alt1 {
+    background-color: var(--surface-container-low);
+  }
+
+  .zebra-card-alt2 {
+    background-color: var(--surface-container-high);
+  }
+
+  .zebra-card-alt1-hover:hover {
+    background-color: var(--surface-container-high);
+  }
+
+  .zebra-card-alt2-hover:hover {
+    background-color: var(--surface-container-low);
+  }
+}
