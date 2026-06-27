@@ -267,9 +267,9 @@
     },
     "entrei-comprei": {
       "tagline": "Venda na live e no chat.",
-      "intro": "Plataforma focada em melhorar a experi\u00eancia do cliente nas vendas por live e por grupos de chat.",
+      "intro": "Nosso objetivo \u00e9 potencializar suas vendas por live e grupos de mensagens, com uma experi\u00eancia de compra impec\u00e1vel para seu cliente.",
       "cta": "Baixe o APP Android",
-      "featuresHeadline": "Somos uma plataforma em desenvolvimento, estamos caminhando para:",
+      "featuresHeadline": "Somos uma plataforma em desenvolvimento, nossos pr\u00f3ximos passos incluem:",
       "sections": {
         "groups": {
           "title": "Grupos Exclusivos",
@@ -280,18 +280,19 @@
           "body": "Seu cliente recebe notifica\u00e7\u00e3o apenas quando voc\u00ea interage no grupo."
         },
         "featureSales": {
-          "title": "Venda sem Estresse",
-          "body": "Receba um relat\u00f3rio completo das vendas e n\u00e3o perca tempo no p\u00f3s-venda."
+          "title": "Descomplique suas vendas",
+          "body": "Tenha o controle das suas vendas e fidelize seus clientes com um p\u00f3s venda \u00e1gil."
         },
         "featureChat": {
           "title": "Vendas pelo Chat",
-          "body": "Seu cliente pode adicionar produtos ao carrinho diretamente pelo chat, sem sair da conversa."
+          "body": "Seu cliente pode adicionar produtos ao carrinho diretamente pelo chat."
         },
         "featureLive": {
           "title": "Live de Vendas",
           "body": "Mantenha o foco na sua live enquanto seus clientes adicionam produtos ao carrinho em tempo real."
         }
-      }
+      },
+      "feedback": "Ajude-nos com seu feedback a deixar esse App perfeito para voc\u00ea."
     }
   },
   "header": {

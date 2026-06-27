@@ -6,8 +6,10 @@ import MetaTag from '@/components/sections/MetaTag';
 import Container from '@/components/shared/Container';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
 import { COMPANY_NAME } from '@/config/constants';
-import groupsImg from '@/assets/projects/entrei-comprei/entrei-comprei-groups.png';
-import appImg from '@/assets/projects/entrei-comprei/entrei-comprei-app.png';
+import section1Img from '@/assets/projects/entrei-comprei/entrei-comprei-section1.jpg';
+import introImg1 from '@/assets/projects/entrei-comprei/entrei-comprei-intro-01.jpg';
+import introImg2 from '@/assets/projects/entrei-comprei/entrei-comprei-intro-02.jpg';
+import introImg3 from '@/assets/projects/entrei-comprei/entrei-comprei-intro-03.jpg';
 import playBadge from '@/assets/google-play-badge.png';
 
 const features = [
@@ -52,32 +54,30 @@ const EntreiComprei: React.FC = () => {
 
       <main className="flex-1 py-16 md:py-24">
         <Container className="max-w-5xl">
-          {/* Header: tagline + CTA */}
-          <div className="flex flex-col md:flex-row items-center justify-between mb-16">
-            <p className="text-xl md:text-2xl text-on-surface-variant leading-relaxed mb-4 md:mb-0">
-              {t('projectsDetail.entrei-comprei.tagline')}
-            </p>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <img
-                src={playBadge}
-                alt={t('projectsDetail.entrei-comprei.cta')}
-                className="h-12 w-auto"
-              />
-            </a>
-          </div>
-
           {/* Intro */}
-          <p className="text-base md:text-lg text-on-surface-variant leading-relaxed mb-20">
+          <p className="text-base md:text-lg text-on-surface-variant leading-relaxed mb-8">
             {t('projectsDetail.entrei-comprei.intro')}
           </p>
 
+          {/* Image Gallery */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-20">
+            {[introImg1, introImg2, introImg3].map((src, idx) => (
+              <img
+                key={idx}
+                src={src}
+                alt={`Entrei Comprei - ${idx + 1}`}
+                className="w-full rounded-lg"
+              />
+            ))}
+          </div>
+
           {/* Section 1: Imagem + texto sobre grupos */}
           <section className="flex flex-col md:flex-row gap-8 md:gap-12 items-center mb-20">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 max-w-sm">
               <img
-                src={groupsImg}
+                src={section1Img}
                 alt={t('projectsDetail.entrei-comprei.sections.groups.title')}
-                className="w-4/5 rounded-lg"
+                className="w-full rounded-lg"
               />
             </div>
             <div className="w-full md:w-1/2 flex flex-col gap-4">
@@ -90,26 +90,7 @@ const EntreiComprei: React.FC = () => {
             </div>
           </section>
 
-          {/* Section 2: Texto sobre app + imagem (invertida) */}
-          <section className="flex flex-col md:flex-row-reverse gap-8 md:gap-12 items-center mb-20">
-            <div className="w-full md:w-1/2">
-              <img
-                src={appImg}
-                alt={t('projectsDetail.entrei-comprei.sections.app.title')}
-                className="w-4/5 rounded-lg"
-              />
-            </div>
-            <div className="w-full md:w-1/2 flex flex-col gap-4">
-              <h2 className="text-2xl md:text-3xl font-display font-semibold">
-                {t('projectsDetail.entrei-comprei.sections.app.title')}
-              </h2>
-              <p className="text-base text-on-surface-variant leading-relaxed">
-                {t('projectsDetail.entrei-comprei.sections.app.body')}
-              </p>
-            </div>
-          </section>
-
-          {/* Section 3: Features */}
+          {/* Section 2: Features */}
           <section className="flex flex-col gap-8 mb-20">
             <h2 className="text-2xl md:text-3xl font-display font-semibold text-center mb-4">
               {t('projectsDetail.entrei-comprei.featuresHeadline')}
@@ -141,6 +122,20 @@ const EntreiComprei: React.FC = () => {
                 );
               })}
             </div>
+          </section>
+
+          {/* Feedback + Badge */}
+          <section className="flex flex-col md:flex-row items-center justify-between mb-16">
+            <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed italic mb-4 md:mb-0">
+              {t('projectsDetail.entrei-comprei.feedback')}
+            </p>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img
+                src={playBadge}
+                alt={t('projectsDetail.entrei-comprei.cta')}
+                className="h-12 w-auto"
+              />
+            </a>
           </section>
         </Container>
       </main>

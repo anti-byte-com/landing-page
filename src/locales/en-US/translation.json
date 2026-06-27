@@ -169,9 +169,9 @@
     },
     "entrei-comprei": {
       "tagline": "Sell on live streams and in chat groups.",
-      "intro": "Platform focused on improving the customer experience in live sales and chat group sales.",
+      "intro": "Our goal is to boost your sales through live streams and messaging groups, providing an impeccable shopping experience for your customer.",
       "cta": "Download the Android App",
-      "featuresHeadline": "We are a platform in development, working toward:",
+      "featuresHeadline": "We are a platform in development, our next steps include:",
       "sections": {
         "groups": {
           "title": "Exclusive Groups",
@@ -182,19 +182,20 @@
           "body": "Your customer only receives notifications when you interact in the group."
         },
         "featureSales": {
-          "title": "Stress-Free Sales",
-          "body": "Receive a complete sales report and stop wasting time on post-sale follow-ups."
+          "title": "Simplify Your Sales",
+          "body": "Take control of your sales and build customer loyalty with agile post-sale service."
         },
         "featureChat": {
           "title": "Sales via Chat",
-          "body": "Your customers can add products to the cart directly through the chat, without leaving the conversation."
+          "body": "Your customers can add products to the cart directly through the chat."
         },
         "featureLive": {
           "title": "Live Sales",
           "body": "Stay focused on your live stream while your customers add products to their cart in real time."
         }
       }
-    }
+    },
+    "feedback": "Help us with your feedback to make this App perfect for you."
   },
   "nav": {
     "projects": "Projects",
